@@ -24,7 +24,6 @@ gtm_id:
 
 categories:
   - actualite
-  - faq
 
 # Build settings
 plugins:
