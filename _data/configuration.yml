@@ -43,26 +43,28 @@ edito:
     name: TEST
     job: AB
   introduction:
-    title_html: |
-      Neque porro quisquam est qui dolorem ,<br>ipsum quia dolor sit amet
-    introduction_html: >
-      Lorem ipsum dolor sit amet,<br> Consectetur adipiscing elit. Donec
+    title_html: >-
+      <p><strong><em>Coronavirus
+      Covid-19</em></strong></p><p><strong><em>Mobilis&eacute;s pour
+      &eacute;viter la mort sociale de nos
+      a&icirc;n&eacute;s.</em></strong></p><p>&nbsp;</p>
+    introduction_html: >-
+      <p>Lorem ipsum dolor sit amet,<br />Consectetur adipiscing elit. Donec
       tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius.
       onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia.
       onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia.
-      onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia.
-    contenu_html: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt
-      risus ac volutpat lacinia. Aliquam eget ligula eu elit varius.<br><br>
-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius.<br><br>
-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius :<br>
-        - Neque porro quisquam est qui dolorem,<br>
-        - Neque porro quisquam est qui dolorem,<br>
-        - Neque porro quisquam est qui dolorem.<br><br>
-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia, consectetur adipiscing elit tincidunt risus ac volutpat lacinia. .<br><br>
-
-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia.
+      onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia.</p>
+    contenu_html: >-
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+      tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit
+      varius.<br /><br />Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu
+      elit varius.<br /><br />Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu
+      elit varius :<br />- Neque porro quisquam est qui dolorem,<br />- Neque
+      porro quisquam est qui dolorem,<br />- Neque porro quisquam est qui
+      dolorem.<br /><br />Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit. Donec tincidunt risus ac volutpat lacinia, consectetur adipiscing
+      elit tincidunt risus ac volutpat lacinia. .<br /><br />Lorem ipsum dolor
+      sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat
+      lacinia.</p>
