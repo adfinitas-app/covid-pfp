@@ -1,0 +1,249 @@
+@charset "utf-8";
+
+$transitionSpeed: 0.4s;
+
+body {
+	background: $backgroundColor;
+	color: $bodyColor;
+	font-family: $bodyFont;
+}
+
+
+.btn-don {
+	color: #fff;
+	border-color: $red;
+	background-color: $red;
+	border-radius: 8px;
+	width: 100%;
+	font-weight: bold;
+	padding: 7px 0;
+	border: 1px solid transparent;
+	letter-spacing: 0.01rem;
+	font-family: $bodyFontSecondary;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.text-condensed {
+	letter-spacing: 0.01rem;
+}
+
+.right-menu {
+	background-color: #F8F8F8;
+	position: fixed;
+	right: 0;
+	top: 0;
+	padding: 20px;
+	height: 100vh;
+	width: $sidebarWidth;
+
+	.ensemble {
+		font-size: 20px;
+		line-height: 1.2;
+		
+		.title {
+		    font-family: $bodyFontSecondary;
+		}
+	}
+
+	.remise {
+		font-size: 13px;
+		text-align: center;
+		color: #354253;
+	}
+}
+
+.content {
+	padding-right: $sidebarWidth;
+
+	.message-president {
+		padding: 20px;
+
+		.president-text {
+			font-size: 14px;
+			display: inline-block;
+			max-width: 200px;
+			font-family: $bodyFontSecondary;
+			padding-top: 5px;
+		}
+
+		.aujourdhui {
+			font-size: 20px;
+			font-family: $bodyFontSecondary;
+		}
+
+		.chers-amis {
+			font-size: 18px;
+		}
+
+		.arrow-down {
+			cursor: pointer;
+			transition: transform $transitionSpeed ease-in-out;
+			transform: rotateX(0deg)
+		}
+
+		.arrow-down.active {
+			transition: transform $transitionSpeed ease-in-out;
+			transform: rotateX(-180deg)
+		}
+
+		#click-to-expand {
+			font-size: 18px;
+			max-height: 0px;
+			-webkit-transition: max-height $transitionSpeed ease-in-out;
+			-moz-transition: max-height $transitionSpeed ease-in-out;
+			-ms-transition: max-height $transitionSpeed ease-in-out;
+			-o-transition: max-height $transitionSpeed ease-in-out;
+			transition: max-height $transitionSpeed ease-in-out;
+			overflow: hidden;
+		}
+		#click-to-expand:hover {
+			height:auto;
+			max-height:1000px;
+		}
+	}
+
+	.blog {
+		position: relative;
+
+		.covid-19 {
+			display: inline-block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			font-size: 50px;
+			padding: 0 20px;
+		}
+
+		.last-update {
+			display: inline-block;
+			position: absolute;
+			right: 0;
+			top: 0;
+			font-size: 14px;
+			padding: 5px;
+		}
+
+		.last-update-time {
+			font-size: 20px;
+			font-family: $bodyFontSecondary;
+			padding-left: 0.6rem;
+		}
+
+		.posts {
+			padding: 95px 20px 20px 20px;
+
+			.post {
+				position: relative;
+				padding: 20px 150px 0 20px;
+
+				.post-publication-time {
+					background: $dateBg;
+					height: 48px;
+					width: 112px;
+					padding-top: 8px;
+					padding-left: 23px;
+					position: absolute;
+					right: -20px;
+					top: 23px;
+					line-height:1;
+				}
+
+				&.urgence .post-publication-time {
+					background: $urgenceBg;
+				}
+
+				.post-title {
+					font-weight: bold;
+					font-size: 22px;
+					font-family: $bodyFontSecondary;
+					
+				}
+
+				.post-content {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+
+// ################ Mobile
+
+.home-mobile {
+	padding-top: 90px;
+	
+	nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 1;
+
+		.logo-mobile {
+			height: 50px;
+		}
+
+		.btn-don {
+			margin-top: 5px;
+		}
+	}
+	.message-president{
+		padding: 20px;
+
+		.aujourdhui{
+			font-family: $bodyFontSecondary;
+		}
+	}
+
+
+	.bandeau-covid {
+
+		p {
+			font-size: 12px;
+			font-weight: bold;
+			padding: 5px;
+		}
+	}
+
+	.posts {
+		padding: 10px;
+
+		.post {
+			margin-bottom: 40px;
+
+			.post-publication-time {
+				margin: 10px 0;
+
+				span {
+					background-color: rgba(53, 66, 83, 0.1);
+					padding: 5px;
+				}
+			}
+
+			&.urgence .post-publication-time {
+				span {
+				}
+			}
+			.post-title {
+				font-weight: bold;
+				font-size: 22px;
+			}
+
+			&.urgence .post-title {
+			}
+
+			.post-content {
+				font-size: 16px;
+				padding-left: 15px;
+				border-left: 5px dotted $secondary;
+			}
+
+			&.urgence .post-content {
+				border-left: 5px dotted $urgence;
+			}
+		}
+	}
+}

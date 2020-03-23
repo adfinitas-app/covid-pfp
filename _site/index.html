@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>Actualité - COVID-19</title>
+	<link href="/uploads/pfp-1024x892-v2.png" rel="shortcut icon">
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link href="" rel="stylesheet">
+</head>
+<body>
+	
+	<script>(function(root){"use strict";var css=".prBarHeader{width:100%;height:4px;z-index:9999;top:0}.bar{width:0;height:100%;transition:height .3s;background:#000}";function addCss(){var s=document.getElementById("prBarHeadercss");if(s===null){s=document.createElement("style");s.type="text/css";s.id="prBarHeadercss";document.head.insertBefore(s,document.head.firstChild);if(!s.styleSheet)return s.appendChild(document.createTextNode(css));s.styleSheet.cssText=css}}function addClass(el,cls){if(el.classList)el.classList.add(cls);else el.className+=" "+cls}function createBar(rm){var el=document.createElement("div"),width=0,here=0,on=0,bar={el:el,go:go};addClass(el,"bar");function move(){var dist=width-here;if(dist<.1&&dist>-.1){place(here);on=0;if(width>=100){el.style.height=0;setTimeout(function(){rm(el)},300)}}else{place(width-dist/4);setTimeout(go,16)}}function place(num){width=num;el.style.width=width+"%"}function go(num){if(num>=0){here=num;if(!on){on=1;move()}}else if(on){move()}}return bar}function prBarHeader(opts){opts=opts||{};var el=document.createElement("div"),applyGo,prBarHeader={el:el,go:function(p){applyGo(p);if(p>=100){init()}}};function rm(child){el.removeChild(child)}function init(){var bar=createBar(rm);el.appendChild(bar.el);applyGo=bar.go}addCss();addClass(el,"prBarHeader");if(opts.id)el.id=opts.id;if(opts.classname)addClass(el,opts.classname);if(opts.target){el.style.position="relative";opts.target.insertBefore(el,opts.target.firstChild)}else{el.style.position="fixed";document.getElementsByTagName("body")[0].appendChild(el)}init();return prBarHeader}if(typeof exports==="object"){module.exports=prBarHeader}else if(typeof define==="function"&&define.amd){define([],function(){return prBarHeader})}else{root.prBarHeader=prBarHeader}})(this);</script>
+<script>
+var options = {
+	classname: 'pr-bar',
+    id: 'prbar-id'
+};
+var prBarHeader = new prBarHeader( options );
+prBarHeader.go( 30 );
+prBarHeader.go( 76 );
+prBarHeader.go(100);
+</script>
+<div class="prBarHeader pr-bar" id="prbar-id" style="position: fixed;">
+    <div class="bar"></div>
+</div>
+<style>
+.progress-bar {
+    background: linear-gradient(to right, #671c3d var(--scroll), transparent 0);
+    background-repeat: no-repeat;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 7px;
+    z-index: 1;
+}
+</style>
+<div class="progress-bar"></div>
+<script>
+var element = document.documentElement,
+  body = document.body,
+  scrollTop = 'scrollTop',
+  scrollHeight = 'scrollHeight',
+  progress = document.querySelector('.progress-bar'),
+  scroll;
+
+document.addEventListener('scroll', function() {
+  scroll = (element[scrollTop]||body[scrollTop]) / ((element[scrollHeight]||body[scrollHeight]) - element.clientHeight) * 100;
+  progress.style.setProperty('--scroll', scroll + '%');
+});
+</script>
+<!-- MOBILE -->
+  <div class="home-mobile d-md-none"><nav class="pl-3 pr-3 pt-2 pb-2 bg-white">
+    <div class="row">
+        <div class="col-6">
+            <img class="logo-mobile" src="/uploads/pfp-1024x892-v2.png" alt="logo"/>
+        </div>
+        <div class="col-6 text-right">
+            
+            <a class="btn btn-don btn-primary" href="https://faireundon.petitsfreresdespauvres.fr/ab?cids[]=106&cids[]=109&amount=8000&frequency=once" role="button">Je fais un don</a>
+            
+            
+        </div>
+    </div>
+</nav>
+<div class="p-3 message-president bg-black text-white">
+    <p class="aujourdhui text-condensed text-bold text-center">Neque porro quisquam est qui dolorem ,<br>ipsum quia dolor sit amet
+</p>
+    <div class="row">
+        <div class="col-sm-4 col-12">
+            <div class="text-center text-sm-right">
+                <img src="http://via.placeholder.com/100x100" alt="president"/>
+            </div>
+        </div>
+        <div class="col-sm-8 col-12">
+            <div class="d-none d-sm-block d-md-none"><br></div>
+            <p class="text-center text-sm-left president-text"><span class="text-bold text-condensed">Prénom Nom,</span><br> Fonction de la personne</p>
+        </div>
+    </div>
+    Lorem ipsum dolor sit amet,<br> Consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius. onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia.
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius.<br><br>
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius.<br><br>
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius :<br>
+  - Neque porro quisquam est qui dolorem,<br>
+  - Neque porro quisquam est qui dolorem,<br>
+  - Neque porro quisquam est qui dolorem.<br><br>
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia, consectetur adipiscing elit tincidunt risus ac volutpat lacinia. .<br><br>
+
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia.
+</div>
+<div class="bandeau-covid bg-urgence">
+          <p class="text-center text-white">
+            Actualité - COVID-19 - Dernière mise à jour <span>23/03/20 18:40</span>
+          </p>
+      </div>
+      <section class="posts">
+                  
+                  <article class="post ">
+                      <div class="post-publication-time"><span>20.03.2020<small> à 13H00</small></span></div>
+                      <h1  class="post-title text-uppercase text-uppercase text-primary">Maintenir le contact par tous les moyens !</h1>
+                      <div class="post-content text-black"><p>Maecenas condimentum nisl in ante ornare, nec tempus est mattis. Phasellus placerat, massa id blandit vehicula, erat odio consectetur metus, a sodales purus nibh non tortor. Pellentesque fermentum nulla arcu, et facilisis risus placerat id. Donec egestas ultricies metus at porta. Duis eu mauris elit. Ut elementum id purus sit amet vehicula. Donec quam lacus, maximus pulvinar tempus in, egestas ut sem. Sed faucibus sagittis arcu, sed eleifend lacus efficitur vel. Integer enim nulla, consectetur non orci in, fermentum dictum velit. Nam quis euismod risus.</p>
+</div>
+                      
+                      <div class=""><blockquote class="twitter-tweet"><p lang="fr" dir="ltr">Coronavirus : en période de <a href="https://twitter.com/hashtag/confinement?src=hash&amp;ref_src=twsrc%5Etfw">#confinement</a>, l&#39;association des Petits Frères des Pauvres <a href="https://twitter.com/PFPauvres?ref_src=twsrc%5Etfw">@PFPauvres</a> gardent contact, par téléphone !<a href="https://t.co/IXqxuQ5i6R">https://t.co/IXqxuQ5i6R</a></p>&mdash; France 3 Bretagne (@france3Bretagne) <a href="https://twitter.com/france3Bretagne/status/1242050734566313988?ref_src=twsrc%5Etfw">March 23, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+                      
+                  </article>
+                  
+                  <article class="post ">
+                      <div class="post-publication-time"><span>20.03.2020<small> à 13H00</small></span></div>
+                      <h1  class="post-title text-uppercase text-uppercase text-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                      <div class="post-content text-black"><p>Maecenas condimentum nisl in ante ornare, nec tempus est mattis. Phasellus placerat, massa id blandit vehicula, erat odio consectetur metus, a sodales purus nibh non tortor. Pellentesque fermentum nulla arcu, et facilisis risus placerat id. Donec egestas ultricies metus at porta. Duis eu mauris elit. Ut elementum id purus sit amet vehicula. Donec quam lacus, maximus pulvinar tempus in, egestas ut sem. Sed faucibus sagittis arcu, sed eleifend lacus efficitur vel. Integer enim nulla, consectetur non orci in, fermentum dictum velit. Nam quis euismod risus.</p>
+</div>
+                      
+                      <div class=""><blockquote class="twitter-tweet"><p lang="fr" dir="ltr">[<a href="https://twitter.com/hashtag/NoubliezPasLesAin%C3%A9s?src=hash&amp;ref_src=twsrc%5Etfw">#NoubliezPasLesAinés</a>]<br>Plus que jamais, la lutte contre l&#39;isolement de nos aînés continue<a href="https://twitter.com/hashtag/Covid_19?src=hash&amp;ref_src=twsrc%5Etfw">#Covid_19</a> <a href="https://twitter.com/hashtag/coronavirus?src=hash&amp;ref_src=twsrc%5Etfw">#coronavirus</a> <a href="https://twitter.com/hashtag/confinement?src=hash&amp;ref_src=twsrc%5Etfw">#confinement</a> <a href="https://t.co/xysyvMQlli">pic.twitter.com/xysyvMQlli</a></p>&mdash; Petits Frères des Pauvres (@PFPauvres) <a href="https://twitter.com/PFPauvres/status/1241030491593031681?ref_src=twsrc%5Etfw">March 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+                      
+                  </article>
+                  
+                  <article class="post ">
+                      <div class="post-publication-time"><span>15.03.2020<small> à 13H00</small></span></div>
+                      <h1  class="post-title text-uppercase text-uppercase text-primary">SI JE TROUVE UN ANIMAL PENDANT LE CONFINEMENT, QUE DOIS-JE FAIRE ?</h1>
+                      <div class="post-content text-black"><p>Si vous trouvez un animal qui a l’air perdu, contactez les services de fourrières rattachés à votre commune. Attention, n’appelez pas les services de fourrière pour des cas non urgents. Si vous ne savez pas si l’animal appartient ou non à quelqu’un et qu’il n’a pas l’air en danger, ne contactez pas les services de fourrière, il peut tout à fait s’agir de l’animal de votre voisin. </p>
+
+<p>Si vous ne connaissez pas le contact de la fourrière de proximité, contactez votre mairie ou les forces de l’ordre (commissariat, gendarmerie), afin qu’ils vous renseignent le bon contact à joindre.</p>
+
+<p>Vous pouvez également signaler l’observation d’un animal éventuellement perdu sur les groupes Facebook dédiés, du type Wanted Community Animaux, les pages ou groupes Facebook de votre commune, ou encore via la page Pet Alert. </p>
+
+<p> </p>
+</div>
+                      
+                      <div class=""></div>
+                      
+                  </article>
+                  
+                  <article class="post ">
+                      <div class="post-publication-time"><span>15.03.2020<small> à 13H00</small></span></div>
+                      <h1  class="post-title text-uppercase text-uppercase text-primary">QUI S'OCCUPE DES ANIMAUX DANS LES REFUGES ?</h1>
+                      <div class="post-content text-black"><p>Nos responsables et agents animaliers, ainsi que nos bénévoles sont toujours sur place pour assurer le bien-être de nos petits pensionnaires.<br />Ils assurent, même en période de crise, les soins, la distribution de nourriture, et les sorties.</p>
+</div>
+                      
+                      <div class=""></div>
+                      
+                  </article>
+                  
+                  <article class="post ">
+                      <div class="post-publication-time"><span>15.03.2020<small> à 13H00</small></span></div>
+                      <h1  class="post-title text-uppercase text-uppercase text-primary">QUELLES MESURES LA SPA PREND-ELLE ?</h1>
+                      <div class="post-content text-black"><p>En conformité avec le plan d’action COVID-19 du gouvernement, la SPA, comme toutes les associations de protection animale, ferme au public tous ses refuges, Maisons SPA et dispensaires à partir de ce dimanche 15 mars jusqu’à nouvel ordre.</p>
+
+<p>Les animaux continueront d’être nourris, soignés et l’entretien des refuges perdurera. Les refuges ont presque tous atteint leur capacité d’accueil maximale.</p>
+
+<p> <br /> </p>
+</div>
+                      
+                      <div class=""></div>
+                      
+                  </article>
+                  
+                  <article class="post ">
+                      <div class="post-publication-time"><span>15.03.2020<small> à 13H00</small></span></div>
+                      <h1  class="post-title text-uppercase text-uppercase text-primary">PUIS-JE PROMENER MON ANIMAL ?</h1>
+                      <div class="post-content text-black"><p>OUI !</p>
+
+<p>Promener son chien à l’extérieur afin de satisfaire ses besoins physiologiques est plus que nécessaire.<br />Il n’est pas demandé d’exiger de son chien qu’il fasse ses besoins à l’intérieur de nos logements donc pas d’inquiétude, vous avez tout à fait le droit de sortir votre chien le temps nécessaire à la satisfaction de ses besoins.</p>
+
+<ul>
+  <li>Pour cela, imprimer obligatoirement l’attestation mis à disposition sur ce lien officiel.  Inutile de l’imprimer plusieurs fois par jour. Pensez à prendre votre pièce d’identité.</li>
+  <li>Si vous n’avez aucun moyen de l’imprimer, recopiez-le entièrement sur papier libre. </li>
+</ul>
+
+<p>Il n y a pas de durée précise fixé par le gouvernement donc c’est à vous de le déterminer en faisant preuve de bon sens et en fonction des besoins de votre chien.</p>
+
+<ul>
+  <li>Privilégiez les secteurs propices aux balades sur votre secteur.</li>
+  <li>Balade en groupe à proscrire.</li>
+  <li>Gardez vos distances avec les autres promeneurs. Aucun contact physique ne pourra être toléré.</li>
+  <li>Avant de sortir, lavez vous bien les mains, prenez si possible du gel hydro-alcoolique pour vous frictionner les mains dehors et avant de rentrer.</li>
+</ul>
+</div>
+                      
+                      <div class=""></div>
+                      
+                  </article>
+                  
+                  <article class="post ">
+                      <div class="post-publication-time"><span>15.03.2020<small> à 13H00</small></span></div>
+                      <h1  class="post-title text-uppercase text-uppercase text-primary">PUIS-JE AIDER LE REFUGE À CÔTÉ DE CHEZ MOI ? / FAIRE UN DON DE CROQUETTES</h1>
+                      <div class="post-content text-black"><p>Les associations de protection animale, quelles qu’elles soient, se sont toutes mobilisées et organisées pour pouvoir s’occuper des animaux, mais cela induit une présence humaine minimale en refuges pour éviter que ces derniers deviennent un vecteur de contamination entre personnes.<br />Pour le moment, ce que vous pouvez faire est prendre contact avec le refuge le plus proche et leur demander s’ils ont besoin de quoi que ce soit en termes de matériel, etc. <br />Vous pouvez trouver le refuge le plus proche de chez vous à l’aide de cette carte interactive : https://www.la-spa.fr/refuges<br />Vous pouvez également proposer votre aide à p.bousquet@la-spa.fr en précisant dans l’objet de votre mail votre proposition (proposition FA, proposition bénévole, etc.)</p>
+
+<p> </p>
+</div>
+                      
+                      <div class=""></div>
+                      
+                  </article>
+                  
+                  <article class="post ">
+                      <div class="post-publication-time"><span>15.03.2020<small> à 13H00</small></span></div>
+                      <h1  class="post-title text-uppercase text-uppercase text-primary">PEUT-ON ADOPTER UN ANIMAL POUR VOUS AIDER ?</h1>
+                      <div class="post-content text-black"><p>Nous sommes en train de définir avec le ministère comment nous pourrons procéder dans le cadre du confinement.</p>
+
+<p>Nous communiquerons très rapidement sur le sujet, une fois la stratégie d’adaptation validée par le gouvernement.<br /> </p>
+</div>
+                      
+                      <div class=""></div>
+                      
+                  </article>
+                  
+                  <article class="post ">
+                      <div class="post-publication-time"><span>15.03.2020<small> à 13H00</small></span></div>
+                      <h1  class="post-title text-uppercase text-uppercase text-primary">LES REFUGES ET MAISONS SPA VONT-ILS EUTHANASIER LEURS ANIMAUX ?</h1>
+                      <div class="post-content text-black"><p>La SPA n’euthanasie pas ses animaux et ne compte pas commencer maintenant.​</p>
+</div>
+                      
+                      <div class=""></div>
+                      
+                  </article>
+                  
+                  <article class="post ">
+                      <div class="post-publication-time"><span>15.03.2020<small> à 13H00</small></span></div>
+                      <h1  class="post-title text-uppercase text-uppercase text-primary">LES RATS ET LES NACS SONT-ILS DE PORTEURS INTERMÉDIAIRES COMME POUR LA PESTE ?</h1>
+                      <div class="post-content text-black"><p>NON ! </p>
+
+<p>Il n’y a pour l’instant aucun cas recensé de contamination chez les rats ou autres rongeurs.</p>
+</div>
+                      
+                      <div class=""></div>
+                      
+                  </article>
+                  
+                  <article class="post ">
+                      <div class="post-publication-time"><span>15.03.2020<small> à 13H00</small></span></div>
+                      <h1  class="post-title text-uppercase text-uppercase text-primary">LES ANIMAUX ONT-ILS ET TRANSMETTENT-ILS LE COVID-19 ?</h1>
+                      <div class="post-content text-black"><p><strong>NON ! </strong></p>
+
+<p>L’Organisation Mondiale de la Santé indique, qu’à ce jour, aucun élément ne permet de penser que les animaux de compagnie sont impliqués dans la circulation du virus.<br />Toutes les sources scientifiques, l’Organisation Mondiale de la Santé (OMS) et l’OIE en tête, concordent. <br />Le COVID-19 n’atteint pas les animaux de compagnie comme les chiens et les chats, et ils ne sont pas impliqués dans la propagation de cette épidémie. Un seul cas dans le monde à Honk-Kong relate de la présence d’une forme mutée du COVID-19 chez un chien, mais les recherches indiquent que cette version mutée du virus ne peut se transmettre à l’homme.</p>
+
+<p>En France, les spécialistes appellent également au calme face à la l’hypothèse d’une transmission de ce coronavirus de l’homme à l’animal de compagnie et vice-versa. « Il n’y a aucune indication que ça puisse arriver », balaie le Docteur Sophie Lepoder, vétérinaire et virologue à l’Ecole vétérinaire de Maisons-Alfort (94). « Les coronavirus sont une très large famille. Les chiens ont leur coronavirus, les chats ont aussi leur coronavirus. Et ils n’entrent pas dans l’organisme de l’être humain. ». </p>
+</div>
+                      
+                      <div class=""></div>
+                      
+                  </article>
+                  
+                  <article class="post ">
+                      <div class="post-publication-time"><span>15.03.2020<small> à 13H00</small></span></div>
+                      <h1  class="post-title text-uppercase text-uppercase text-primary">J’AIMERAIS ACCUEILLIR PROVISOIREMENT UN ANIMAL CHEZ MOI POUR VOUS AIDER, EST-CE POSSIBLE ?​</h1>
+                      <div class="post-content text-black"><p>Nous sommes en train de définir avec le ministère comment nous pourrons procéder dans le cadre du confinement.</p>
+
+<p>Nous communiquerons très rapidement sur le sujet, une fois la stratégie d’adaptation validée par le gouvernement.</p>
+</div>
+                      
+                      <div class=""></div>
+                      
+                  </article>
+                  
+                  <article class="post ">
+                      <div class="post-publication-time"><span>15.03.2020<small> à 13H00</small></span></div>
+                      <h1  class="post-title text-uppercase text-uppercase text-primary">DOIS-JE PROTÉGER MON ANIMAL ?</h1>
+                      <div class="post-content text-black"><p>OUI !</p>
+
+<p>Pour des questions de bon sens, pendant cette période de confinement, votre animal de compagnie doit être protégé comme un membre de votre famille. Il doit rester avec vous dans votre appartement ou votre propriété. </p>
+
+<p>En revanche, promener son chien à l’extérieur afin de satisfaire ses besoins physiologiques est plus que nécessaire.<br />Il n’est pas demandé d’exiger de son chien qu’il fasse ses besoins à l’intérieur de nos logements donc pas d’inquiétude, vous avez tout à fait le droit de sortir votre chien le temps nécessaire à la satisfaction de ses besoins.</p>
+
+<ul>
+  <li>Pour cela, imprimer obligatoirement l’attestation mis à disposition <a href="https://mobile.interieur.gouv.fr/Actualites/L-actu-du-Ministere/Attestation-de-deplacement-derogatoire">sur ce lien officiel. </a></li>
+</ul>
+</div>
+                      
+                      <div class=""></div>
+                      
+                  </article>
+                  
+                  <article class="post ">
+                      <div class="post-publication-time"><span>15.03.2020<small> à 13H00</small></span></div>
+                      <h1  class="post-title text-uppercase text-uppercase text-primary">DOIS-JE ABANDONNER OU TUER MON ANIMAL ?</h1>
+                      <div class="post-content text-black"><p>NON ! </p>
+
+<p>Non, non et NON.</p>
+
+<p>Les membres de l’AFCD (Agriculture, Fisheries and Conservation Department) ont d’ores et déjà indiqué qu’il ne fallait en aucun cas céder à la panique et encore moins abandonner ses animaux ou les faire euthanasier pour ne prendre aucun risque.  <br />« Les propriétaires d’animaux ne doivent pas être trop inquiets et ne doivent en aucun cas abandonner leurs animaux », a déclaré le ministère de l’Agriculture de Hong Kong. <br />Les conseils restent toujours les mêmes : bien se laver les mains après avoir touché son animal de compagnie, garder un environnement propre et sain en nettoyant le plus souvent possible et éviter d’embrasser ses animaux. </p>
+
+<ul>
+  <li>Nous rappelons que l’abandon est puni par la loi et passible de deux ans de prison et de 30.000 euros d’amende.</li>
+  <li>La personne qui exerce, publiquement ou non, des sévices graves, ou de nature sexuelle, ou qui commet un acte de cruauté envers un animal domestique, ou apprivoisé, ou tenu en captivité, encourt deux ans de prison, et 30 000 € d’amende. Il peut prononcer également, à titre complémentaire : l’interdiction, définitive ou non, de détenir un animal, et l’interdiction, pour 5 ans maximum, d’exercer l’activité professionnelle qui a permis de préparer ou de commettre les sévices et actes de cruauté.</li>
+</ul>
+</div>
+                      
+                      <div class=""></div>
+                      
+                  </article>
+                  
+      </section>
+  </div>
+  <!-- END MOBILE -->
+
+  <!--DESKTOP-->
+  <div class="home d-none d-md-block">
+
+      <!--SIDEBAR--><aside class="right-menu d-flex flex-column no-gutters">
+  <div class="p-2 no-gutters">
+    <img class="logo mx-auto d-block" src="/uploads/pfp-1024x892-v2.png" alt="logo"/>
+  </div>
+  <div class="p-2 no-gutters">
+    <p class="ensemble text-center">
+      <span class="text-uppercase text-secondary title">Donec tincidunt risus ac volutpat lacinia.</span>
+      <br>
+      <small class="text-secondary">Neque porro quisquam est qui dolorem, ipsum quia dolor sit.</small>
+    </p>
+  </div>
+
+  
+  <div class="p-2 no-gutters">
+    <p class="ensemble text-center">
+      <span class="text-bold text-uppercase text-primary">Je fais un don</span>
+    </p>
+  </div>
+  <div class="row p-2 no-gutters">
+    <div class="col p-1">
+      <a class="btn btn-outline-primary w-100" href="https://faireundon.petitsfreresdespauvres.fr/ab?cids[]=106&cids[]=109&amount=8000&frequency=once&amount=10000" role="button">100€</a>
+    </div>
+    <div class="col p-1">
+      <a class="btn btn-primary w-100" href="https://faireundon.petitsfreresdespauvres.fr/ab?cids[]=106&cids[]=109&amount=8000&frequency=once&amount=25000" role="button">250€</a>
+    </div>
+    <div class="col p-1">
+      <a class="btn btn-outline-primary w-100" href="https://faireundon.petitsfreresdespauvres.fr/ab?cids[]=106&cids[]=109&amount=8000&frequency=once&amount=50000" role="button">500€</a>
+    </div>
+  </div>
+  <div class="p-2 no-gutters">
+    <form class="form-inline" target="https://faireundon.petitsfreresdespauvres.fr/ab?cids[]=106&cids[]=109&amount=8000&frequency=once&amount=TODO00">
+      <label class="sr-only" for="inlineFormInputName2">Name</label>
+      <input type="text" class="w-75 form-control mb-2" id="inlineFormInputName2" placeholder="Montant de mon choix">
+      <button type="submit" class="w-25 btn btn-outline-primary mb-2">ok</button>
+    </form>
+  </div>
+  
+
+  
+
+  <div class="p-2 no-gutters">
+    <p class="remise">75% du montant de mon don sont déductibles de l'Impôt sur le Revenu, dans la limite de 20% du revenu net imposable.</p>
+  </div>
+  <div class="align-items-end mt-auto no-gutters justify-content-start">
+    <a href="#" class="text-secondary small" data-toggle="modal" data-target="#cgu">Conditions générales d'utilisation</a>
+    <br/>
+    <a href="#" class="text-secondary small" data-toggle="modal" data-target="#privacy">Données personnelles</a>
+  </div>
+</aside>
+<!--END SIDEBAR-->
+
+      <div class="content">
+          <!--EDITO--><header class="bg-quaternary text-white message-president">
+    <div class="row">
+        <div class="col-sm-12 col-md-3 text-center">
+            <div class="text-center mt-4">
+                <img src="http://via.placeholder.com/100x100" alt="president"/>
+            </div>
+            <p class="text-center president-text"><span class="text-bold text-condensed">Prénom Nom,</span> Fonction de la personne</p>
+        </div>
+        <div class="col-sm-12 col-md-9">
+            <p class="aujourdhui text-bold text-condensed text-uppercase">Neque porro quisquam est qui dolorem ,<br>ipsum quia dolor sit amet
+</p>
+            <p class="chers-amis">
+              Lorem ipsum dolor sit amet,<br> Consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius. onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia.
+
+            </p>
+            <p id="click-to-expand">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius.<br><br>
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius.<br><br>
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius :<br>
+  - Neque porro quisquam est qui dolorem,<br>
+  - Neque porro quisquam est qui dolorem,<br>
+  - Neque porro quisquam est qui dolorem.<br><br>
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia, consectetur adipiscing elit tincidunt risus ac volutpat lacinia. .<br><br>
+
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia.
+            </p>
+            <div class="text-center mv-3">
+                <img id="arrow-down" class="arrow-down" src="/assets/img/arrow-down.png" alt="fleche vers le bas"/>
+            </div>
+        </div>
+    </div>
+</header>
+<!--EDITO-->
+
+
+          <div class="blog">
+              <p class="covid-19 text-white bg-primary text-bold">Actualité - COVID-19</p>
+
+              <p class="last-update text-secondary">
+                Dernière mise à jour
+                <span class="last-update-time text-condensed text-primary">23.03.2020</span>
+              </p>
+
+              <section class="row posts">
+                <div class="col">
+                    
+                    <article class="post ">
+                        <h1  class="post-title text-uppercase text-secondary">Maintenir le contact par tous les moyens !</h1>
+                        <div class="post-content text-secondary"><p>Maecenas condimentum nisl in ante ornare, nec tempus est mattis. Phasellus placerat, massa id blandit vehicula, erat odio consectetur metus, a sodales purus nibh non tortor. Pellentesque fermentum nulla arcu, et facilisis risus placerat id. Donec egestas ultricies metus at porta. Duis eu mauris elit. Ut elementum id purus sit amet vehicula. Donec quam lacus, maximus pulvinar tempus in, egestas ut sem. Sed faucibus sagittis arcu, sed eleifend lacus efficitur vel. Integer enim nulla, consectetur non orci in, fermentum dictum velit. Nam quis euismod risus.</p>
+</div>
+                            
+                            <div class=""><blockquote class="twitter-tweet"><p lang="fr" dir="ltr">Coronavirus : en période de <a href="https://twitter.com/hashtag/confinement?src=hash&amp;ref_src=twsrc%5Etfw">#confinement</a>, l&#39;association des Petits Frères des Pauvres <a href="https://twitter.com/PFPauvres?ref_src=twsrc%5Etfw">@PFPauvres</a> gardent contact, par téléphone !<a href="https://t.co/IXqxuQ5i6R">https://t.co/IXqxuQ5i6R</a></p>&mdash; France 3 Bretagne (@france3Bretagne) <a href="https://twitter.com/france3Bretagne/status/1242050734566313988?ref_src=twsrc%5Etfw">March 23, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+                            
+                        <div class="post-publication-time text-secondary"><b>20.03.2020</b><br><small>à 13H00</small></div>
+                    </article>
+                    
+                    <article class="post ">
+                        <h1  class="post-title text-uppercase text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                        <div class="post-content text-secondary"><p>Maecenas condimentum nisl in ante ornare, nec tempus est mattis. Phasellus placerat, massa id blandit vehicula, erat odio consectetur metus, a sodales purus nibh non tortor. Pellentesque fermentum nulla arcu, et facilisis risus placerat id. Donec egestas ultricies metus at porta. Duis eu mauris elit. Ut elementum id purus sit amet vehicula. Donec quam lacus, maximus pulvinar tempus in, egestas ut sem. Sed faucibus sagittis arcu, sed eleifend lacus efficitur vel. Integer enim nulla, consectetur non orci in, fermentum dictum velit. Nam quis euismod risus.</p>
+</div>
+                            
+                            <div class=""><blockquote class="twitter-tweet"><p lang="fr" dir="ltr">[<a href="https://twitter.com/hashtag/NoubliezPasLesAin%C3%A9s?src=hash&amp;ref_src=twsrc%5Etfw">#NoubliezPasLesAinés</a>]<br>Plus que jamais, la lutte contre l&#39;isolement de nos aînés continue<a href="https://twitter.com/hashtag/Covid_19?src=hash&amp;ref_src=twsrc%5Etfw">#Covid_19</a> <a href="https://twitter.com/hashtag/coronavirus?src=hash&amp;ref_src=twsrc%5Etfw">#coronavirus</a> <a href="https://twitter.com/hashtag/confinement?src=hash&amp;ref_src=twsrc%5Etfw">#confinement</a> <a href="https://t.co/xysyvMQlli">pic.twitter.com/xysyvMQlli</a></p>&mdash; Petits Frères des Pauvres (@PFPauvres) <a href="https://twitter.com/PFPauvres/status/1241030491593031681?ref_src=twsrc%5Etfw">March 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+                            
+                        <div class="post-publication-time text-secondary"><b>20.03.2020</b><br><small>à 13H00</small></div>
+                    </article>
+                    
+                </div>
+
+              </section>
+          </div>
+      </div>
+  </div>
+  <!-- END DESKTOP-->
+
+	<script type="application/javascript" src="/assets/js/script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script>
+(function (root, factory) {
+    if (typeof define === 'function' && define.amd) {
+      define(function() {
+        return factory(root);
+      });
+    } else if (typeof exports === 'object') {
+      module.exports = factory;
+    } else {
+      root.echo = factory(root);
+    }
+  })(this, function (root) {
+
+    'use strict';
+
+    var echo = {};
+
+    var callback = function () {};
+
+    var offset, poll, delay, useDebounce, unload;
+
+    var isHidden = function (element) {
+      return (element.offsetParent === null);
+    };
+
+    var inView = function (element, view) {
+      if (isHidden(element)) {
+        return false;
+      }
+
+      var box = element.getBoundingClientRect();
+      return (box.right >= view.l && box.bottom >= view.t && box.left <= view.r && box.top <= view.b);
+    };
+
+    var debounceOrThrottle = function () {
+      if(!useDebounce && !!poll) {
+        return;
+      }
+      clearTimeout(poll);
+      poll = setTimeout(function(){
+        echo.render();
+        poll = null;
+      }, delay);
+    };
+
+    echo.init = function (opts) {
+      opts = opts || {};
+      var offsetAll = opts.offset || 0;
+      var offsetVertical = opts.offsetVertical || offsetAll;
+      var offsetHorizontal = opts.offsetHorizontal || offsetAll;
+      var optionToInt = function (opt, fallback) {
+        return parseInt(opt || fallback, 10);
+      };
+      offset = {
+        t: optionToInt(opts.offsetTop, offsetVertical),
+        b: optionToInt(opts.offsetBottom, offsetVertical),
+        l: optionToInt(opts.offsetLeft, offsetHorizontal),
+        r: optionToInt(opts.offsetRight, offsetHorizontal)
+      };
+      delay = optionToInt(opts.throttle, 250);
+      useDebounce = opts.debounce !== false;
+      unload = !!opts.unload;
+      callback = opts.callback || callback;
+      echo.render();
+      if (document.addEventListener) {
+        root.addEventListener('scroll', debounceOrThrottle, false);
+        root.addEventListener('load', debounceOrThrottle, false);
+      } else {
+        root.attachEvent('onscroll', debounceOrThrottle);
+        root.attachEvent('onload', debounceOrThrottle);
+      }
+    };
+
+    echo.render = function (context) {
+      var nodes = (context || document).querySelectorAll('[data-echo], [data-echo-background]');
+      var length = nodes.length;
+      var src, elem;
+      var view = {
+        l: 0 - offset.l,
+        t: 0 - offset.t,
+        b: (root.innerHeight || document.documentElement.clientHeight) + offset.b,
+        r: (root.innerWidth || document.documentElement.clientWidth) + offset.r
+      };
+      for (var i = 0; i < length; i++) {
+        elem = nodes[i];
+        if (inView(elem, view)) {
+
+          if (unload) {
+            elem.setAttribute('data-echo-placeholder', elem.src);
+          }
+
+          if (elem.getAttribute('data-echo-background') !== null) {
+            elem.style.backgroundImage = 'url(' + elem.getAttribute('data-echo-background') + ')';
+          }
+          else if (elem.src !== (src = elem.getAttribute('data-echo'))) {
+            elem.src = src;
+          }
+
+          if (!unload) {
+            elem.removeAttribute('data-echo');
+            elem.removeAttribute('data-echo-background');
+          }
+
+          callback(elem, 'load');
+        }
+        else if (unload && !!(src = elem.getAttribute('data-echo-placeholder'))) {
+
+          if (elem.getAttribute('data-echo-background') !== null) {
+            elem.style.backgroundImage = 'url(' + src + ')';
+          }
+          else {
+            elem.src = src;
+          }
+
+          elem.removeAttribute('data-echo-placeholder');
+          callback(elem, 'unload');
+        }
+      }
+      if (!length) {
+        echo.detach();
+      }
+    };
+
+    echo.detach = function () {
+      if (document.removeEventListener) {
+        root.removeEventListener('scroll', debounceOrThrottle);
+      } else {
+        root.detachEvent('onscroll', debounceOrThrottle);
+      }
+      clearTimeout(poll);
+    };
+
+    return echo;
+
+  });
+</script>
+<script>
+    echo.init({
+      offset: 2500,
+      throttle: 250,
+      unload: false,
+      callback: function (element, op) {
+        //console.log(element, 'has been', op + 'ed')
+      }
+    });
+</script>
+
+	<!-- Modal -->
+<div class="modal fade" id="cgu" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Conditions générales d'utilisation</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<!-- Modal -->
+<div class="modal fade" id="privacy" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Données personnelles</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

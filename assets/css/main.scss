@@ -1,0 +1,49 @@
+---
+---
+@charset "utf-8";
+
+// Color system
+$white:         #fff !default;
+$black:         #000 !default;
+$primary:       #E52645 !default;
+$secondary:     #373632 !default;
+$tertiary:      #0CBAEE !default;
+$quaternary:    #671C3D !default;
+$urgence:       #E52645 !default;
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    "white":      $white,
+    "black":      $black,
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "tertiary":   $tertiary,
+    "quaternary": $quaternary,
+    "urgence":    $urgence,
+  ),
+  $theme-colors
+);
+
+
+//Couleur du template
+$backgroundColor: $white;
+
+
+//Couleur des polices
+$bodyColor: $primary;
+
+// Police
+$bodyFont: 'Montserrat', sans-serif;
+$bodyFontSecondary: 'Josefin Sans', sans-serif;
+
+// Positionning
+$sidebarWidth: {{ site.data.configuration.sidebar_size_number }}px;
+
+//background specifique
+$dateBg: url('{{ site.data.configuration.date_image }}');
+$urgenceBg: url('{{ site.data.configuration.urgence_image }}');
+
+@import 'bootstrap/bootstrap';
+@import "main";
