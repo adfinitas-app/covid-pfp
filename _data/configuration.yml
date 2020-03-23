@@ -40,8 +40,8 @@ popup:
 edito:
   people:
     face_image: /uploads/logo-pfp-2019-12.jpg
-    name:
-    job:
+    name: TEST
+    job: AB
   introduction:
     title_html: |
       Neque porro quisquam est qui dolorem ,<br>ipsum quia dolor sit amet
