@@ -39,7 +39,7 @@ popup:
     contenu_html: ...
 edito:
   people:
-    face_image:
+    face_image: /_site/uploads/pfp-1024x892-v2.png
     name:
     job:
   introduction:
