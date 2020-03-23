@@ -40,13 +40,13 @@ popup:
 edito:
   people:
     face_image:
-    name: TEST
-    job: AB
+    name:
+    job:
   introduction:
     title_html: >-
       <p><strong><em>Coronavirus Covid-19
       :&nbsp;</em></strong><strong><em>Mobilis&eacute;s pour &eacute;viter la
-      mort sociale de nos a&icirc;n&eacute;s.</em></strong></p><p>&nbsp;</p>
+      mort sociale de nos a&icirc;n&eacute;s.</em></strong></p>
     introduction_html: >-
       <p><em>Face aux mesures essentielles de confinement pour freiner la
       progression du virus, les personnes &acirc;g&eacute;es d&eacute;j&agrave;
@@ -58,17 +58,4 @@ edito:
       gouvernement. Retrouvez ici toute l'actualit&eacute; des actions mises en
       place partout en France par nos &eacute;quipes pour continuer &agrave;
       briser l'isolement des personnes &acirc;g&eacute;es.</em></p><p>&nbsp;</p>
-    contenu_html: >-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-      tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit
-      varius.<br /><br />Lorem ipsum dolor sit amet, consectetur adipiscing
-      elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu
-      elit varius.<br /><br />Lorem ipsum dolor sit amet, consectetur adipiscing
-      elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu
-      elit varius :<br />- Neque porro quisquam est qui dolorem,<br />- Neque
-      porro quisquam est qui dolorem,<br />- Neque porro quisquam est qui
-      dolorem.<br /><br />Lorem ipsum dolor sit amet, consectetur adipiscing
-      elit. Donec tincidunt risus ac volutpat lacinia, consectetur adipiscing
-      elit tincidunt risus ac volutpat lacinia. .<br /><br />Lorem ipsum dolor
-      sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat
-      lacinia.</p>
+    contenu_html:
