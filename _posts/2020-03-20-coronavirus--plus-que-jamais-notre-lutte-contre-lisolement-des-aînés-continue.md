@@ -23,4 +23,11 @@ insertion_social:
 category: actualite
 ---
 
-Maecenas condimentum nisl in ante ornare, nec tempus est mattis. Phasellus placerat, massa id blandit vehicula, erat odio consectetur metus, a sodales purus nibh non tortor. Pellentesque fermentum nulla arcu, et facilisis risus placerat id. Donec egestas ultricies metus at porta. Duis eu mauris elit. Ut elementum id purus sit amet vehicula. Donec quam lacus, maximus pulvinar tempus in, egestas ut sem. Sed faucibus sagittis arcu, sed eleifend lacus efficitur vel. Integer enim nulla, consectetur non orci in, fermentum dictum velit. Nam quis euismod risus.
+**Les Petits Fr&egrave;res des Pauvres** sont pleinement mobilis&eacute;s pour contribuer &agrave; endiguer la pand&eacute;mie et pour garantir leur mission premi&egrave;re : la lutte contre l’isolement des personnes &acirc;g&eacute;es, tout en adaptant leurs actions pour r&eacute;pondre aux d&eacute;fis impos&eacute;s par cette crise sanitaire.<br>Depuis la mise en place par le gouvernement de mesures de confinement (17/03/2020) pour endiguer les cas de coronavirus en France, la situation des personnes &acirc;g&eacute;es isol&eacute;es s’est aggrav&eacute;e.&nbsp;<br>&nbsp;<br>Les Petits Fr&egrave;res des Pauvres sont pleinement mobilis&eacute;s pour continuer &agrave; briser la solitude de nos a&icirc;n&eacute;s dans ce contexte contraint et difficile, tout en respectant les consignes donn&eacute;es par le gouvernement.
+
+* Faire des courses, aller chercher des m&eacute;dicaments…&nbsp;
+* Commander et faire livrer des courses via Internet&nbsp;
+* Pr&eacute;parer le repas &agrave; domicile et le livrer chez la personne&nbsp;
+* Renforcement des appels t&eacute;l&eacute;phoniques aux personnes &acirc;g&eacute;es
+* Accueil des personnes &acirc;g&eacute;es en situation de pr&eacute;carit&eacute;
+* Renforcement des &eacute;quipes de la ligne t&eacute;l&eacute;phonique Solitud’&eacute;coute<br>&nbsp;
