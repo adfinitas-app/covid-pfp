@@ -33,7 +33,7 @@ sidebar:
 popup:
   cgu:
     titre: Conditions générales d'utilisation
-    contenu_html: ...
+    contenu_html: <p>...</p>
   privacy:
     titre: Données personnelles
     contenu_html: ...
@@ -48,11 +48,16 @@ edito:
       :&nbsp;</em></strong><strong><em>Mobilis&eacute;s pour &eacute;viter la
       mort sociale de nos a&icirc;n&eacute;s.</em></strong></p><p>&nbsp;</p>
     introduction_html: >-
-      <p>Lorem ipsum dolor sit amet,<br />Consectetur adipiscing elit. Donec
-      tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius.
-      onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia.
-      onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia.
-      onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia.</p>
+      <p><em>Face aux mesures essentielles de confinement pour freiner la
+      progression du virus, les personnes &acirc;g&eacute;es d&eacute;j&agrave;
+      victimes d&rsquo;une solitude insupportable, courent le risque d&rsquo;un
+      isolement total. Les Petits Fr&egrave;res des Pauvres, qui luttent contre
+      l'isolement des personnes &acirc;g&eacute;es depuis 1946, ont une
+      priorit&eacute; aujourd'hui : maintenir les liens avec nos
+      a&icirc;n&eacute;s, tout en respectant les consignes donn&eacute;es par le
+      gouvernement. Retrouvez ici toute l'actualit&eacute; des actions mises en
+      place partout en France par nos &eacute;quipes pour continuer &agrave;
+      briser l'isolement des personnes &acirc;g&eacute;es.</em></p><p>&nbsp;</p>
     contenu_html: >-
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
       tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit
