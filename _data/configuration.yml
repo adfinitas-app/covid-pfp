@@ -1,4 +1,5 @@
 logo_image: /uploads/pfp-1024x892-v2.png
+logo_white: /assets/img/logo-pfp-white.png
 favicon_image: /uploads/pfp-1024x892-v2.png
 date_image: 'http://via.placeholder.com/40x110/'
 urgence_image: 'http://via.placeholder.com/40x110/FF0000'
@@ -8,12 +9,12 @@ police:
   googlefont_url: >-
     https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,423;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,423;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap
 sidebar:
-  title: 'COVID-19 : PLUS QUE JAMAIS NOUS AVONS BESOIN DE VOUS !'
+  title: '<b>COVID-19 :</b> Plus que jamais, nous avons besoins de vous !'
   subtitle:
   gift_grid:
     once:
       activate: true
-      texte: Je fais un don
+      texte:
       gift_url: 'https://faireundon.petitsfreresdespauvres.fr/?cid=125'
       amount1_number: 80
       amount2_number: 100
@@ -31,7 +32,7 @@ sidebar:
     limite de 20% du revenu net imposable.
 popup:
   cgu:
-    titre: Conditions générales d'utilisation
+    titre: CGU
     contenu_html: <p>...</p>
   privacy:
     titre: Données personnelles
@@ -43,18 +44,9 @@ edito:
     job:
   introduction:
     title_html: >-
-      <p><strong><em>Coronavirus Covid-19
-      :&nbsp;</em></strong><strong><em>Mobilis&eacute;s pour &eacute;viter la
-      mort sociale de nos a&icirc;n&eacute;s.</em></strong></p>
-    introduction_html: >-
-      <p><em>Face aux mesures essentielles de confinement pour freiner la
-      progression du virus, les personnes &acirc;g&eacute;es d&eacute;j&agrave;
-      victimes d&rsquo;une solitude insupportable, courent le risque d&rsquo;un
-      isolement total. Les Petits Fr&egrave;res des Pauvres, qui luttent contre
-      l'isolement des personnes &acirc;g&eacute;es depuis 1946, ont une
-      priorit&eacute; aujourd'hui : maintenir les liens avec nos
-      a&icirc;n&eacute;s, tout en respectant les consignes donn&eacute;es par le
-      gouvernement. Retrouvez ici toute l'actualit&eacute; des actions mises en
-      place partout en France par nos &eacute;quipes pour continuer &agrave;
-      briser l'isolement des personnes &acirc;g&eacute;es.</em></p><p>&nbsp;</p>
-    contenu_html:
+      Coronavirus<br>Covid-19
+    introduction_html: Mobilisés pour éviter la<br> mort sociale de nos aînés.
+    contenu_html: >-
+      Face aux mesures essentielles de confinement pour freiner la progression du virus, les personnes âgées déjà victimes d’une solitude insupportable, courent le risque d’un isolement total.
+      <br><br>Les Petits Frères des Pauvres, qui luttent contre l’isolement des personnes âgées depuis 1946, ont une priorité aujourd’hui : maintenir les liens avec nos aînés, tout en respectant les consignes données par le gouvernement.
+      <br><br>Retrouvez ici toute l’actualité des actions mises en place partout en France par nos équipes pour continuer à briser l’isolement des personnes âgées.

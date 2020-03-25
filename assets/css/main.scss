@@ -5,10 +5,10 @@
 // Color system
 $white:         #fff !default;
 $black:         #000 !default;
-$primary:       #E52645 !default;
+$primary:       #DA324A !default;
 $secondary:     #373632 !default;
 $tertiary:      #0CBAEE !default;
-$quaternary:    #671C3D !default;
+$quaternary:    #571936 !default;
 $urgence:       #E52645 !default;
 
 $theme-colors: () !default;
@@ -30,7 +30,6 @@ $theme-colors: map-merge(
 //Couleur du template
 $backgroundColor: $white;
 
-
 //Couleur des polices
 $bodyColor: $primary;
 
@@ -38,12 +37,39 @@ $bodyColor: $primary;
 $bodyFont: 'Montserrat', sans-serif;
 $bodyFontSecondary: 'Josefin Sans', sans-serif;
 
+//Font size
+$font-sizes: () !default;
+$font-sizes: map-merge(
+  (
+    "10": 10px !important,
+    "14": 14px !important,
+    "16": 16px !important,
+    "18": 18px !important,
+    "20": 20px !important,
+    "22": 22px !important,
+    "24": 24px !important,
+    "26": 26px !important,
+    "28": 28px !important,
+    "30": 30px !important,
+  ),
+  $font-sizes
+);
+
+@each $size, $value in $font-sizes {
+  .fs-#{$size} {
+    font-size: $value;
+  }
+}
+
 // Positionning
 $sidebarWidth: {{ site.data.configuration.sidebar_size_number }}px;
 
 //background specifique
 $dateBg: url('{{ site.data.configuration.date_image }}');
 $urgenceBg: url('{{ site.data.configuration.urgence_image }}');
+
+//Border rounded
+$border-radius-lg: 1rem !default;
 
 @import 'bootstrap/bootstrap';
 @import "main";

@@ -7,7 +7,7 @@ arrowElem.addEventListener('click', function() {
     if (contentElem.style.maxHeight && contentElem.style.maxHeight !== '0px') {
         contentElem.style.maxHeight = '0px';
     } else {
-        contentElem.style.maxHeight = '2000px';
+        contentElem.style.maxHeight = '1000px';
         contentElem.style.height = 'auto';
     }
 })

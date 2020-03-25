@@ -2,69 +2,121 @@
 layout: default
 title: "Actualité - COVID-19"
 ---
-  {%- include progress-bar.html -%}
+{%- include progress-bar.html -%}
 
-  <!-- MOBILE -->
-  <div class="home-mobile d-md-none">
-      {%- include sidebar_mobile.html -%}
-      {%- include edito_mobile.html -%}
-      <div class="bandeau-covid bg-urgence">
-          <p class="text-center text-white">
+<!-- MOBILE -->
+<div class="home-mobile d-md-none">
+    {%- include sidebar_mobile.html -%}
+    {%- include edito_mobile.html -%}
+    <div class="bandeau-covid bg-urgence">
+        <p class="text-center text-white">
             {{ page.title }} - Dernière mise à jour <span>{{ page.last_modified_at | date: '%d/%m/%y %H:%M' }}</span>
-          </p>
-      </div>
-      <section class="posts">
-                  {% for post in site.posts %}
-                  <article class="post {% if post.urgence_post %}urgence{% endif %}">
-                      <div class="post-publication-time"><span>{{ post.date | date: '%d.%m.%Y'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span></div>
-                      <h1  class="post-title text-uppercase text-uppercase {% if post.urgence_post %}text-urgence{% else %}text-primary{% endif %}">{{ post.title }}</h1>
-                      <div class="post-content text-black">{{ post.content }}</div>
-                      {% for social in post.insertion_social %}
-                      <div class="">{{ social.contenu_code_block }}</div>
-                      {% endfor %}
-                  </article>
-                  {% endfor %}
-      </section>
-  </div>
-  <!-- END MOBILE -->
+        </p>
+    </div>
+    <section class="posts">
+        {% for post in site.posts %}
+        <article class="post {% if post.urgence_post %}urgence{% endif %}">
+            <div class="post-publication-time"><span>{{ post.date | date: '%d.%m.%Y'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span></div>
+            <h1  class="post-title text-uppercase text-uppercase {% if post.urgence_post %}text-urgence{% else %}text-primary{% endif %}">{{ post.title }}</h1>
+            <div class="post-content text-black">{{ post.content }}</div>
+            {% for social in post.insertion_social %}
+            <div class="">{{ social.contenu_code_block }}</div>
+            {% endfor %}
+        </article>
+        {% endfor %}
+    </section>
+</div>
+<!-- END MOBILE -->
 
-  <!--DESKTOP-->
-  <div class="home d-none d-md-block">
-
-      <!--SIDEBAR-->
-      {%- include sidebar_desktop.html -%}
-      <!--END SIDEBAR-->
-
-      <div class="content">
-          <!--EDITO-->
-          {%- include edito_desktop.html -%}
-          <!--EDITO-->
-
-
-          <div class="blog">
-              <p class="covid-19 text-white bg-primary text-bold">{{ page.title }}</p>
-
-              <p class="last-update text-secondary">
-                Dernière mise à jour
-                <span class="last-update-time text-condensed text-primary">{{ page.last_modified_at | date: '%d.%m.%Y' }}</span>
-              </p>
-
-              <section class="row posts">
-                <div class="col">
-                    {% for post in site.categories.actualite %}
-                    <article class="post {% if post.urgence_post %}urgence{% endif %}">
-                        <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% else %}text-secondary{% endif %}">{{ post.title }}</h1>
-                        <div class="post-content text-secondary">{{ post.content }}</div>
-                            {% for social in post.insertion_social %}
-                            <div class="">{{ social.contenu_code_block }}</div>
-                            {% endfor %}
-                        <div class="post-publication-time text-secondary"><b>{{ post.date | date: '%d.%m.%Y'}}</b><br><small>{{ post.date | date: 'à %HH%M'}}</small></div>
-                    </article>
+<!--DESKTOP-->
+<div class="home d-none d-md-block">
+    
+    <!--SIDEBAR-->
+    {%- include sidebar_desktop.html -%}
+    <!--END SIDEBAR-->
+    
+    <div class="content">
+        <!--EDITO-->
+        {%- include edito_desktop.html -%}
+        <!--EDITO-->
+        
+        
+        <div class="blog">
+            <p class="covid-19 bg-primary w-100"><span class="text-quaternary">ACTUALITÉ</span><span class="text-bold text-white"> COVID-19</span></p>
+            
+            <!-- Links -->
+            <div class="row links">
+                <div class="col-sm-12 col-md-8">
+                    {% for post in site.categories.actualite limit:1 %}
+                    <a href="{{ post.link }}">
+                        <div class="d-flex link-item">
+                            <div class="mr-auto d-flex align-items-center">
+                                <img class="link-picto" src="{{ post.picto | relative_url }}" alt="picto"/>
+                                <span class="link-title">{{ post.type }}</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <span class="link-date">{{ post.date | date: '%d.%m.%Y' }}</span>
+                            </div>
+                        </div>
+                    </a>
                     {% endfor %}
                 </div>
-
-              </section>
-          </div>
-      </div>
-  </div>
-  <!-- END DESKTOP-->
+                <div class="col-sm-12 col-md-4 d-flex align-items-center">
+                    <a href="#" class="text-bold text-uppercase" style="color: #707070"><img src="{{ "/assets/img/fleche-droite.png" |relative_url }}"/> Tous les liens utiles</a>
+                </div>
+            </div>
+            <div class="row ml-4 mr-4">
+                <div class="col-sm-12 col-md-4">
+                    <div class="horizontal-line"></div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <p class="last-update">
+                        Dernière mise à jour
+                        <span class="last-update-time text-condensed text-primary">{{ page.last_modified_at | date: '%d.%m.%Y' }}</span>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="horizontal-line"></div>
+                </div>
+            </div>
+            <!-- Links -->
+            
+            <!-- Posts -->
+            <section class="row posts">
+                <div class="col">
+                    {% for post in site.categories.actualite %}
+                    <div class="post {% if post.urgence_post %}urgence{% endif %}">
+                        <div class="row no-gutters">
+                            <div class="col-sm-12 col-md-10">
+                                <h1 class="post-title text-uppercase {% if post.urgence_post %}text-primary{% else %}text-quaternary{% endif %}">{{ post.title }}</h1>
+                            </div>
+                            <div class="col-sm-12 col-md-2"></div>
+                        </div>
+                    
+                        <div class="row no-gutters">
+                            <div class="col-sm-12 col-md-10">
+                                <article>
+                                    <div class="position-relative d-flex">
+                                        <img class="post-image" src="{{ post.image_post | relative_url }}" alt="Image post"/>
+                                    </div>
+                                    <div class="post-content text-secondary mt-3">{{ post.content }}</div>
+                                    {% for social in post.insertion_social %}
+                                    <div class="">{{ social.contenu_code_block }}</div>
+                                    {% endfor %}
+                                </article>
+                            </div>
+                            <div class="col-sm-12 col-md-2">
+                                <div class="post-publication-time">
+                                    <b>{{ post.date | date: '%d.%m.%Y'}}</b><br><small class="hour">{{ post.date | date: 'à %HH%M'}}</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </section>
+            <!-- Posts -->
+        </div>
+    </div>
+</div>
+<!-- END DESKTOP-->

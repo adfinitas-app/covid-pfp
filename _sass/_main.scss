@@ -38,29 +38,73 @@ body {
 	padding: 20px;
 	height: 100vh;
 	width: $sidebarWidth;
-
+	
 	.ensemble {
 		font-size: 20px;
 		line-height: 1.2;
 		
 		.title {
-		    font-family: $bodyFontSecondary;
+			font-family: $bodyFont;
 		}
 	}
-
+	
+	.btn-don {
+		font-size: 20px;
+	}
+	
+	input::-webkit-input-placeholder { /* Edge */
+		color: $quaternary;
+	}		
+	
+	input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		color: $quaternary;
+	}
+	
+	input::placeholder {
+		color: $quaternary;
+	}
+	
 	.remise {
 		font-size: 13px;
 		text-align: center;
-		color: #354253;
+		color: $quaternary;
+	}
+
+	.input-icon {
+		position: absolute;
+		right: 15px;
+		top: 15px;
+		height: 30px;
+	}
+
+	.input-icon + input {
+		padding-right: 40px;
+		height: 61px;
 	}
 }
 
 .content {
 	padding-right: $sidebarWidth;
 
+	#mobilise {
+		position: relative;
+		left: 250px;
+		top: 10px;
+	}
+
+	.edito-title {
+		margin-top: 100px;
+	}
+
+	#ligne-rouge {
+		position: absolute;
+		left: 150px;
+		top: 70px;
+	}
+	
 	.message-president {
 		padding: 20px;
-
+		
 		.president-text {
 			font-size: 14px;
 			display: inline-block;
@@ -68,27 +112,27 @@ body {
 			font-family: $bodyFontSecondary;
 			padding-top: 5px;
 		}
-
+		
 		.aujourdhui {
 			font-size: 20px;
 			font-family: $bodyFontSecondary;
 		}
-
+		
 		.chers-amis {
 			font-size: 18px;
 		}
-
+		
 		.arrow-down {
 			cursor: pointer;
 			transition: transform $transitionSpeed ease-in-out;
 			transform: rotateX(0deg)
 		}
-
+		
 		.arrow-down.active {
 			transition: transform $transitionSpeed ease-in-out;
 			transform: rotateX(-180deg)
 		}
-
+		
 		#click-to-expand {
 			font-size: 18px;
 			max-height: 0px;
@@ -104,64 +148,110 @@ body {
 			max-height:1000px;
 		}
 	}
-
+	
 	.blog {
 		position: relative;
-
+		
 		.covid-19 {
-			display: inline-block;
-			position: absolute;
-			left: 0;
-			top: 0;
+			display: block;
 			font-size: 50px;
 			padding: 0 20px;
 		}
+		
+		.horizontal-line {
+			width: 100%;
+			height: 3px;
+			background-color: #707070;
+			margin-top: 20px;
+			opacity: 0.2;
+			border-radius: 4px;
+		}
 
 		.last-update {
-			display: inline-block;
-			position: absolute;
-			right: 0;
-			top: 0;
+			text-transform: uppercase;
+			color: #707070;
 			font-size: 14px;
 			padding: 5px;
 		}
-
+		
 		.last-update-time {
 			font-size: 20px;
-			font-family: $bodyFontSecondary;
+			font-family: $bodyFont;
 			padding-left: 0.6rem;
+			font-weight: bold;
 		}
 
-		.posts {
-			padding: 95px 20px 20px 20px;
+		.links {
+			padding: 20px 40px;
+		}
 
+		.link-item {
+			background-color: rgba(87, 25, 54, 0.1);
+			border-radius: 5px;
+			color: $quaternary;
+			padding: 15px 10px;
+
+			&:not(:last-child) {
+				margin-bottom: 15px;
+			}
+
+			.link-title {
+				font-size: 20px;
+				text-transform: uppercase;
+			}
+
+			.link-picto {
+				padding: 5px;
+				margin-right: 10px;
+				width: 30px;
+			}
+
+			.link-date {
+				color: #070707;
+			}
+		}
+		
+		.posts {
+			padding: 20px;
+			
 			.post {
 				position: relative;
-				padding: 20px 150px 0 20px;
-
+				padding: 20px;
+				
 				.post-publication-time {
-					background: $dateBg;
-					height: 48px;
-					width: 112px;
-					padding-top: 8px;
-					padding-left: 23px;
-					position: absolute;
-					right: -20px;
-					top: 23px;
+					background-color: rgba(87, 25, 54, 0.1);
+					height: 70px;
+					width: 150px;
+					padding-top: 20px;
 					line-height:1;
-				}
+					color: $primary;
+					text-align: center;
 
+					.hour {
+						color: $quaternary;
+					}
+				}
+				
 				&.urgence .post-publication-time {
-					background: $urgenceBg;
+					background-color: $primary;	
+					color: $white;
+
+					.hour {
+						color: $quaternary
+					}
 				}
 
+				.post-image {
+					width: 100%;
+				}
+				
 				.post-title {
 					font-weight: bold;
 					font-size: 22px;
 					font-family: $bodyFontSecondary;
 					
 				}
-
+				
 				.post-content {
 					font-size: 16px;
 				}
@@ -181,48 +271,48 @@ body {
 		left: 0;
 		width: 100%;
 		z-index: 1;
-
+		
 		.logo-mobile {
 			height: 50px;
 		}
-
+		
 		.btn-don {
 			margin-top: 5px;
 		}
 	}
 	.message-president{
 		padding: 20px;
-
+		
 		.aujourdhui{
 			font-family: $bodyFontSecondary;
 		}
 	}
-
-
+	
+	
 	.bandeau-covid {
-
+		
 		p {
 			font-size: 12px;
 			font-weight: bold;
 			padding: 5px;
 		}
 	}
-
+	
 	.posts {
 		padding: 10px;
-
+		
 		.post {
 			margin-bottom: 40px;
-
+			
 			.post-publication-time {
 				margin: 10px 0;
-
+				
 				span {
 					background-color: rgba(53, 66, 83, 0.1);
 					padding: 5px;
 				}
 			}
-
+			
 			&.urgence .post-publication-time {
 				span {
 				}
@@ -231,16 +321,16 @@ body {
 				font-weight: bold;
 				font-size: 22px;
 			}
-
+			
 			&.urgence .post-title {
 			}
-
+			
 			.post-content {
 				font-size: 16px;
 				padding-left: 15px;
 				border-left: 5px dotted $secondary;
 			}
-
+			
 			&.urgence .post-content {
 				border-left: 5px dotted $urgence;
 			}

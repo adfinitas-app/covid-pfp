@@ -1,6 +1,7 @@
 ---
 date: 2020-03-20 12:00:00
-urgence_post: false
+urgence_post: true
+isPinned: true
 title: >-
   CORONAVIRUS : PLUS QUE JAMAIS NOTRE LUTTE CONTRE L’ISOLEMENT DES AÎNÉS
   CONTINUE
@@ -21,6 +22,12 @@ insertion_social:
       20, 2020</a></blockquote> <script async
       src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 category: actualite
+
+type: Lien utile
+link: placeholder.it
+picto: assets/img/picto_lien.png
+image_post: assets/img/image_post.png
+
 ---
 
 **Les Petits Fr&egrave;res des Pauvres** sont pleinement mobilis&eacute;s pour contribuer &agrave; endiguer la pand&eacute;mie et pour garantir leur mission premi&egrave;re : la lutte contre l’isolement des personnes &acirc;g&eacute;es, tout en adaptant leurs actions pour r&eacute;pondre aux d&eacute;fis impos&eacute;s par cette crise sanitaire.<br>Depuis la mise en place par le gouvernement de mesures de confinement (17/03/2020) pour endiguer les cas de coronavirus en France, la situation des personnes &acirc;g&eacute;es isol&eacute;es s’est aggrav&eacute;e.&nbsp;<br>&nbsp;<br>Les Petits Fr&egrave;res des Pauvres sont pleinement mobilis&eacute;s pour continuer &agrave; briser la solitude de nos a&icirc;n&eacute;s dans ce contexte contraint et difficile, tout en respectant les consignes donn&eacute;es par le gouvernement.
