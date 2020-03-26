@@ -30,13 +30,13 @@
     </div>
   </div>
   <div class="p-2 no-gutters">
-    <form class="form-inline" target="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount=TODO00">
+    <form class="form-inline form-donate" method='GET' action="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount=10000">
       <label class="sr-only" for="inlineFormInputName2">Name</label>
       <div class="position-relative w-100">
         <img src="{{ '/assets/img/euro.png' | relative_url }}" class="input-icon"/>
-        <input type="text" class="w-100 form-control mb-3 border-0 fs-18" id="inlineFormInputName2" placeholder="Montant de mon choix">
+        <input type="text" class="w-100 form-control mb-3 border-0 fs-18 form-amount" id="inlineFormInputName2" placeholder="Montant de mon choix">
       </div>
-      <button type="submit" class="btn btn-primary mb-2 w-100 text-bold text-uppercase pb-3 pt-3 rounded-lg fs-20">Je donne <span id="btn-don-value">100</span>€</button>
+      <button type="submit" class="btn btn-primary mb-2 w-100 text-bold text-uppercase pb-3 pt-3 rounded-lg fs-20">Je donne <span class="btn-don-value">100</span>€</button>
     </form>
   </div>
   {% endif %}
@@ -59,10 +59,10 @@
     </div>
   </div>
   <div class="p-2 no-gutters">
-    <form class="form-inline" target="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount=TODO00">
+    <form class="form-inline form-donate" target="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount=10000">
       <label class="sr-only" for="inlineFormInputName2">Name</label>
-      <input type="text" class="w-75 form-control mb-2" id="inlineFormInputName2" placeholder="Montant de mon choix">
-      <button type="submit" class="w-25 btn btn-outline-primary mb-2">ok</button>
+      <input type="text" class="w-75 form-control mb-2 form-amount" id="inlineFormInputName2" placeholder="Montant de mon choix">
+      <button type="submit" class="w-25 btn btn-outline-primary mb-2 btn-don-value">ok</button>
     </form>
   </div>
   {% endif %}

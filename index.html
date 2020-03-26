@@ -14,15 +14,18 @@ title: "Actualité - COVID-19"
         </p>
     </div>
     <section class="posts">
-        {% for post in site.posts %}
-        <article class="post {% if post.urgence_post %}urgence{% endif %}">
-            <div class="post-publication-time"><span>{{ post.date | date: '%d.%m.%Y'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span></div>
-            <h1  class="post-title text-uppercase text-uppercase {% if post.urgence_post %}text-urgence{% else %}text-primary{% endif %}">{{ post.title }}</h1>
-            <div class="post-content text-black">{{ post.content }}</div>
-            {% for social in post.insertion_social %}
-            <div class="">{{ social.contenu_code_block }}</div>
-            {% endfor %}
-        </article>
+        <!-- Pinned -->
+        {% for post in site.categories.actualite %}
+            {% if post.isPinned == true %}
+                {% include post_mobile.html post=post %}
+            {% endif %}
+        {% endfor %}
+        <!-- Pinned -->
+    
+        {% for post in site.categories.actualite %}
+            {% if post.isPinned == false %}
+                {% include post_mobile.html post=post %}
+            {% endif %}
         {% endfor %}
     </section>
 </div>
@@ -62,9 +65,12 @@ title: "Actualité - COVID-19"
                     {% endfor %}
                 </div>
                 <div class="col-sm-12 col-md-4 d-flex align-items-center">
-                    <a href="#" class="text-bold text-uppercase" style="color: #707070"><img src="{{ "/assets/img/fleche-droite.png" |relative_url }}"/> Tous les liens utiles</a>
+                    <a href="/liens.html" class="text-bold text-uppercase" style="color: #707070"><img src="{{ "/assets/img/fleche-droite.png" |relative_url }}"/> Tous les liens utiles</a>
                 </div>
             </div>
+            <!-- Links -->
+
+            <!-- Last update time -->
             <div class="row ml-4 mr-4">
                 <div class="col-sm-12 col-md-4">
                     <div class="horizontal-line"></div>
@@ -79,39 +85,24 @@ title: "Actualité - COVID-19"
                     <div class="horizontal-line"></div>
                 </div>
             </div>
-            <!-- Links -->
+            <!-- Last update time -->
+
             
             <!-- Posts -->
             <section class="row posts">
                 <div class="col">
+                    <!-- Pinned -->
                     {% for post in site.categories.actualite %}
-                    <div class="post {% if post.urgence_post %}urgence{% endif %}">
-                        <div class="row no-gutters">
-                            <div class="col-sm-12 col-md-10">
-                                <h1 class="post-title text-uppercase {% if post.urgence_post %}text-primary{% else %}text-quaternary{% endif %}">{{ post.title }}</h1>
-                            </div>
-                            <div class="col-sm-12 col-md-2"></div>
-                        </div>
+                        {% if post.isPinned == true %}
+                            {% include post_desktop.html post=post %}
+                        {% endif %}
+                    {% endfor %}
+                    <!-- Pinned -->
                     
-                        <div class="row no-gutters">
-                            <div class="col-sm-12 col-md-10">
-                                <article>
-                                    <div class="position-relative d-flex">
-                                        <img class="post-image" src="{{ post.image_post | relative_url }}" alt="Image post"/>
-                                    </div>
-                                    <div class="post-content text-secondary mt-3">{{ post.content }}</div>
-                                    {% for social in post.insertion_social %}
-                                    <div class="">{{ social.contenu_code_block }}</div>
-                                    {% endfor %}
-                                </article>
-                            </div>
-                            <div class="col-sm-12 col-md-2">
-                                <div class="post-publication-time">
-                                    <b>{{ post.date | date: '%d.%m.%Y'}}</b><br><small class="hour">{{ post.date | date: 'à %HH%M'}}</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    {% for post in site.categories.actualite %}
+                        {% if post.isPinned == false %}
+                            {% include post_desktop.html post=post %}
+                        {% endif %}
                     {% endfor %}
                 </div>
             </section>

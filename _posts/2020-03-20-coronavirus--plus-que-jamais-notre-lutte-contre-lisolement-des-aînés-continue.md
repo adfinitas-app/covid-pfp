@@ -1,6 +1,6 @@
 ---
 date: 2020-03-20 12:00:00
-urgence_post: true
+urgence_post: false
 isPinned: true
 title: >-
   CORONAVIRUS : PLUS QUE JAMAIS NOTRE LUTTE CONTRE L’ISOLEMENT DES AÎNÉS

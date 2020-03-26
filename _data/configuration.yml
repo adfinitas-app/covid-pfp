@@ -7,14 +7,14 @@ sidebar_size_number: 400
 progress_bar_color: '#671c3d'
 police:
   googlefont_url: >-
-    https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,423;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,423;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap
+    https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,423;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,423;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap
 sidebar:
   title: '<b>COVID-19 :</b> Plus que jamais, nous avons besoins de vous !'
   subtitle:
   gift_grid:
     once:
       activate: true
-      texte:
+      texte: Je fais un don
       gift_url: 'https://faireundon.petitsfreresdespauvres.fr/?cid=125'
       amount1_number: 80
       amount2_number: 100
