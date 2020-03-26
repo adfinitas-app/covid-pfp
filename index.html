@@ -13,19 +13,31 @@ title: "Actualité - COVID-19"
             {{ page.title }} - Dernière mise à jour <span>{{ page.last_modified_at | date: '%d/%m/%y %H:%M' }}</span>
         </p>
     </div>
+    
+    <!-- LINKS -->
+    <div class="row links">
+        <div class="col-sm-12 col-md-8">
+            {% include links.html limit=1 %}
+        </div>
+        <div class="col-sm-12 col-md-4 d-flex align-items-center">
+            <a href="/liens.html" class="text-bold text-uppercase d-inline-block ml-auto ml-md-0 mt-2 mt-md-0" style="color: #707070"><img src="{{ "/assets/img/fleche-droite.png" |relative_url }}"/> Tous les liens utiles</a>
+        </div>
+    </div>
+    <!-- LINKS -->
+    
     <section class="posts">
         <!-- Pinned -->
         {% for post in site.categories.actualite %}
-            {% if post.isPinned == true %}
-                {% include post_mobile.html post=post %}
-            {% endif %}
+        {% if post.isPinned == true %}
+        {% include post_mobile.html post=post %}
+        {% endif %}
         {% endfor %}
         <!-- Pinned -->
-    
+        
         {% for post in site.categories.actualite %}
-            {% if post.isPinned == false %}
-                {% include post_mobile.html post=post %}
-            {% endif %}
+        {% if post.isPinned == false %}
+        {% include post_mobile.html post=post %}
+        {% endif %}
         {% endfor %}
     </section>
 </div>
@@ -47,36 +59,24 @@ title: "Actualité - COVID-19"
         <div class="blog">
             <p class="covid-19 bg-primary w-100"><span class="text-quaternary">ACTUALITÉ</span><span class="text-bold text-white"> COVID-19</span></p>
             
-            <!-- Links -->
+            <!-- LINKS -->
             <div class="row links">
                 <div class="col-sm-12 col-md-8">
-                    {% for post in site.categories.actualite limit:1 %}
-                    <a href="{{ post.link }}">
-                        <div class="d-flex link-item">
-                            <div class="mr-auto d-flex align-items-center">
-                                <img class="link-picto" src="{{ post.picto | relative_url }}" alt="picto"/>
-                                <span class="link-title">{{ post.type }}</span>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <span class="link-date">{{ post.date | date: '%d.%m.%Y' }}</span>
-                            </div>
-                        </div>
-                    </a>
-                    {% endfor %}
+                    {% include links.html limit=1 %}
                 </div>
                 <div class="col-sm-12 col-md-4 d-flex align-items-center">
-                    <a href="/liens.html" class="text-bold text-uppercase" style="color: #707070"><img src="{{ "/assets/img/fleche-droite.png" |relative_url }}"/> Tous les liens utiles</a>
+                    <a href="/liens.html" class="text-bold text-uppercase d-inline-block ml-auto ml-md-0 mt-2 mt-md-0" style="color: #707070"><img src="{{ "/assets/img/fleche-droite.png" |relative_url }}"/> Tous les liens utiles</a>
                 </div>
             </div>
-            <!-- Links -->
-
+            <!-- LINKS -->
+            
             <!-- Last update time -->
             <div class="row ml-4 mr-4">
                 <div class="col-sm-12 col-md-4">
                     <div class="horizontal-line"></div>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p class="last-update">
+                    <p class="last-update text-center">
                         Dernière mise à jour
                         <span class="last-update-time text-condensed text-primary">{{ page.last_modified_at | date: '%d.%m.%Y' }}</span>
                     </p>
@@ -86,23 +86,23 @@ title: "Actualité - COVID-19"
                 </div>
             </div>
             <!-- Last update time -->
-
+            
             
             <!-- Posts -->
             <section class="row posts">
                 <div class="col">
                     <!-- Pinned -->
                     {% for post in site.categories.actualite %}
-                        {% if post.isPinned == true %}
-                            {% include post_desktop.html post=post %}
-                        {% endif %}
+                    {% if post.isPinned == true %}
+                    {% include post_desktop.html post=post %}
+                    {% endif %}
                     {% endfor %}
                     <!-- Pinned -->
                     
                     {% for post in site.categories.actualite %}
-                        {% if post.isPinned == false %}
-                            {% include post_desktop.html post=post %}
-                        {% endif %}
+                    {% if post.isPinned == false %}
+                    {% include post_desktop.html post=post %}
+                    {% endif %}
                     {% endfor %}
                 </div>
             </section>

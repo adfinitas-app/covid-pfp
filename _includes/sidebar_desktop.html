@@ -20,13 +20,13 @@
   {% endif %}
   <div class="row p-2 no-gutters">
     <div class="col p-1">
-      <a class="btn btn-quaternary w-100 text-bold pt-2 pb-2 fs-20 rounded-lg" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount1_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount1_number }}€</a>
+      <a class="btn btn-quaternary w-100 text-bold pt-3 pb-3 fs-20 rounded-lg" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount1_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount1_number }}€</a>
     </div>
     <div class="col p-1">
-      <a class="btn btn-outline-quaternary w-100 text-bold pt-2 pb-2 fs-20 rounded-lg" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount2_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount2_number }}€</a>
+      <a class="btn btn-outline-quaternary w-100 text-bold pt-3 pb-3 fs-20 rounded-lg" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount2_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount2_number }}€</a>
     </div>
     <div class="col p-1">
-      <a class="btn btn-outline-quaternary w-100 text-bold pt-2 pb-2 fs-20 rounded-lg" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount3_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount3_number }}€</a>
+      <a class="btn btn-outline-quaternary w-100 text-bold pt-3 pb-3 fs-20 rounded-lg" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount3_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount3_number }}€</a>
     </div>
   </div>
   <div class="p-2 no-gutters">
@@ -34,9 +34,9 @@
       <label class="sr-only" for="inlineFormInputName2">Name</label>
       <div class="position-relative w-100">
         <img src="{{ '/assets/img/euro.png' | relative_url }}" class="input-icon"/>
-        <input type="text" class="w-100 form-control mb-3 border-0 fs-18 form-amount" id="inlineFormInputName2" placeholder="Montant de mon choix">
+        <input type="text" class="w-100 form-control mb-3 border-0 fs-18 form-amount text-bold" id="inlineFormInputName2" placeholder="Montant de mon choix">
       </div>
-      <button type="submit" class="btn btn-primary mb-2 w-100 text-bold text-uppercase pb-3 pt-3 rounded-lg fs-20">Je donne <span class="btn-don-value">100</span>€</button>
+      <button type="submit" class="btn btn-primary w-100 text-bold text-uppercase pb-3 pt-3 rounded-lg fs-20">Je donne <span class="btn-don-value">80</span>€</button>
     </form>
   </div>
   {% endif %}
@@ -69,9 +69,9 @@
 
   <div class="p-2 no-gutters">
     <p class="remise">{{ site.data.configuration.sidebar.defiscalisation}}</p>
-    <p class="text-primary fs-20 text-center mt-5">Notre priorité, maintenir notre action auprès des personnes âgées isolées.</p>
+    <p class="text-primary fs-20 text-center mt-4 text-bold pl-5 pr-5">Notre priorité, maintenir notre action auprès des personnes âgées isolées.</p>
   </div>
-  <div class="d-flex align-items-center mb-auto mt-auto no-gutters justify-content-space-between pl-2 pr-2">
+  <div class="d-flex align-items-center mb-auto mt-auto no-gutters justify-content-space-between pl-5 pr-5">
     <a href="#" class="text-quaternary text-uppercase text-bold small ml-auto mr-auto" data-toggle="modal" data-target="#cgu">{{ site.data.configuration.popup.cgu.titre }}</a>
     <a href="#" class="text-quaternary text-uppercase text-bold small ml-auto mr-auto" data-toggle="modal" data-target="#privacy">{{ site.data.configuration.popup.privacy.titre }}</a>
   </div>

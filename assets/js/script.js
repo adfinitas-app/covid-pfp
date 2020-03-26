@@ -15,7 +15,7 @@ arrowElem.addEventListener('click', function() {
 //CLICK TO EXPAND
 
 //FORM DONATION
-$('.form-amount').on('blur', function() {
+$('.form-amount').on('input', function() {
     const val = $(this).val();
 
     if (!val)

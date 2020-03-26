@@ -2,7 +2,7 @@
     <div class="post-publication-time mb-2">
         
         {% if post.isPinned %}
-            <span class="p-2 d-inline-block"><img class="pin" src="{{ "assets/img/pin.png" | relative_url }}" alt="pin"/> <span class="text-quaternary bg-transparent">À LA UNE</span></span>
+            <div class="p-3 d-inline-block"><img class="pin" src="{{ "assets/img/pin.png" | relative_url }}" alt="pin"/> <span class="text-quaternary text-bold a-la-une">À LA UNE</span></div>
         {% else %}
             <span>{{ post.date | date: '%d.%m.%Y'}}<small class="hour"> {{ post.date | date: 'à %HH%M'}}</small></span>
         {% endif %}

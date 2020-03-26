@@ -72,6 +72,7 @@ body {
 		font-size: 13px;
 		text-align: center;
 		color: $quaternary;
+		font-weight: bold;
 	}
 	
 	.input-icon {
@@ -97,7 +98,7 @@ body {
 	}
 	
 	.edito-title {
-		margin-top: 100px;
+		margin-top: 40px;
 	}
 	
 	#ligne-rouge {
@@ -191,7 +192,7 @@ body {
 				padding: 15px 10px;
 				
 				&:not(:last-of-type) {
-					margin-bottom: 15px;;
+					margin-bottom: 15px;
 				}
 				
 				.link-title {
@@ -307,9 +308,40 @@ body {
 	.bandeau-covid {
 		
 		p {
-			font-size: 12px;
+			font-size: 16px;
 			font-weight: bold;
-			padding: 5px;
+			padding: 10px 5px;
+		}
+	}
+	
+	// LINKS //
+	.links {
+		padding: 0 12px 12px 12px;;
+		
+		.link-item {
+			background-color: rgba(87, 25, 54, 0.1);
+			border-radius: 5px;
+			color: $quaternary;
+			padding: 15px 10px;
+			
+			&:not(:last-of-type) {
+				margin-bottom: 15px;;
+			}
+			
+			.link-title {
+				font-size: 20px;
+				text-transform: uppercase;
+			}
+			
+			.link-picto {
+				padding: 5px;
+				margin-right: 10px;
+				width: 30px;
+			}
+			
+			.link-date {
+				color: #070707;
+			}
 		}
 	}
 	
@@ -322,12 +354,17 @@ body {
 			.post-publication-time {
 				//margin: 10px 0;
 				
-				span {
+				&>div {
 					background-color: rgba(53, 66, 83, 0.1);
 					padding: 5px;
 				}
+				.a-la-une {
+					position: relative;
+					top: 2px;
+					font-size: 18px;
+				}
 			}
-		
+			
 			.post-title {
 				font-weight: bold;
 				font-size: 22px;
@@ -343,7 +380,7 @@ body {
 			&.urgence .post-content {
 				border-left: 5px dotted $urgence;
 			}
-
+			
 			// POST URGENCE
 			&.urgence .post-publication-time span {
 				background-color: $primary;	
