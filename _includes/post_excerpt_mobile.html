@@ -1,5 +1,5 @@
-<article class="row post {% if post.urgence_post %}urgence{% endif %}">
-    <div class="col post-publication-time mb-2">
+<article class=" post {% if post.urgence_post %}urgence{% endif %}">
+    <div class="row post-publication-time mb-2">
         
         {% if post.isPinned %}
             <div class="p-3 d-inline-block"><img class="pin" src="{{ "assets/img/pin.png" | relative_url }}" alt="pin"/> <span class="text-quaternary text-bold a-la-une">À LA UNE</span></div>
@@ -8,20 +8,28 @@
         {% endif %}
 
     </div>
-    <h1  class="col post-title text-uppercase text-uppercase">
-        <a href="{{ post.url }}" class="{% if post.urgence_post %}text-primary{% else %}text-quaternary{% endif %}">
-            {{ post.title }}
-        </a>
-    </h1>
-    <div class="col">
-        <a href="{{ post.url }}" class="{% if post.urgence_post %}text-primary{% else %}text-quaternary{% endif %} position-relative d-flex">
-            <img class="post-image" src="{{ post.asset_image | relative_url }}" alt="Image post"/>
-        </a>
+    <div class="row">
+        <h1  class="col post-title text-uppercase text-uppercase">
+            <a href="{{ post.url }}" class="{% if post.urgence_post %}text-primary{% else %}text-quaternary{% endif %}">
+                {{ post.title }}
+            </a>
+        </h1>
     </div>
-    <div class="col post-content text-black">
-        {{ post.excerpt }}
+    <div class="row">
+        <div class="col">
+            <a href="{{ post.url }}" class="{% if post.urgence_post %}text-primary{% else %}text-quaternary{% endif %} position-relative d-flex">
+                <img class="post-image" src="{{ post.asset_image | relative_url }}" alt="Image post"/>
+            </a>
+        </div>
     </div>
-    <div class="col">
-        <a href="{{ post.url }}" class="btn btn-outline-quaternary">En savoir plus</a>
+    <div class="row">
+        <div class="col post-content text-black">
+            {{ post.excerpt }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <a href="{{ post.url }}" class="btn btn-outline-quaternary">En savoir plus</a>
+        </div>
     </div>
 </article>
