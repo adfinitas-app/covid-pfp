@@ -72,7 +72,6 @@ body {
 		font-size: 13px;
 		text-align: center;
 		color: $quaternary;
-		font-weight: bold;
 	}
 	
 	.input-icon {
@@ -133,7 +132,7 @@ body {
 			transform: rotateX(-180deg)
 		}
 		
-		#click-to-expand {
+		.click-to-expand {
 			font-size: 18px;
 			max-height: 0px;
 			-webkit-transition: max-height $transitionSpeed ease-in-out;
@@ -143,7 +142,7 @@ body {
 			transition: max-height $transitionSpeed ease-in-out;
 			overflow: hidden;
 		}
-		#click-to-expand:hover {
+		.click-to-expand:hover {
 			height:auto;
 			max-height:1000px;
 		}
@@ -304,7 +303,32 @@ body {
 		}
 	}
 	
+	.click-to-expand {
+		font-size: 18px;
+		max-height: 0px;
+		-webkit-transition: max-height $transitionSpeed ease-in-out;
+		-moz-transition: max-height $transitionSpeed ease-in-out;
+		-ms-transition: max-height $transitionSpeed ease-in-out;
+		-o-transition: max-height $transitionSpeed ease-in-out;
+		transition: max-height $transitionSpeed ease-in-out;
+		overflow: hidden;
+	}
+	.click-to-expand:hover {
+		height:auto;
+		max-height:1000px;
+	}
+
+	.arrow-down {
+		cursor: pointer;
+		transition: transform $transitionSpeed ease-in-out;
+		transform: rotateX(0deg)
+	}
 	
+	.arrow-down.active {
+		transition: transform $transitionSpeed ease-in-out;
+		transform: rotateX(-180deg)
+	}
+
 	.bandeau-covid {
 		
 		p {
@@ -372,8 +396,6 @@ body {
 			
 			.post-content {
 				font-size: 16px;
-				padding-left: 15px;
-				border-left: 5px dotted $secondary;
 				font-family: 'Open Sans', sans-serif;
 			}
 			

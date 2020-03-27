@@ -20,13 +20,13 @@
   {% endif %}
   <div class="row p-2 no-gutters">
     <div class="col p-1">
-      <a class="btn btn-quaternary w-100 text-bold pt-3 pb-3 fs-20 rounded-lg" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount1_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount1_number }}€</a>
+      <button type="button" class="btn js-btn-don active btn-outline-quaternary w-100 text-bold pt-3 pb-3 fs-20 rounded-lg" data-amount="{{ site.data.configuration.sidebar.gift_grid.once.amount1_number }}" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount1_number }}€</button>
     </div>
     <div class="col p-1">
-      <a class="btn btn-outline-quaternary w-100 text-bold pt-3 pb-3 fs-20 rounded-lg" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount2_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount2_number }}€</a>
+      <button type="button" class="btn js-btn-don btn-outline-quaternary w-100 text-bold pt-3 pb-3 fs-20 rounded-lg" data-amount="{{ site.data.configuration.sidebar.gift_grid.once.amount2_number }}" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount2_number }}€</button>
     </div>
     <div class="col p-1">
-      <a class="btn btn-outline-quaternary w-100 text-bold pt-3 pb-3 fs-20 rounded-lg" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount3_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount3_number }}€</a>
+      <button type="button" class="btn js-btn-don btn-outline-quaternary w-100 text-bold pt-3 pb-3 fs-20 rounded-lg" data-amount="{{ site.data.configuration.sidebar.gift_grid.once.amount3_number }}" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount3_number }}€</button>
     </div>
   </div>
   <div class="p-2 no-gutters">
@@ -34,7 +34,7 @@
       <label class="sr-only" for="inlineFormInputName2">Name</label>
       <div class="position-relative w-100">
         <img src="{{ '/assets/img/euro.png' | relative_url }}" class="input-icon"/>
-        <input type="text" class="w-100 form-control mb-3 border-0 fs-18 form-amount text-bold" id="inlineFormInputName2" placeholder="Montant de mon choix">
+        <input type="text" class="w-100 form-control mb-3 border-0 fs-18 form-amount" id="inlineFormInputName2" placeholder="Montant de mon choix">
       </div>
       <button type="submit" class="btn btn-primary w-100 text-bold text-uppercase pb-3 pt-3 rounded-lg fs-20">Je donne <span class="btn-don-value">80</span>€</button>
     </form>
@@ -49,13 +49,13 @@
   </div>
   <div class="row p-2 no-gutters">
     <div class="col p-1">
-      <a class="btn btn-outline-primary w-100" href="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.regular.amount1_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.regular.amount1_number }}€</a>
+      <button type="button" class="btn js-btn-don active btn-outline-primary w-100" data-amount="{{ site.data.configuration.sidebar.gift_grid.regular.amount1_number }}" role="button">{{ site.data.configuration.sidebar.gift_grid.regular.amount1_number }}€</button>
     </div>
     <div class="col p-1">
-      <a class="btn btn-primary w-100" href="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.regular.amount2_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.regular.amount2_number }}€</a>
+      <button type="button" class="btn js-btn-don btn-outline-primary w-100" data-amount="{{ site.data.configuration.sidebar.gift_grid.regular.amount2_number }}" role="button">{{ site.data.configuration.sidebar.gift_grid.regular.amount2_number }}€</button>
     </div>
     <div class="col p-1">
-      <a class="btn btn-outline-primary w-100" href="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.regular.amount3_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.regular.amount3_number }}€</a>
+      <button type="button" class="btn js-btn-don btn-outline-primary w-100" data-amount="{{ site.data.configuration.sidebar.gift_grid.regular.amount3_number }}" role="button">{{ site.data.configuration.sidebar.gift_grid.regular.amount3_number }}€</button>
     </div>
   </div>
   <div class="p-2 no-gutters">
