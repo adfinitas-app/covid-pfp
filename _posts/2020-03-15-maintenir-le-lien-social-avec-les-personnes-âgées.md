@@ -10,7 +10,7 @@ category: actualite
 type: Communiqué de presse
 link: placeholder.it
 picto: assets/img/picto_comm.png
-image_post: assets/img/image_post.png
+asset_image: assets/img/image_post.png
 ---
 
 Pour&nbsp;**maintenir le lien social avec les personnes &acirc;g&eacute;es**&nbsp;accompagn&eacute;es par l'Association, les &eacute;quipes de b&eacute;n&eacute;voles des Petits Fr&egrave;res des Pauvres ont imm&eacute;diatement renforc&eacute; l'accompagnement t&eacute;l&eacute;phonique aupr&egrave;s des personnes &acirc;g&eacute;es qui le souhaitaient. Les b&eacute;n&eacute;voles sont particuli&egrave;rement attentifs aux personnes les plus isol&eacute;es et les plus vuln&eacute;rables.
