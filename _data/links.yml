@@ -1,0 +1,19 @@
+links: 
+-
+  type: 'Communiqué de presse'
+  url: 'http://placeholder.it'
+  picto: 'assets/img/picto_comm.png'
+  date: '23.03.2020'
+  isHighlighted: false
+-
+  type: 'Lien utiles'
+  url: 'http://placeholder.it'
+  picto: 'assets/img/picto_lien.png'
+  date: '24.03.2020'
+  isHighlighted: false
+-
+  type: 'Communiqué de presse'
+  url: 'http://placeholder.it'
+  picto: 'assets/img/picto_comm.png'
+  date: '25.03.2020'
+  isHighlighted: true
