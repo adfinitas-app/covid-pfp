@@ -15,7 +15,7 @@ sidebar:
     once:
       activate: true
       texte: Je fais un don
-      gift_url: 'https://faireundon.petitsfreresdespauvres.fr/b?cid=125?reserved_code_media=20WACOV&amount=XX'
+      gift_url: 'https://faireundon.petitsfreresdespauvres.fr/b?cid=125?reserved_code_media=20WACOV'
       amount1_number: 80
       amount2_number: 100
       amount3_number: 150
