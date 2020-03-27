@@ -1,37 +1,121 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "fr" }}">
-<head>
-	{% if site.gtm_id != "" and site.gtm_id != nil %}
-		<!-- Google Tag Manager -->
-		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','{{ site.gtm_id }}');</script>
-		<!-- End Google Tag Manager -->
-	{% endif %}
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="utf-8">
-	<title>{{ page.title }}</title>
-	<link href="{{ site.data.configuration.favicon_image }}" rel="shortcut icon">
-	<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-	<link href="{{ site.configuration.police.googlefont_url }}" rel="stylesheet">
-</head>
-<body>
-	{% if site.gtm_id != "" and site.gtm_id != nil %}
-		<!-- Google Tag Manager (noscript) -->
-		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.gtm_id }}"
-		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-		<!-- End Google Tag Manager (noscript) -->
-	{% endif %}
-	{{ content}}
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<script type="application/javascript" src="{{ "/assets/js/script.js" | relative_url }}"></script>
+---
+layout: default
+---
+{%- include progress-bar.html -%}
 
-	{% include lazyload.html %}
-	{% include cgu.html %}
-	{% include privacy.html %}
-</body>
-</html>
+<!-- MOBILE -->
+<div class="home-mobile d-md-none">
+    {%- include sidebar_mobile.html -%}
+    {%- include edito_mobile.html -%}
+    <div class="bandeau-covid bg-urgence">
+        <p class="text-center text-white">
+            {{ page.title }} - Dernière mise à jour <span>{{ page.last_modified_at | date: '%d/%m/%y %H:%M' }}</span>
+        </p>
+    </div>
+    
+    <!-- LINKS -->
+    <div class="row links">
+        <div class="col-sm-12 col-md-8">
+            {% include links.html onlyHighlighted=true %}
+        </div>
+        <div class="col-sm-12 col-md-4 d-flex align-items-center">
+            <a href="/liens.html" class="text-bold text-uppercase d-inline-block ml-auto ml-md-0 mt-2 mt-md-0" style="color: #707070"><img src="{{ "/assets/img/fleche-droite.png" |relative_url }}"/> Tous les liens utiles</a>
+        </div>
+    </div>
+    <!-- LINKS -->
+    
+    <section class="posts">
+        <!-- Pinned -->
+        {% for post in site.categories.actualite %}
+        {% if post.isPinned == true %}
+        {% include post_mobile.html post=post %}
+        {% endif %}
+        {% endfor %}
+        <!-- Pinned -->
+        
+        {% for post in site.categories.actualite %}
+        {% if post.isPinned == false %}
+        {% include post_mobile.html post=post %}
+        {% endif %}
+        {% endfor %}
+    </section>
+</div>
+<!-- END MOBILE -->
+
+<!--DESKTOP-->
+<div class="home d-none d-md-block">
+    
+    <!--SIDEBAR-->
+    {%- include sidebar_desktop.html -%}
+    <!--END SIDEBAR-->
+    
+    <div class="content">
+        <!--EDITO-->
+        {%- include edito_desktop.html -%}
+        <!--EDITO-->
+        
+        
+        <div class="blog">
+            <p class="covid-19 bg-primary w-100"><span class="text-quaternary">ACTUALITÉ</span><span class="text-bold text-white"> COVID-19</span></p>
+            
+            <!-- LINKS -->
+            <div class="row links">
+                <div class="col-sm-12 col-md-8">
+                    {% include links.html onlyHighlighted=true %}
+                </div>
+                <div class="col-sm-12 col-md-4 d-flex align-items-center">
+                    <a href="/liens.html" class="text-bold text-uppercase d-inline-block ml-auto ml-md-0 mt-2 mt-md-0" style="color: #707070"><img src="{{ "/assets/img/fleche-droite.png" |relative_url }}"/> Tous les liens utiles</a>
+                </div>
+            </div>
+            <!-- LINKS -->
+            
+            <!-- Last update time -->
+            <div class="row ml-4 mr-4">
+                <div class="col-sm-12 col-md-4">
+                    <div class="horizontal-line"></div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <p class="last-update text-center">
+                        Dernière mise à jour
+                        <span class="last-update-time text-condensed text-primary">{{ page.last_modified_at | date: '%d.%m.%Y' }}</span>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="horizontal-line"></div>
+                </div>
+            </div>
+            <!-- Last update time -->
+            
+            
+            <!-- Posts -->
+            <section class="row posts">
+                <div class="col">
+                    <!-- Pinned -->
+                    {% for post in site.categories.actualite %}
+                    {% if post.isPinned == true %}
+                    {% include post_desktop.html post=post %}
+                    {% endif %}
+                    {% endfor %}
+                    <!-- Pinned -->
+                    
+                    {% for post in site.categories.actualite %}
+                    {% if post.isPinned == false %}
+                    {% include post_desktop.html post=post %}
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </section>
+            <!-- Posts -->
+        </div>
+    </div>
+</div>
+<!-- END DESKTOP-->
+
+
+
+---
+layout: default
+title: "Actualité - COVID-19"
+---
+
+
