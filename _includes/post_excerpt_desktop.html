@@ -20,10 +20,8 @@
                 <div class="position-relative d-flex">
                     <img class="post-image" src="{{ post.asset_image | relative_url }}" alt="Image post"/>
                 </div>
-                <div class="post-content text-secondary mt-3">{{ post.content }}</div>
-                {% for social in post.insertion_social %}
-                <div class="">{{ social.contenu_code_block }}</div>
-                {% endfor %}
+                <div class="post-content text-secondary mt-3">{{ post.excerpt }}</div>
+                <div class="">En savoir plus</div>
             </article>
         </div>
         <div class="col-sm-12 col-md-2">
