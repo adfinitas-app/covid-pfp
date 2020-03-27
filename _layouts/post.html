@@ -6,28 +6,24 @@ layout: default
 <!-- MOBILE -->
 <div class="home-mobile d-md-none">
     {%- include sidebar_mobile.html -%}
-    {%- include edito_mobile.html -%}
     <div class="bandeau-covid bg-urgence">
         <p class="text-center text-white">
-            {{ page.title }} - Dernière mise à jour <span>{{ page.last_modified_at | date: '%d/%m/%y %H:%M' }}</span>
+            {{ page.title }} - Article publié le  <span>{{ page.date | date: '%d.%m.%Y'}}</span>
         </p>
     </div>
     
     <!-- LINKS -->
-    <div class="row links">
-        <div class="col-sm-12 col-md-8">
-            {% include links.html onlyHighlighted=true %}
-        </div>
-        <div class="col-sm-12 col-md-4 d-flex align-items-center">
-            <a href="/liens.html" class="text-bold text-uppercase d-inline-block ml-auto ml-md-0 mt-2 mt-md-0" style="color: #707070"><img src="{{ "/assets/img/fleche-droite.png" |relative_url }}"/> Tous les liens utiles</a>
-        </div>
-    </div>
+            <div class="row links">
+                <div class="col-sm-12 col-md-12">
+                    <a href="/" class="retour-actu text-quaternary text-bold text-uppercase d-flex align-items-center pt-2 pb-2 mb-3">
+                        <img src="{{ 'assets/img/fleche-gauche.png' | relative_url }}" alt="Flèche" class="mr-2"/> Revenir aux actualitées
+                    </a>
+                </div>
+            </div>
     <!-- LINKS -->
     
+    
     <section class="posts">
-        <!-- Pinned -->
-        {% include post_mobile.html post=post %}
-        <!-- Pinned -->
         
         {% include post_mobile.html post=post %}
 
