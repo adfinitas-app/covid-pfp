@@ -9,7 +9,7 @@
 <div class="post {{classNames}}">
     <div class="row no-gutters">
         <div class="col-sm-12 col-md-10">
-            <h1 class="post-title text-uppercase {% if post.urgence_post %}text-primary{% else %}text-quaternary{% endif %}"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+            <h1 class="post-title text-uppercase"><a href="{{ post.url }}" class="{% if post.urgence_post %}text-primary{% else %}text-quaternary{% endif %}">{{ post.title }}</a></h1>
         </div>
         <div class="col-sm-12 col-md-2"></div>
     </div>
