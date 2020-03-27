@@ -11,8 +11,7 @@ category: actualite
 type: Actualité
 link: placeholder.it
 picto: assets/img/picto_comm.png
-asset_image: >-
-  2020-03-15-coronavirus--révélateur-de-la-véritable-place-des-personnes-âgées-dans-notre-société-
+asset_image: /_site/assets/img/image_post.png
 ---
 
 **Ces quelques semaines, avec la grave crise sanitaire que la France et de nombreux pays rencontrent, les citoyens se rendent peu &agrave; peu compte d’un v&eacute;ritable fl&eacute;au d&eacute;nonc&eacute; par les Petits Fr&egrave;res des Pauvres depuis longtemps : l’isolement des personnes &acirc;g&eacute;es. Pour l’Association, c’est le moment d’&eacute;veiller les consciences face &agrave; l’imp&eacute;rieuse n&eacute;cessit&eacute; de se pr&eacute;occuper de nos a&icirc;n&eacute;s.**
