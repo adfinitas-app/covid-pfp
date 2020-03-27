@@ -23,7 +23,7 @@ insertion_social:
       src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 category: actualite
 
-type: Lien utile
+type: Lien utileTT
 link: placeholder.it
 picto: assets/img/picto_lien.png
 asset_image: assets/img/image_post.png
