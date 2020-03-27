@@ -4,7 +4,7 @@
 
 {% for link in site.data.links.links %}
 {% if onlyHighlighted == false or onlyHighlighted == true and link.isHighlighted == true %}
-<a href="{{ link.url }}" class="d-flex link-item">
+<a href="{{ link.url }}" target="_blank" class="d-flex link-item">
     <div class="d-flex w-100">
         <div class="d-flex align-items-center">
             <img class="link-picto" src="{{ link.picto | relative_url }}" alt="picto"/>
