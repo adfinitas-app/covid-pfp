@@ -26,7 +26,7 @@ category: actualite
 type: Lien utile
 link: placeholder.it
 picto: assets/img/picto_lien.png
-image_post: assets/img/image_post.png
+asset_image: assets/img/image_post.png
 
 ---
 
