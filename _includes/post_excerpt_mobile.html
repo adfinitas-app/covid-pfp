@@ -8,11 +8,16 @@
         {% endif %}
 
     </div>
-        <h1  class="post-title text-uppercase text-uppercase">
-            <a href="{{ post.url }}" class="{% if post.urgence_post %}text-primary{% else %}text-quaternary{% endif %}">
-                {{ post.title }}
-            </a>
-        </h1>
+    <h1  class="post-title text-uppercase text-uppercase">
+        <a href="{{ post.url }}" class="{% if post.urgence_post %}text-primary{% else %}text-quaternary{% endif %}">
+            {{ post.title }}
+        </a>
+    </h1>
+    <div class="">
+        <a href="{{ post.url }}" class="{% if post.urgence_post %}text-primary{% else %}text-quaternary{% endif %} position-relative d-flex">
+            <img class="post-image" src="{{ post.asset_image | relative_url }}" alt="Image post"/>
+        </a>
+    </div>
     <div class="post-content text-black">{{ post.excerpt }}</div>
     <div class=""><a href="{{ post.url }}" class="btn btn-outline-quaternary">En savoir plus</a></div>
 </article>
