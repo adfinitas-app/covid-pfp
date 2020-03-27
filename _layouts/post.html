@@ -6,13 +6,6 @@ layout: default
 <!-- MOBILE -->
 <div class="home-mobile d-md-none">
     {%- include sidebar_mobile.html -%}
-    <div class="bandeau-covid bg-urgence">
-        <p class="covid-19 bg-primary w-100">
-            <span class="text-quaternary">ACTUALITÉ</span>
-            <span class="text-bold text-white"> COVID-19</span>
-        </p>
-    </div>
-    
     <!-- LINKS -->
     <div class="row links">
                 <div class="col-sm-12 col-md-12">
@@ -22,23 +15,20 @@ layout: default
                 </div>
             </div>
     <!-- LINKS -->
-        <div class="row blog">
-            <!-- Last update time -->
-                <div class="col bg-primary">
-                    <p class="last-update text-center">
-                        Article publié le 
-                        <span class="last-update-time text-condensed text-primary">{{ page.date | date: '%d.%m.%Y'}}</span>
-                    </p>
-                </div>
-               
-            </div>
-            <!-- Last update time -->
-            <section class="posts">
-                
-                {% include post_mobile.html post=post %}
-        
+    <div class="bandeau-covid bg-urgence">
+        <p class="covid-19 bg-primary w-100">
+            <span class="text-quaternary">ACTUALITÉ</span>
+            <span class="text-bold text-white"> COVID-19</span>
+        </p>
+    </div>
+
+    <div class="row blog">
+        <section class="posts">
+            
+            {% include post_mobile.html post=post %}
+    
         </section>
-       </div>
+   </div>
 </div>
 <!-- END MOBILE -->
 
