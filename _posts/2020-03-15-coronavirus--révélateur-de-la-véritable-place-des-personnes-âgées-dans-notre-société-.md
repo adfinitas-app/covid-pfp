@@ -11,7 +11,7 @@ category: actualite
 type: Actualité
 link: placeholder.it
 picto: assets/img/picto_comm.png
-image_post: >-
+asset_image: >-
   2020-03-15-coronavirus--révélateur-de-la-véritable-place-des-personnes-âgées-dans-notre-société-
 ---
 
