@@ -1,6 +1,5 @@
 ---
 layout: default
-title: "Actualité - COVID-19"
 ---
 {%- include progress-bar.html -%}
 
@@ -27,18 +26,11 @@ title: "Actualité - COVID-19"
     
     <section class="posts">
         <!-- Pinned -->
-        {% for post in site.categories.actualite %}
-        {% if post.isPinned == true %}
-        {% include post_excerpt_mobile.html post=post %}
-        {% endif %}
-        {% endfor %}
+        {% include post_mobile.html post=post %}
         <!-- Pinned -->
         
-        {% for post in site.categories.actualite %}
-        {% if post.isPinned == false %}
-        {% include post_excerpt_mobile.html post=post %}
-        {% endif %}
-        {% endfor %}
+        {% include post_mobile.html post=post %}
+
     </section>
 </div>
 <!-- END MOBILE -->
@@ -61,11 +53,10 @@ title: "Actualité - COVID-19"
             
             <!-- LINKS -->
             <div class="row links">
-                <div class="col-sm-12 col-md-8">
-                    {% include links.html onlyHighlighted=true %}
-                </div>
-                <div class="col-sm-12 col-md-4 d-flex align-items-center">
-                    <a href="/liens.html" class="text-bold text-uppercase d-inline-block ml-auto ml-md-0 mt-2 mt-md-0" style="color: #707070"><img src="{{ "/assets/img/fleche-droite.png" |relative_url }}"/> Tous les liens utiles</a>
+                <div class="col-sm-12 col-md-12">
+                    <a href="/" class="retour-actu text-quaternary text-bold text-uppercase d-flex align-items-center pt-2 pb-2 mb-3">
+                        <img src="{{ 'assets/img/fleche-gauche.png' | relative_url }}" alt="Flèche" class="mr-2"/> Revenir aux actualitées
+                    </a>
                 </div>
             </div>
             <!-- LINKS -->
@@ -77,8 +68,8 @@ title: "Actualité - COVID-19"
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p class="last-update text-center">
-                        Dernière mise à jour
-                        <span class="last-update-time text-condensed text-primary">{{ page.last_modified_at | date: '%d.%m.%Y' }}</span>
+                        Article publié le 
+                        <span class="last-update-time text-condensed text-primary">{{ page.date | date: '%d.%m.%Y'}}</span>
                     </p>
                 </div>
                 <div class="col-sm-12 col-md-4">
@@ -88,22 +79,14 @@ title: "Actualité - COVID-19"
             <!-- Last update time -->
             
             
-            <!-- Posts -->
+           
+            
+             <!-- Posts -->
             <section class="row posts">
                 <div class="col">
                     <!-- Pinned -->
-                    {% for post in site.categories.actualite %}
-                    {% if post.isPinned == true %}
-                    {% include post_excerpt_desktop.html post=post %}
-                    {% endif %}
-                    {% endfor %}
-                    <!-- Pinned -->
-                    
-                    {% for post in site.categories.actualite %}
-                    {% if post.isPinned == false %}
-                    {% include post_excerpt_desktop.html post=post %}
-                    {% endif %}
-                    {% endfor %}
+                    {% include post_desktop.html %}
+
                 </div>
             </section>
             <!-- Posts -->

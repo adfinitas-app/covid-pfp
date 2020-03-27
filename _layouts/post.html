@@ -6,28 +6,42 @@ layout: default
 <!-- MOBILE -->
 <div class="home-mobile d-md-none">
     {%- include sidebar_mobile.html -%}
-    {%- include edito_mobile.html -%}
     <div class="bandeau-covid bg-urgence">
-        <p class="text-center text-white">
-            {{ page.title }} - Dernière mise à jour <span>{{ page.last_modified_at | date: '%d/%m/%y %H:%M' }}</span>
+        <p class="covid-19 bg-primary w-100">
+            <span class="text-quaternary">ACTUALITÉ</span>
+            <span class="text-bold text-white"> COVID-19</span>
         </p>
     </div>
     
     <!-- LINKS -->
-    <div class="row links">
-        <div class="col-sm-12 col-md-8">
-            {% include links.html onlyHighlighted=true %}
-        </div>
-        <div class="col-sm-12 col-md-4 d-flex align-items-center">
-            <a href="/liens.html" class="text-bold text-uppercase d-inline-block ml-auto ml-md-0 mt-2 mt-md-0" style="color: #707070"><img src="{{ "/assets/img/fleche-droite.png" |relative_url }}"/> Tous les liens utiles</a>
-        </div>
-    </div>
+            <div class="row links">
+                <div class="col-sm-12 col-md-12">
+                    <a href="/" class="retour-actu text-quaternary text-bold text-uppercase d-flex align-items-center pt-2 pb-2 mb-3">
+                        <img src="{{ 'assets/img/fleche-gauche.png' | relative_url }}" alt="Flèche" class="mr-2"/> Revenir aux actualitées
+                    </a>
+                </div>
+            </div>
     <!-- LINKS -->
     
+    <!-- Last update time -->
+    <div class="row ml-4 mr-4">
+        <div class="col-sm-12 col-md-4">
+            <div class="horizontal-line"></div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <p class="last-update text-center">
+                Article publié le 
+                <span class="last-update-time text-condensed text-primary">{{ page.date | date: '%d.%m.%Y'}}</span>
+            </p>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <div class="horizontal-line"></div>
+        </div>
+    </div>
+    <!-- Last update time -->
+    
+    
     <section class="posts">
-        <!-- Pinned -->
-        {% include post_mobile.html post=post %}
-        <!-- Pinned -->
         
         {% include post_mobile.html post=post %}
 
@@ -44,7 +58,14 @@ layout: default
     
     <div class="content">
         <!--EDITO-->
-        {%- include edito_desktop.html -%}
+        <header class="bg-quaternary text-white message-president">
+            <div class="row">
+                <div class="col-sm-12 col-lg-3 position-relative">
+                    <img src="{{ site.data.configuration.logo_white | relative_url }}" alt="logo"/>
+                </div>
+            </div>
+        </header>
+
         <!--EDITO-->
         
         
@@ -53,11 +74,10 @@ layout: default
             
             <!-- LINKS -->
             <div class="row links">
-                <div class="col-sm-12 col-md-8">
-                    {% include links.html onlyHighlighted=true %}
-                </div>
-                <div class="col-sm-12 col-md-4 d-flex align-items-center">
-                    <a href="/liens.html" class="text-bold text-uppercase d-inline-block ml-auto ml-md-0 mt-2 mt-md-0" style="color: #707070"><img src="{{ "/assets/img/fleche-droite.png" |relative_url }}"/> Tous les liens utiles</a>
+                <div class="col-sm-12 col-md-12">
+                    <a href="/" class="retour-actu text-quaternary text-bold text-uppercase d-flex align-items-center pt-2 pb-2 mb-3">
+                        <img src="{{ 'assets/img/fleche-gauche.png' | relative_url }}" alt="Flèche" class="mr-2"/> Revenir aux actualitées
+                    </a>
                 </div>
             </div>
             <!-- LINKS -->
@@ -69,8 +89,8 @@ layout: default
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p class="last-update text-center">
-                        Dernière mise à jour
-                        <span class="last-update-time text-condensed text-primary">{{ page.last_modified_at | date: '%d.%m.%Y' }}</span>
+                        Article publié le 
+                        <span class="last-update-time text-condensed text-primary">{{ page.date | date: '%d.%m.%Y'}}</span>
                     </p>
                 </div>
                 <div class="col-sm-12 col-md-4">
@@ -80,15 +100,13 @@ layout: default
             <!-- Last update time -->
             
             
-            <!-- Posts -->
+           
+            
+             <!-- Posts -->
             <section class="row posts">
                 <div class="col">
                     <!-- Pinned -->
-                    {% include post_desktop.html post=post %}
-
-                    <!-- Pinned -->
-                    
-                    {% include post_desktop.html post=post %}
+                    {% include post_desktop.html %}
 
                 </div>
             </section>

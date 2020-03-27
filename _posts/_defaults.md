@@ -1,4 +1,6 @@
 ---
+layout: post
+excerpt_separator: <!--more-->
 date: 2020-03-20 12:00:00
 urgence_post: false
 isPinned: true
