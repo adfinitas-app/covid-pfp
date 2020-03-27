@@ -94,14 +94,14 @@ title: "Actualité - COVID-19"
                     <!-- Pinned -->
                     {% for post in site.categories.actualite %}
                     {% if post.isPinned == true %}
-                    {% include post_desktop.html post=post %}
+                    {% include post_excerpt_desktop.html post=post %}
                     {% endif %}
                     {% endfor %}
                     <!-- Pinned -->
                     
                     {% for post in site.categories.actualite %}
                     {% if post.isPinned == false %}
-                    {% include post_desktop.html post=post %}
+                    {% include post_excerpt_desktop.html post=post %}
                     {% endif %}
                     {% endfor %}
                 </div>
