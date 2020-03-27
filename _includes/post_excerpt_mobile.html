@@ -4,7 +4,9 @@
         {% if post.isPinned %}
             <div class="p-3 d-inline-block"><img class="pin" src="{{ "assets/img/pin.png" | relative_url }}" alt="pin"/> <span class="text-quaternary text-bold a-la-une">À LA UNE</span></div>
         {% else %}
+        <div class="col">
             <span>{{ post.date | date: '%d.%m.%Y'}}<small class="hour"> {{ post.date | date: 'à %HH%M'}}</small></span>
+        </div>
         {% endif %}
 
     </div>
