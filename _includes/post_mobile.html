@@ -25,7 +25,7 @@
     {% for video in page.video %}
         {% if video.video_code_block %}
         <div class="row">
-            <div class="embed-responsive embed-responsive-16by9">{{ video.video_code_block }}</div>
+            <div class="col embed-responsive embed-responsive-16by9">{{ video.video_code_block }}</div>
         </div>
         {% endif %}
     {% endfor %}
