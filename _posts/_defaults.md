@@ -5,7 +5,7 @@ isPinned: true
 title: >-
   CORONAVIRUS : PLUS QUE JAMAIS NOTRE LUTTE CONTRE L’ISOLEMENT DES AÎNÉS
   CONTINUE
-description:
+description_html:
 insertion_social:
   - contenu_code_block: >-
       <blockquote class="twitter-tweet"><p lang="fr" dir="ltr">[<a
