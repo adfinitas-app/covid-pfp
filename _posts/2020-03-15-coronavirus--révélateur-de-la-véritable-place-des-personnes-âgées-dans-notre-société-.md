@@ -6,12 +6,14 @@ title: >-
   CORONAVIRUS : RÉVÉLATEUR DE LA VÉRITABLE PLACE DES PERSONNES ÂGÉES DANS NOTRE
   SOCIÉTÉ ?
 description_html: >-
-  Ces quelques semaines, avec la grave crise sanitaire que la France et de
-  nombreux pays rencontrent, les citoyens se rendent peu à peu compte d’un
-  véritable fléau dénoncé par les Petits Frères des Pauvres depuis longtemps :
-  l’isolement des personnes âgées. Pour l’Association, c’est le moment
-  d’éveiller les consciences face à l’impérieuse nécessité de se préoccuper de
-  nos aînés.
+  <p>Ces quelques semaines, avec la grave crise sanitaire que la France et de
+  nombreux pays rencontrent, les citoyens se rendent peu &agrave; peu compte
+  d&rsquo;un v&eacute;ritable fl&eacute;au d&eacute;nonc&eacute; par les Petits
+  Fr&egrave;res des Pauvres depuis longtemps : l&rsquo;isolement des personnes
+  &acirc;g&eacute;es. Pour l&rsquo;Association, <strong>c&rsquo;est le moment
+  d&rsquo;&eacute;veiller les consciences</strong> face &agrave;
+  l&rsquo;imp&eacute;rieuse n&eacute;cessit&eacute; de se pr&eacute;occuper de
+  nos a&icirc;n&eacute;s.</p>
 insertion_social:
   - contenu_code_block:
 asset_image: assets/img/image_post.png
