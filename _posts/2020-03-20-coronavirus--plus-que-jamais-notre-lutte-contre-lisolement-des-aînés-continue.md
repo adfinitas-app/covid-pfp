@@ -6,10 +6,11 @@ title: >-
   CORONAVIRUS : PLUS QUE JAMAIS NOTRE LUTTE CONTRE L’ISOLEMENT DES AÎNÉS
   CONTINUE
 description_html: >-
-  Les Petits Frères des Pauvres sont pleinement mobilisés pour contribuer à
-  endiguer la pandémie et pour garantir leur mission première : la lutte contre
-  l’isolement des personnes âgées, tout en adaptant leurs actions pour répondre
-  aux défis imposés par cette crise sanitaire.
+  <p>Les Petits Fr&egrave;res des Pauvres sont pleinement mobilis&eacute;s pour
+  contribuer &agrave; endiguer la pand&eacute;mie et pour garantir leur mission
+  premi&egrave;re : <strong>la lutte contre l&rsquo;isolement des personnes
+  &acirc;g&eacute;es</strong>, tout en adaptant leurs actions pour
+  r&eacute;pondre aux d&eacute;fis impos&eacute;s par cette crise sanitaire.</p>
 insertion_social:
   - contenu_code_block: >-
       <blockquote class="twitter-tweet"><p lang="fr" dir="ltr">[<a
