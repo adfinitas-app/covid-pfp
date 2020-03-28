@@ -4,10 +4,10 @@ urgence_post: false
 isPinned: false
 title: Maintenir le lien social avec les personnes âgées
 description_html: >-
-  <p>Pour maintenir le lien social avec les personnes &acirc;g&eacute;es
-  accompagn&eacute;es par l'Association, les &eacute;quipes de
-  b&eacute;n&eacute;voles des Petits Fr&egrave;res des Pauvres ont
-  imm&eacute;diatement renforc&eacute; l'accompagnement
+  <p>Pour&nbsp;<strong>maintenir le lien social avec les personnes
+  &acirc;g&eacute;es</strong>&nbsp;accompagn&eacute;es par l'Association, les
+  &eacute;quipes de b&eacute;n&eacute;voles des Petits Fr&egrave;res des Pauvres
+  ont imm&eacute;diatement renforc&eacute; l'accompagnement
   t&eacute;l&eacute;phonique aupr&egrave;s des personnes &acirc;g&eacute;es qui
   le souhaitaient. Les b&eacute;n&eacute;voles sont particuli&egrave;rement
   attentifs aux personnes les plus isol&eacute;es et les plus
