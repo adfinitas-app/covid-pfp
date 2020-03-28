@@ -21,7 +21,7 @@ sidebar:
       amount2_number: 100
       amount3_number: 150
     regular:
-      activate: true
+      activate: false
       texte: Je fais un don chaque mois
       gift_url: >-
         https://faireundon.petitsfreresdespauvres.fr/ab?cids[]=106&cids[]=109&amount=8000&frequency=regular
