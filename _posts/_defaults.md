@@ -22,5 +22,8 @@ insertion_social:
       href="https://twitter.com/PFPauvres/status/1241030491593031681?ref_src=twsrc%5Etfw">March
       20, 2020</a></blockquote> <script async
       src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+video:
+  - video_code_block: >-
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/c63YVbfh4gY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 asset_image: assets/img/image_post.png
 ---
