@@ -3,7 +3,7 @@ date: 2020-03-15 12:00:00
 urgence_post: false
 isPinned: false
 title: Maintenir le lien social avec les personnes âgées
-description:
+description: "Pour\_maintenir le lien social avec les personnes âgées\_accompagnées par l'Association, les équipes de bénévoles des Petits Frères des Pauvres ont immédiatement renforcé l'accompagnement téléphonique auprès des personnes âgées qui le souhaitaient. Les bénévoles sont particulièrement attentifs aux personnes les plus isolées et les plus vulnérables."
 insertion_social:
   - contenu_code_block:
 picto: assets/img/picto_comm.png
