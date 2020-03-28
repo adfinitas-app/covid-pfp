@@ -1,24 +1,19 @@
 ---
-layout: post
-excerpt_separator: <!--more-->
 date: 2020-03-15 12:00:00
 urgence_post: true
 isPinned: false
 title: >-
   CORONAVIRUS : RÉVÉLATEUR DE LA VÉRITABLE PLACE DES PERSONNES ÂGÉES DANS NOTRE
   SOCIÉTÉ ?
+description:
 insertion_social:
   - contenu_code_block:
-category: actualite
-type: Actualité
-link: placeholder.it
-picto: assets/img/picto_comm.png
 asset_image: assets/img/image_post.png
 ---
 
 **Ces quelques semaines, avec la grave crise sanitaire que la France et de nombreux pays rencontrent, les citoyens se rendent peu &agrave; peu compte d’un v&eacute;ritable fl&eacute;au d&eacute;nonc&eacute; par les Petits Fr&egrave;res des Pauvres depuis longtemps : l’isolement des personnes &acirc;g&eacute;es. Pour l’Association, c’est le moment d’&eacute;veiller les consciences face &agrave; l’imp&eacute;rieuse n&eacute;cessit&eacute; de se pr&eacute;occuper de nos a&icirc;n&eacute;s.**
 
-Seules, tristes, isol&eacute;es, recluses chez elles… Le sort des 900 000 personnes &acirc;g&eacute;es en situation d’isolement social d&eacute;nonc&eacute; depuis des ann&eacute;es par les Petits Fr&egrave;res des Pauvres est aujourd’hui au cœur de la grave crise sanitaire du coronavirus.&nbsp; <!--more-->
+Seules, tristes, isol&eacute;es, recluses chez elles… Le sort des 900 000 personnes &acirc;g&eacute;es en situation d’isolement social d&eacute;nonc&eacute; depuis des ann&eacute;es par les Petits Fr&egrave;res des Pauvres est aujourd’hui au cœur de la grave crise sanitaire du coronavirus.&nbsp;
 
 ### L’isolement, un fl&eacute;au enfin visible
 

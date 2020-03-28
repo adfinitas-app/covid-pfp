@@ -1,12 +1,11 @@
 ---
-layout: post
-excerpt_separator: <!--more-->
 date: 2020-03-20 12:00:00
 urgence_post: false
 isPinned: true
 title: >-
   CORONAVIRUS : PLUS QUE JAMAIS NOTRE LUTTE CONTRE L’ISOLEMENT DES AÎNÉS
   CONTINUE
+description:
 insertion_social:
   - contenu_code_block: >-
       <blockquote class="twitter-tweet"><p lang="fr" dir="ltr">[<a
@@ -23,14 +22,10 @@ insertion_social:
       href="https://twitter.com/PFPauvres/status/1241030491593031681?ref_src=twsrc%5Etfw">March
       20, 2020</a></blockquote> <script async
       src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-category: actualite
-type: Lien utile
-link: placeholder.it
-picto: assets/img/picto_lien.png
 asset_image: /uploads/1-4.png
 ---
 
-**Les Petits Fr&egrave;res des Pauvres** sont pleinement mobilis&eacute;s pour contribuer &agrave; endiguer la pand&eacute;mie et pour garantir leur mission premi&egrave;re : la lutte contre l’isolement des personnes &acirc;g&eacute;es, tout en adaptant leurs actions pour r&eacute;pondre aux d&eacute;fis impos&eacute;s par cette crise sanitaire.<br>Depuis la mise en place par le gouvernement de mesures de confinement (17/03/2020) pour endiguer les cas de coronavirus en France, la situation des personnes &acirc;g&eacute;es isol&eacute;es s’est aggrav&eacute;e.&nbsp;<br>&nbsp;<br>Les Petits Fr&egrave;res des Pauvres sont pleinement mobilis&eacute;s pour continuer &agrave; briser la solitude de nos a&icirc;n&eacute;s dans ce contexte contraint et difficile, tout en respectant les consignes donn&eacute;es par le gouvernement. <!--more-->
+**Les Petits Fr&egrave;res des Pauvres** sont pleinement mobilis&eacute;s pour contribuer &agrave; endiguer la pand&eacute;mie et pour garantir leur mission premi&egrave;re : la lutte contre l’isolement des personnes &acirc;g&eacute;es, tout en adaptant leurs actions pour r&eacute;pondre aux d&eacute;fis impos&eacute;s par cette crise sanitaire.<br>Depuis la mise en place par le gouvernement de mesures de confinement (17/03/2020) pour endiguer les cas de coronavirus en France, la situation des personnes &acirc;g&eacute;es isol&eacute;es s’est aggrav&eacute;e.&nbsp;<br>&nbsp;<br>Les Petits Fr&egrave;res des Pauvres sont pleinement mobilis&eacute;s pour continuer &agrave; briser la solitude de nos a&icirc;n&eacute;s dans ce contexte contraint et difficile, tout en respectant les consignes donn&eacute;es par le gouvernement.
 
 * Faire des courses, aller chercher des m&eacute;dicaments…&nbsp;
 * Commander et faire livrer des courses via Internet&nbsp;

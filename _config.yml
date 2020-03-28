@@ -22,9 +22,17 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "" # the name of your site, e.g. ACME Corp.
 gtm_id:
 
-categories:
-  - actualite
-
+defaults:
+  -
+    scope:
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+  -
+    scope:
+      type: "page" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "default"
 # Build settings
 plugins:
   - jekyll-feed

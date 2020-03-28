@@ -1,12 +1,11 @@
 ---
-layout: post
-excerpt_separator: <!--more-->
 date: 2020-03-20 12:00:00
 urgence_post: false
 isPinned: true
 title: >-
   CORONAVIRUS : PLUS QUE JAMAIS NOTRE LUTTE CONTRE L’ISOLEMENT DES AÎNÉS
   CONTINUE
+description:
 insertion_social:
   - contenu_code_block: >-
       <blockquote class="twitter-tweet"><p lang="fr" dir="ltr">[<a
@@ -23,10 +22,5 @@ insertion_social:
       href="https://twitter.com/PFPauvres/status/1241030491593031681?ref_src=twsrc%5Etfw">March
       20, 2020</a></blockquote> <script async
       src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-category: actualite
-
-type: Lien utile
-link: placeholder.it
-picto: assets/img/picto_lien.png
 asset_image: assets/img/image_post.png
 ---
