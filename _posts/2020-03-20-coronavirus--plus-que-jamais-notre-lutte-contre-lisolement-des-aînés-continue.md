@@ -5,7 +5,11 @@ isPinned: true
 title: >-
   CORONAVIRUS : PLUS QUE JAMAIS NOTRE LUTTE CONTRE L’ISOLEMENT DES AÎNÉS
   CONTINUE
-description:
+description: >-
+  Les Petits Frères des Pauvres sont pleinement mobilisés pour contribuer à
+  endiguer la pandémie et pour garantir leur mission première : la lutte contre
+  l’isolement des personnes âgées, tout en adaptant leurs actions pour répondre
+  aux défis imposés par cette crise sanitaire.
 insertion_social:
   - contenu_code_block: >-
       <blockquote class="twitter-tweet"><p lang="fr" dir="ltr">[<a
@@ -25,7 +29,9 @@ insertion_social:
 asset_image: /uploads/1-4.png
 ---
 
-**Les Petits Fr&egrave;res des Pauvres** sont pleinement mobilis&eacute;s pour contribuer &agrave; endiguer la pand&eacute;mie et pour garantir leur mission premi&egrave;re : la lutte contre l’isolement des personnes &acirc;g&eacute;es, tout en adaptant leurs actions pour r&eacute;pondre aux d&eacute;fis impos&eacute;s par cette crise sanitaire.<br>Depuis la mise en place par le gouvernement de mesures de confinement (17/03/2020) pour endiguer les cas de coronavirus en France, la situation des personnes &acirc;g&eacute;es isol&eacute;es s’est aggrav&eacute;e.&nbsp;<br>&nbsp;<br>Les Petits Fr&egrave;res des Pauvres sont pleinement mobilis&eacute;s pour continuer &agrave; briser la solitude de nos a&icirc;n&eacute;s dans ce contexte contraint et difficile, tout en respectant les consignes donn&eacute;es par le gouvernement.
+**Les Petits Fr&egrave;res des Pauvres** sont pleinement mobilis&eacute;s pour contribuer &agrave; endiguer la pand&eacute;mie et pour garantir leur mission premi&egrave;re : la lutte contre l’isolement des personnes &acirc;g&eacute;es, tout en adaptant leurs actions pour r&eacute;pondre aux d&eacute;fis impos&eacute;s par cette crise sanitaire.
+
+Depuis la mise en place par le gouvernement de mesures de confinement (17/03/2020) pour endiguer les cas de coronavirus en France, la situation des personnes &acirc;g&eacute;es isol&eacute;es s’est aggrav&eacute;e.&nbsp;<br>&nbsp;<br>Les Petits Fr&egrave;res des Pauvres sont pleinement mobilis&eacute;s pour continuer &agrave; briser la solitude de nos a&icirc;n&eacute;s dans ce contexte contraint et difficile, tout en respectant les consignes donn&eacute;es par le gouvernement.
 
 * Faire des courses, aller chercher des m&eacute;dicaments…&nbsp;
 * Commander et faire livrer des courses via Internet&nbsp;
