@@ -28,8 +28,7 @@ insertion_social:
       20, 2020</a></blockquote> <script async
       src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 video:
-  - video_code_block: >-
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/c63YVbfh4gY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  - video_code_block:
 asset_image: /uploads/1-4.png
 ---
 
