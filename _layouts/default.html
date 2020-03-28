@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "fr" }}">
 <head>
-	{% if site.configuration.gtm_id != "" and site.configuration.gtm_id != nil %}
+	{% if site.data.configuration.gtm_id != "" and site.data.configuration.gtm_id != nil %}
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','{{ site.configuration.gtm_id }}');</script>
+		})(window,document,'script','dataLayer','{{ site.data.configuration.gtm_id }}');</script>
 		<!-- End Google Tag Manager -->
 	{% endif %}
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,9 +18,9 @@
 	<link href="{{ site.configuration.police.googlefont_url }}" rel="stylesheet">
 </head>
 <body>
-	{% if site.configuration.gtm_id != "" and site.configuration.gtm_id != nil %}
+	{% if site.data.configuration.gtm_id != "" and site.data.configuration.gtm_id != nil %}
 		<!-- Google Tag Manager (noscript) -->
-		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.configuration.gtm_id }}"
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.data.configuration.gtm_id }}"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- End Google Tag Manager (noscript) -->
 	{% endif %}
