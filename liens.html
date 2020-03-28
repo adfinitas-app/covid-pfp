@@ -5,35 +5,46 @@ title: "Tous les liens - COVID-19"
 {%- include progress-bar.html -%}
 
 <!-- MOBILE -->
-<div class="home-mobile d-md-none">
+<div class="container home-mobile d-md-none">
+    {%- include sidebar_mobile.html -%}
+    {%- include edito_mobile.html -%}
+
+    <!-- LINKS -->
     <div class="row links">
         <div class="col-sm-12 col-md-12">
-            <a href="/" class="retour-actu text-quaternary text-bold text-uppercase d-flex align-items-center pt-2 pb-2 mb-3">
+            <a href="/" class="retour-actu text-quaternary text-bold text-uppercase d-flex align-items-center pt-2 pb-2 mb-3 mt-3">
                 <img src="{{ 'assets/img/fleche-gauche.png' | relative_url }}" alt="Flèche" class="mr-2"/> Revenir aux actualitées
             </a>
             {% include links.html %}
         </div>
     </div>
     <div style="height: 300px;"></div>
+    <!-- LINKS -->
+
+    <!-- Popup -->
+    {% include footer_mobile.html %}
+   <!-- End popup -->
+
 </div>
 <!-- END MOBILE -->
 
+
 <!--DESKTOP-->
 <div class="home d-none d-md-block">
-    
+
     <!--SIDEBAR-->
     {%- include sidebar_desktop.html -%}
     <!--END SIDEBAR-->
-    
+
     <div class="content">
         <!--EDITO-->
         {%- include edito_desktop.html -%}
         <!--EDITO-->
-        
-        
+
+
         <div class="blog">
             <p class="covid-19 bg-primary w-100"><span class="text-quaternary">ACTUALITÉ</span><span class="text-bold text-white"> COVID-19</span></p>
-            
+
             <!-- Links -->
             <div class="row links">
                 <div class="col-sm-12 col-md-12">

@@ -52,10 +52,40 @@ document.addEventListener('scroll', function() {
 });
 </script>
 <!-- MOBILE -->
-<div class="home-mobile d-md-none">
+<div class="container home-mobile d-md-none"><nav class="navbar bg-white p-0">
+  <a class="navbar-brand" href="#">
+    <img src="/uploads/pfp-1024x892-v2.png" alt="logo" width="80">
+  </a>
+  <form class="form-inline mr-2">
+      <a class="btn btn-don btn-primary p-2" href="https://faireundon.petitsfreresdespauvres.fr/b?cid=125&reserved_code_media=20WACOV" role="button">Je fais un don</a>
+  </form>
+</nav>
+<div class="row p-3 message-president bg-quaternary text-white">
+    <div class="col">
+      <p class="fs-30 text-condensed text-bold text-uppercase text-center">Coronavirus<br>Covid-19</p>
+      <!-- <div class="row">
+          <div class="col-sm-4 col-12">
+              <div class="text-center text-sm-right">
+                  <img src="/_site/uploads/pfp-1024x892-v2.png" alt="president"/>
+              </div>
+          </div>
+          <div class="col-sm-8 col-12">
+              <div class="d-none d-sm-block d-md-none"><br></div>
+              <p class="text-center text-sm-left president-text"><span class="text-bold text-condensed"></span><br> </p>
+          </div>
+      </div> -->
+      <p class="text-bold text-center fs-20">Mobilisés pour éviter la<br> mort sociale de nos aînés.</p>
+
+      <p class="mt-4 text-bold click-to-expand">Face aux mesures essentielles de confinement pour freiner la progression du virus, les personnes âgées déjà victimes d’une solitude insupportable, courent le risque d’un isolement total. <br><br>Les Petits Frères des Pauvres, qui luttent contre l’isolement des personnes âgées depuis 1946, ont une priorité aujourd’hui : maintenir les liens avec nos aînés, tout en respectant les consignes données par le gouvernement. <br><br>Retrouvez ici toute l’actualité des actions mises en place partout en France par nos équipes pour continuer à briser l’isolement des personnes âgées.</p>
+      <div class="text-center">
+          <img id="arrow-down" class="arrow-down" src="/assets/img/arrow-down.png" alt="fleche vers le bas"/>
+      </div>
+    </div>
+</div>
+<!-- LINKS -->
     <div class="row links">
         <div class="col-sm-12 col-md-12">
-            <a href="/" class="retour-actu text-quaternary text-bold text-uppercase d-flex align-items-center pt-2 pb-2 mb-3">
+            <a href="/" class="retour-actu text-quaternary text-bold text-uppercase d-flex align-items-center pt-2 pb-2 mb-3 mt-3">
                 <img src="/assets/img/fleche-gauche.png" alt="Flèche" class="mr-2"/> Revenir aux actualitées
             </a>
             <!-- Links -->
@@ -117,15 +147,34 @@ document.addEventListener('scroll', function() {
 </a>
 
 
+
         </div>
     </div>
     <div style="height: 300px;"></div>
+    <!-- LINKS -->
+
+    <!-- Popup -->
+    <div class="row">
+    <div class="col">
+      <a href="#" class="text-quaternary text-uppercase text-bold small ml-auto mr-auto" data-toggle="modal" data-target="#cgu">CGU</a>
+      |
+      <a href="#" class="text-quaternary text-uppercase text-bold small ml-auto mr-auto" data-toggle="modal" data-target="#privacy">Données personnelles</a>
+    </div>
+</div>
+<div class="row">
+    <div class="col" style="height:10px">
+    </div>
+</div>
+
+   <!-- End popup -->
+
 </div>
 <!-- END MOBILE -->
 
+
 <!--DESKTOP-->
 <div class="home d-none d-md-block">
-    
+
     <!--SIDEBAR--><aside class="right-menu d-flex flex-column no-gutters">
   <div class="p-2 no-gutters">
     <img class="logo mx-auto d-none" src="/uploads/pfp-1024x892-v2.png" alt="logo"/>
@@ -175,7 +224,7 @@ document.addEventListener('scroll', function() {
   </div>
 </aside>
 <!--END SIDEBAR-->
-    
+
     <div class="content">
         <!--EDITO--><header class="bg-quaternary text-white message-president">
     <div class="row">
@@ -206,11 +255,11 @@ document.addEventListener('scroll', function() {
     </div>
 </header>
 <!--EDITO-->
-        
-        
+
+
         <div class="blog">
             <p class="covid-19 bg-primary w-100"><span class="text-quaternary">ACTUALITÉ</span><span class="text-bold text-white"> COVID-19</span></p>
-            
+
             <!-- Links -->
             <div class="row links">
                 <div class="col-sm-12 col-md-12">
@@ -274,6 +323,7 @@ document.addEventListener('scroll', function() {
         </div>
     </div>
 </a>
+
 
 
                 </div>
@@ -442,16 +492,16 @@ document.addEventListener('scroll', function() {
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">CGU</h5>
+        <h5 class="modal-title text-quaternary" id="exampleModalLongTitle">CGU</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body text-black">
         <p>...</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+        <button type="button" class="btn btn-outline-quaternary" data-dismiss="modal">Fermer</button>
       </div>
     </div>
   </div>
@@ -462,16 +512,16 @@ document.addEventListener('scroll', function() {
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Données personnelles</h5>
+        <h5 class="modal-title text-quaternary" id="exampleModalLongTitle">Données personnelles</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body text-black">
         ...
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+        <button type="button" class="btn btn-outline-quaternary" data-dismiss="modal">Fermer</button>
       </div>
     </div>
   </div>

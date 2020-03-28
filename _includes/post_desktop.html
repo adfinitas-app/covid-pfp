@@ -1,21 +1,42 @@
-<div class="post">
-    <div class="row no-gutters">
-        <div class="col-sm-12 col-md-10">
-            <h1 class="post-title text-uppercase {% if post.urgence_post %}text-quaternary{% else %}text-quaternary{% endif %}">{{ page.title }}</h1>
-        </div>
-       
+<!-- Last update time -->
+<div class="row ml-4 mr-4">
+    <div class="col-sm-12 col-md-4">
+        <div class="horizontal-line"></div>
     </div>
-    
-    <div class="row no-gutters">
-        <div class="col-sm-12 col-md-12">
-            <article>
-                <div class="position-relative d-flex">
-                    <img class="post-image" src="{{ page.asset_image | relative_url }}" alt="Image post"/>
-                </div>
-                <div class="post-content text-secondary mt-3">{{ page.content }}</div>
-                {% for social in page.insertion_social %}
-                <div class="">{{ social.contenu_code_block }}</div>
-                {% endfor %}
-            </article>
-        </div>
+    <div class="col-sm-12 col-md-4">
+        <p class="last-update text-center">
+            Article publié le
+            <span class="last-update-time text-condensed text-primary">{{ page.date | date: '%d.%m.%Y'}}</span>
+        </p>
+    </div>
+    <div class="col-sm-12 col-md-4">
+        <div class="horizontal-line"></div>
+    </div>
 </div>
+<!-- Last update time -->
+
+ <!-- Posts -->
+<section class="row posts">
+    <div class="col">
+      <div class="post">
+        <div class="row no-gutters">
+            <div class="col-sm-12 col-md-10">
+                <h1 class="post-title text-uppercase {% if post.urgence_post %}text-quaternary{% else %}text-quaternary{% endif %}">{{ page.title }}</h1>
+            </div>
+
+        </div>
+        <div class="row no-gutters">
+            <div class="col-sm-12 col-md-12">
+                <article>
+                    <div class="position-relative d-flex">
+                        <img class="post-image" src="{{ page.asset_image | relative_url }}" alt="Image post"/>
+                    </div>
+                    <div class="post-content text-secondary mt-3">{{ page.content }}</div>
+                    {% for social in page.insertion_social %}
+                    <div class="">{{ social.contenu_code_block }}</div>
+                    {% endfor %}
+                </article>
+            </div>
+        </div>
+    </div>
+</section>

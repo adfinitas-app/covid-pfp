@@ -5,17 +5,19 @@ title: "Actualité - COVID-19"
 {%- include progress-bar.html -%}
 
 <!-- MOBILE -->
-<div class="home-mobile d-md-none">
+<div class="container home-mobile d-md-none">
     {%- include sidebar_mobile.html -%}
     {%- include edito_mobile.html -%}
-    <div class="bandeau-covid bg-urgence">
-        <p class="text-center text-white">
-            {{ page.title }} - Dernière mise à jour <span>{{ page.last_modified_at | date: '%d/%m/%y %H:%M' }}</span>
-        </p>
+    <div class="row bandeau-covid bg-urgence">
+        <div class="col">
+          <p class="text-center text-white">
+              {{ page.title }} - Dernière mise à jour <span>{{ page.last_modified_at | date: '%d/%m/%y %H:%M' }}</span>
+          </p>
+        </div>
     </div>
-    
+
     <!-- LINKS -->
-    <div class="row links">
+    <div class="row links pt-3 pr-0 pl-0">
         <div class="col-sm-12 col-md-8">
             {% include links.html onlyHighlighted=true %}
         </div>
@@ -24,7 +26,7 @@ title: "Actualité - COVID-19"
         </div>
     </div>
     <!-- LINKS -->
-    
+
     <section class="posts">
         <!-- Pinned -->
         {% for post in site.categories.actualite %}
@@ -33,32 +35,37 @@ title: "Actualité - COVID-19"
         {% endif %}
         {% endfor %}
         <!-- Pinned -->
-        
+
         {% for post in site.categories.actualite %}
         {% if post.isPinned == false %}
         {% include post_excerpt_mobile.html post=post %}
         {% endif %}
         {% endfor %}
     </section>
+
+    <!-- Popup -->
+    {% include footer_mobile.html %}
+     <!-- End popup -->
+
 </div>
 <!-- END MOBILE -->
 
 <!--DESKTOP-->
 <div class="home d-none d-md-block">
-    
+
     <!--SIDEBAR-->
     {%- include sidebar_desktop.html -%}
     <!--END SIDEBAR-->
-    
+
     <div class="content">
         <!--EDITO-->
         {%- include edito_desktop.html -%}
         <!--EDITO-->
-        
-        
+
+
         <div class="blog">
             <p class="covid-19 bg-primary w-100"><span class="text-quaternary">ACTUALITÉ</span><span class="text-bold text-white"> COVID-19</span></p>
-            
+
             <!-- LINKS -->
             <div class="row links">
                 <div class="col-sm-12 col-md-8">
@@ -69,7 +76,7 @@ title: "Actualité - COVID-19"
                 </div>
             </div>
             <!-- LINKS -->
-            
+
             <!-- Last update time -->
             <div class="row ml-4 mr-4">
                 <div class="col-sm-12 col-md-4">
@@ -86,8 +93,8 @@ title: "Actualité - COVID-19"
                 </div>
             </div>
             <!-- Last update time -->
-            
-            
+
+
             <!-- Posts -->
             <section class="row posts">
                 <div class="col">
@@ -98,7 +105,7 @@ title: "Actualité - COVID-19"
                     {% endif %}
                     {% endfor %}
                     <!-- Pinned -->
-                    
+
                     {% for post in site.categories.actualite %}
                     {% if post.isPinned == false %}
                     {% include post_excerpt_desktop.html post=post %}

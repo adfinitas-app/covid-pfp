@@ -52,69 +52,44 @@ document.addEventListener('scroll', function() {
 });
 </script>
 <!-- MOBILE -->
-<div class="home-mobile d-md-none"><nav class="pl-3 pr-3 pt-2 pb-2 bg-white">
-    <div class="row">
-        <div class="col-6">
-            <img class="logo-mobile" src="/uploads/pfp-1024x892-v2.png" alt="logo"/>
-        </div>
-        <div class="col-6 text-right">
-            
-            <a class="btn btn-don btn-primary" href="https://faireundon.petitsfreresdespauvres.fr/b?cid=125&reserved_code_media=20WACOV" role="button">Je fais un don</a>
-            
-            
-        </div>
-    </div>
+<div class="container home-mobile d-md-none"><nav class="navbar bg-white p-0">
+  <a class="navbar-brand" href="#">
+    <img src="/uploads/pfp-1024x892-v2.png" alt="logo" width="80">
+  </a>
+  <form class="form-inline mr-2">
+      <a class="btn btn-don btn-primary p-2" href="https://faireundon.petitsfreresdespauvres.fr/b?cid=125&reserved_code_media=20WACOV" role="button">Je fais un don</a>
+  </form>
 </nav>
-<div class="bandeau-covid bg-urgence">
-        <p class="covid-19 bg-primary w-100">
-            <span class="text-quaternary">ACTUALITÉ</span>
-            <span class="text-bold text-white"> COVID-19</span>
-        </p>
-    </div>
-    
-    <!-- LINKS -->
-            <div class="row links">
+<!-- LINKS -->
+    <div class="row links">
                 <div class="col-sm-12 col-md-12">
                     <a href="/" class="retour-actu text-quaternary text-bold text-uppercase d-flex align-items-center pt-2 pb-2 mb-3">
                         <img src="/assets/img/fleche-gauche.png" alt="Flèche" class="mr-2"/> Revenir aux actualitées
                     </a>
                 </div>
-            </div>
-    <!-- LINKS -->
-    <div class="content">
-        <div class="blog">
-            <!-- Last update time -->
-            <div class="row ml-4 mr-4">
-                <div class="col-sm-12 col-md-4">
-                    <div class="horizontal-line"></div>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <p class="last-update text-center">
-                        Article publié le 
-                        <span class="last-update-time text-condensed text-primary">15.03.2020</span>
-                    </p>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <div class="horizontal-line"></div>
-                </div>
-            </div>
-            <!-- Last update time -->
-    
-    
-            <section class="posts">
-                
-                <article class="post ">
-    <div class="post-publication-time mb-2">
-        
-
-            <span>15.03.2020<small class="hour"> à 05H00</small></span>
-
-
     </div>
-    
+    <!-- LINKS -->
+    <div class="bandeau-covid bg-urgence">
+        <p class="covid-19 bg-primary w-100">
+            <span class="text-quaternary">ACTUALITÉ</span>
+            <span class="text-bold text-white"> COVID-19</span>
+        </p>
+    </div>
+
+    <div class="blog">
+        <section class="posts p-0">
+            <div class="row last-update text-center m-2">
+  <div class="col">
+    <span class="last-update-time text-uppercase text-grey"> Article publié le</span>
+    <span class="last-update-time text-bold text-primary">15.03.2020</span>
+  </div>
+</div>
+
+<article class="post ">
+
     <div class="row">
-        <h1  class="col post-title text-uppercase text-quaternary">
-                
+        <h1 class="mb-2 col post-title text-uppercase text-quaternary">
+                Maintenir le lien social avec les personnes âgées
         </h1>
     </div>
     <div class="row">
@@ -123,7 +98,7 @@ document.addEventListener('scroll', function() {
         </div>
     </div>
     <div class="row">
-        <div class="col post-content text-black">
+        <div class="col post-content text-black mt-2">
             <p>Pour <strong>maintenir le lien social avec les personnes âgées</strong> accompagnées par l’Association, les équipes de bénévoles des Petits Frères des Pauvres ont immédiatement renforcé l’accompagnement téléphonique auprès des personnes âgées qui le souhaitaient. Les bénévoles sont particulièrement attentifs aux personnes les plus isolées et les plus vulnérables. <!--more--></p>
 
 <p>Par ailleurs, pour toutes les personnes âgées qui ressentent de la solitude, la ligne d’écoute téléphonique Solitud’écoute des <strong>Petits Frères des Pauvres</strong> a été renforcée afin d’accueillir plus d’appels. Accessible gratuitement au 0 800 47 47 88, le numéro est ouvert tous les jours de la semaine de 15h à 20h), y compris les jours fériés.</p>
@@ -140,16 +115,31 @@ document.addEventListener('scroll', function() {
     </div>
     
 </article>
-        
-            </section>
-        </div>
+
+        </section>
+   </div>
+
+   <!-- Popup -->
+   <div class="row">
+    <div class="col">
+      <a href="#" class="text-quaternary text-uppercase text-bold small ml-auto mr-auto" data-toggle="modal" data-target="#cgu">CGU</a>
+      |
+      <a href="#" class="text-quaternary text-uppercase text-bold small ml-auto mr-auto" data-toggle="modal" data-target="#privacy">Données personnelles</a>
     </div>
+</div>
+<div class="row">
+    <div class="col" style="height:10px">
+    </div>
+</div>
+
+    <!-- End popup -->
+
 </div>
 <!-- END MOBILE -->
 
 <!--DESKTOP-->
 <div class="home d-none d-md-block">
-    
+
     <!--SIDEBAR--><aside class="right-menu d-flex flex-column no-gutters">
   <div class="p-2 no-gutters">
     <img class="logo mx-auto d-none" src="/uploads/pfp-1024x892-v2.png" alt="logo"/>
@@ -199,23 +189,22 @@ document.addEventListener('scroll', function() {
   </div>
 </aside>
 <!--END SIDEBAR-->
-    
+
     <div class="content">
         <!--EDITO-->
         <header class="bg-quaternary text-white message-president">
             <div class="row">
                 <div class="col-sm-12 col-lg-3 position-relative">
-                    <img src="/assets/img/logo-pfp-white.png" alt="logo"/>
+                    <img src="/assets/img/logo-pfp-white.png" alt="logo" width="150"/>
                 </div>
             </div>
         </header>
-
         <!--EDITO-->
-        
-        
+
+
         <div class="blog">
             <p class="covid-19 bg-primary w-100"><span class="text-quaternary">ACTUALITÉ</span><span class="text-bold text-white"> COVID-19</span></p>
-            
+
             <!-- LINKS -->
             <div class="row links">
                 <div class="col-sm-12 col-md-12">
@@ -225,46 +214,43 @@ document.addEventListener('scroll', function() {
                 </div>
             </div>
             <!-- LINKS -->
-            
-            <!-- Last update time -->
-            <div class="row ml-4 mr-4">
-                <div class="col-sm-12 col-md-4">
-                    <div class="horizontal-line"></div>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <p class="last-update text-center">
-                        Article publié le 
-                        <span class="last-update-time text-condensed text-primary">15.03.2020</span>
-                    </p>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <div class="horizontal-line"></div>
-                </div>
-            </div>
-            <!-- Last update time -->
-            
-            
-           
-            
-             <!-- Posts -->
-            <section class="row posts">
-                <div class="col">
-                    <!-- Pinned -->
-                    <div class="post">
-    <div class="row no-gutters">
-        <div class="col-sm-12 col-md-10">
-            <h1 class="post-title text-uppercase text-quaternary">Maintenir le lien social avec les personnes âgées</h1>
-        </div>
-       
+
+
+            <!-- Posts -->
+              <!-- Last update time -->
+<div class="row ml-4 mr-4">
+    <div class="col-sm-12 col-md-4">
+        <div class="horizontal-line"></div>
     </div>
-    
-    <div class="row no-gutters">
-        <div class="col-sm-12 col-md-12">
-            <article>
-                <div class="position-relative d-flex">
-                    <img class="post-image" src="/uploads/2-6.png" alt="Image post"/>
-                </div>
-                <div class="post-content text-secondary mt-3"><p>Pour <strong>maintenir le lien social avec les personnes âgées</strong> accompagnées par l’Association, les équipes de bénévoles des Petits Frères des Pauvres ont immédiatement renforcé l’accompagnement téléphonique auprès des personnes âgées qui le souhaitaient. Les bénévoles sont particulièrement attentifs aux personnes les plus isolées et les plus vulnérables. <!--more--></p>
+    <div class="col-sm-12 col-md-4">
+        <p class="last-update text-center">
+            Article publié le
+            <span class="last-update-time text-condensed text-primary">15.03.2020</span>
+        </p>
+    </div>
+    <div class="col-sm-12 col-md-4">
+        <div class="horizontal-line"></div>
+    </div>
+</div>
+<!-- Last update time -->
+
+ <!-- Posts -->
+<section class="row posts">
+    <div class="col">
+      <div class="post">
+        <div class="row no-gutters">
+            <div class="col-sm-12 col-md-10">
+                <h1 class="post-title text-uppercase text-quaternary">Maintenir le lien social avec les personnes âgées</h1>
+            </div>
+
+        </div>
+        <div class="row no-gutters">
+            <div class="col-sm-12 col-md-12">
+                <article>
+                    <div class="position-relative d-flex">
+                        <img class="post-image" src="/uploads/2-6.png" alt="Image post"/>
+                    </div>
+                    <div class="post-content text-secondary mt-3"><p>Pour <strong>maintenir le lien social avec les personnes âgées</strong> accompagnées par l’Association, les équipes de bénévoles des Petits Frères des Pauvres ont immédiatement renforcé l’accompagnement téléphonique auprès des personnes âgées qui le souhaitaient. Les bénévoles sont particulièrement attentifs aux personnes les plus isolées et les plus vulnérables. <!--more--></p>
 
 <p>Par ailleurs, pour toutes les personnes âgées qui ressentent de la solitude, la ligne d’écoute téléphonique Solitud’écoute des <strong>Petits Frères des Pauvres</strong> a été renforcée afin d’accueillir plus d’appels. Accessible gratuitement au 0 800 47 47 88, le numéro est ouvert tous les jours de la semaine de 15h à 20h), y compris les jours fériés.</p>
 
@@ -272,20 +258,21 @@ document.addEventListener('scroll', function() {
 
 <p>Enfin, localement, de nombreuses initiatives de bénévoles et salariés des Petits Frères des Pauvres sont nées pour apporter du réconfort à nos aînés isolés, notamment avec des petites attentions… C’est le cas en Occitanie, à <a href="https://www.petitsfreresdespauvres.fr/nos-implantations/les-petits-freres-des-pauvres-de-quillan" target="_blank">Quillan</a>, où des bénévoles et le fils adolescent d’une salariée de l’Association se sont mobilisés pour envoyer des cartes postales aux résidents confinés de l’Ehpad de la ville.</p>
 </div>
-                
-                <div class=""></div>
-                
-            </article>
+                    
+                    <div class=""></div>
+                    
+                </article>
+            </div>
         </div>
-</div>
+    </div>
+</section>
 
-                </div>
-            </section>
             <!-- Posts -->
         </div>
     </div>
 </div>
 <!-- END DESKTOP-->
+
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -443,16 +430,16 @@ document.addEventListener('scroll', function() {
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">CGU</h5>
+        <h5 class="modal-title text-quaternary" id="exampleModalLongTitle">CGU</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body text-black">
         <p>...</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+        <button type="button" class="btn btn-outline-quaternary" data-dismiss="modal">Fermer</button>
       </div>
     </div>
   </div>
@@ -463,16 +450,16 @@ document.addEventListener('scroll', function() {
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Données personnelles</h5>
+        <h5 class="modal-title text-quaternary" id="exampleModalLongTitle">Données personnelles</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body text-black">
         ...
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+        <button type="button" class="btn btn-outline-quaternary" data-dismiss="modal">Fermer</button>
       </div>
     </div>
   </div>

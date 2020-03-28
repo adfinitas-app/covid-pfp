@@ -52,69 +52,44 @@ document.addEventListener('scroll', function() {
 });
 </script>
 <!-- MOBILE -->
-<div class="home-mobile d-md-none"><nav class="pl-3 pr-3 pt-2 pb-2 bg-white">
-    <div class="row">
-        <div class="col-6">
-            <img class="logo-mobile" src="/uploads/pfp-1024x892-v2.png" alt="logo"/>
-        </div>
-        <div class="col-6 text-right">
-            
-            <a class="btn btn-don btn-primary" href="https://faireundon.petitsfreresdespauvres.fr/b?cid=125&reserved_code_media=20WACOV" role="button">Je fais un don</a>
-            
-            
-        </div>
-    </div>
+<div class="container home-mobile d-md-none"><nav class="navbar bg-white p-0">
+  <a class="navbar-brand" href="#">
+    <img src="/uploads/pfp-1024x892-v2.png" alt="logo" width="80">
+  </a>
+  <form class="form-inline mr-2">
+      <a class="btn btn-don btn-primary p-2" href="https://faireundon.petitsfreresdespauvres.fr/b?cid=125&reserved_code_media=20WACOV" role="button">Je fais un don</a>
+  </form>
 </nav>
-<div class="bandeau-covid bg-urgence">
-        <p class="covid-19 bg-primary w-100">
-            <span class="text-quaternary">ACTUALITÉ</span>
-            <span class="text-bold text-white"> COVID-19</span>
-        </p>
-    </div>
-    
-    <!-- LINKS -->
-            <div class="row links">
+<!-- LINKS -->
+    <div class="row links">
                 <div class="col-sm-12 col-md-12">
                     <a href="/" class="retour-actu text-quaternary text-bold text-uppercase d-flex align-items-center pt-2 pb-2 mb-3">
                         <img src="/assets/img/fleche-gauche.png" alt="Flèche" class="mr-2"/> Revenir aux actualitées
                     </a>
                 </div>
-            </div>
-    <!-- LINKS -->
-    <div class="content">
-        <div class="blog">
-            <!-- Last update time -->
-            <div class="row ml-4 mr-4">
-                <div class="col-sm-12 col-md-4">
-                    <div class="horizontal-line"></div>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <p class="last-update text-center">
-                        Article publié le 
-                        <span class="last-update-time text-condensed text-primary">20.03.2020</span>
-                    </p>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <div class="horizontal-line"></div>
-                </div>
-            </div>
-            <!-- Last update time -->
-    
-    
-            <section class="posts">
-                
-                <article class="post ">
-    <div class="post-publication-time mb-2">
-        
-
-            <span>20.03.2020<small class="hour"> à 05H00</small></span>
-
-
     </div>
-    
+    <!-- LINKS -->
+    <div class="bandeau-covid bg-urgence">
+        <p class="covid-19 bg-primary w-100">
+            <span class="text-quaternary">ACTUALITÉ</span>
+            <span class="text-bold text-white"> COVID-19</span>
+        </p>
+    </div>
+
+    <div class="blog">
+        <section class="posts p-0">
+            <div class="row last-update text-center m-2">
+  <div class="col">
+    <span class="last-update-time text-uppercase text-grey"> Article publié le</span>
+    <span class="last-update-time text-bold text-primary">20.03.2020</span>
+  </div>
+</div>
+
+<article class="post ">
+
     <div class="row">
-        <h1  class="col post-title text-uppercase text-quaternary">
-                
+        <h1 class="mb-2 col post-title text-uppercase text-quaternary">
+                CORONAVIRUS : PLUS QUE JAMAIS NOTRE LUTTE CONTRE L’ISOLEMENT DES AÎNÉS CONTINUE
         </h1>
     </div>
     <div class="row">
@@ -123,7 +98,7 @@ document.addEventListener('scroll', function() {
         </div>
     </div>
     <div class="row">
-        <div class="col post-content text-black">
+        <div class="col post-content text-black mt-2">
             <p><strong>Les Petits Frères des Pauvres</strong> sont pleinement mobilisés pour contribuer à endiguer la pandémie et pour garantir leur mission première : la lutte contre l’isolement des personnes âgées, tout en adaptant leurs actions pour répondre aux défis imposés par cette crise sanitaire.<br />Depuis la mise en place par le gouvernement de mesures de confinement (17/03/2020) pour endiguer les cas de coronavirus en France, la situation des personnes âgées isolées s’est aggravée. <br /> <br />Les Petits Frères des Pauvres sont pleinement mobilisés pour continuer à briser la solitude de nos aînés dans ce contexte contraint et difficile, tout en respectant les consignes données par le gouvernement. <!--more--></p>
 
 <ul>
@@ -143,16 +118,31 @@ document.addEventListener('scroll', function() {
     </div>
     
 </article>
-        
-            </section>
-        </div>
+
+        </section>
+   </div>
+
+   <!-- Popup -->
+   <div class="row">
+    <div class="col">
+      <a href="#" class="text-quaternary text-uppercase text-bold small ml-auto mr-auto" data-toggle="modal" data-target="#cgu">CGU</a>
+      |
+      <a href="#" class="text-quaternary text-uppercase text-bold small ml-auto mr-auto" data-toggle="modal" data-target="#privacy">Données personnelles</a>
     </div>
+</div>
+<div class="row">
+    <div class="col" style="height:10px">
+    </div>
+</div>
+
+    <!-- End popup -->
+
 </div>
 <!-- END MOBILE -->
 
 <!--DESKTOP-->
 <div class="home d-none d-md-block">
-    
+
     <!--SIDEBAR--><aside class="right-menu d-flex flex-column no-gutters">
   <div class="p-2 no-gutters">
     <img class="logo mx-auto d-none" src="/uploads/pfp-1024x892-v2.png" alt="logo"/>
@@ -202,23 +192,22 @@ document.addEventListener('scroll', function() {
   </div>
 </aside>
 <!--END SIDEBAR-->
-    
+
     <div class="content">
         <!--EDITO-->
         <header class="bg-quaternary text-white message-president">
             <div class="row">
                 <div class="col-sm-12 col-lg-3 position-relative">
-                    <img src="/assets/img/logo-pfp-white.png" alt="logo"/>
+                    <img src="/assets/img/logo-pfp-white.png" alt="logo" width="150"/>
                 </div>
             </div>
         </header>
-
         <!--EDITO-->
-        
-        
+
+
         <div class="blog">
             <p class="covid-19 bg-primary w-100"><span class="text-quaternary">ACTUALITÉ</span><span class="text-bold text-white"> COVID-19</span></p>
-            
+
             <!-- LINKS -->
             <div class="row links">
                 <div class="col-sm-12 col-md-12">
@@ -228,46 +217,43 @@ document.addEventListener('scroll', function() {
                 </div>
             </div>
             <!-- LINKS -->
-            
-            <!-- Last update time -->
-            <div class="row ml-4 mr-4">
-                <div class="col-sm-12 col-md-4">
-                    <div class="horizontal-line"></div>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <p class="last-update text-center">
-                        Article publié le 
-                        <span class="last-update-time text-condensed text-primary">20.03.2020</span>
-                    </p>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <div class="horizontal-line"></div>
-                </div>
-            </div>
-            <!-- Last update time -->
-            
-            
-           
-            
-             <!-- Posts -->
-            <section class="row posts">
-                <div class="col">
-                    <!-- Pinned -->
-                    <div class="post">
-    <div class="row no-gutters">
-        <div class="col-sm-12 col-md-10">
-            <h1 class="post-title text-uppercase text-quaternary">CORONAVIRUS : PLUS QUE JAMAIS NOTRE LUTTE CONTRE L’ISOLEMENT DES AÎNÉS CONTINUE</h1>
-        </div>
-       
+
+
+            <!-- Posts -->
+              <!-- Last update time -->
+<div class="row ml-4 mr-4">
+    <div class="col-sm-12 col-md-4">
+        <div class="horizontal-line"></div>
     </div>
-    
-    <div class="row no-gutters">
-        <div class="col-sm-12 col-md-12">
-            <article>
-                <div class="position-relative d-flex">
-                    <img class="post-image" src="/uploads/1-4.png" alt="Image post"/>
-                </div>
-                <div class="post-content text-secondary mt-3"><p><strong>Les Petits Frères des Pauvres</strong> sont pleinement mobilisés pour contribuer à endiguer la pandémie et pour garantir leur mission première : la lutte contre l’isolement des personnes âgées, tout en adaptant leurs actions pour répondre aux défis imposés par cette crise sanitaire.<br />Depuis la mise en place par le gouvernement de mesures de confinement (17/03/2020) pour endiguer les cas de coronavirus en France, la situation des personnes âgées isolées s’est aggravée. <br /> <br />Les Petits Frères des Pauvres sont pleinement mobilisés pour continuer à briser la solitude de nos aînés dans ce contexte contraint et difficile, tout en respectant les consignes données par le gouvernement. <!--more--></p>
+    <div class="col-sm-12 col-md-4">
+        <p class="last-update text-center">
+            Article publié le
+            <span class="last-update-time text-condensed text-primary">20.03.2020</span>
+        </p>
+    </div>
+    <div class="col-sm-12 col-md-4">
+        <div class="horizontal-line"></div>
+    </div>
+</div>
+<!-- Last update time -->
+
+ <!-- Posts -->
+<section class="row posts">
+    <div class="col">
+      <div class="post">
+        <div class="row no-gutters">
+            <div class="col-sm-12 col-md-10">
+                <h1 class="post-title text-uppercase text-quaternary">CORONAVIRUS : PLUS QUE JAMAIS NOTRE LUTTE CONTRE L’ISOLEMENT DES AÎNÉS CONTINUE</h1>
+            </div>
+
+        </div>
+        <div class="row no-gutters">
+            <div class="col-sm-12 col-md-12">
+                <article>
+                    <div class="position-relative d-flex">
+                        <img class="post-image" src="/uploads/1-4.png" alt="Image post"/>
+                    </div>
+                    <div class="post-content text-secondary mt-3"><p><strong>Les Petits Frères des Pauvres</strong> sont pleinement mobilisés pour contribuer à endiguer la pandémie et pour garantir leur mission première : la lutte contre l’isolement des personnes âgées, tout en adaptant leurs actions pour répondre aux défis imposés par cette crise sanitaire.<br />Depuis la mise en place par le gouvernement de mesures de confinement (17/03/2020) pour endiguer les cas de coronavirus en France, la situation des personnes âgées isolées s’est aggravée. <br /> <br />Les Petits Frères des Pauvres sont pleinement mobilisés pour continuer à briser la solitude de nos aînés dans ce contexte contraint et difficile, tout en respectant les consignes données par le gouvernement. <!--more--></p>
 
 <ul>
   <li>Faire des courses, aller chercher des médicaments… </li>
@@ -278,20 +264,21 @@ document.addEventListener('scroll', function() {
   <li>Renforcement des équipes de la ligne téléphonique Solitud’écoute<br /> </li>
 </ul>
 </div>
-                
-                <div class=""><blockquote class="twitter-tweet"><p lang="fr" dir="ltr">[<a href="https://twitter.com/hashtag/NoubliezPasLesAin%C3%A9s?src=hash&amp;ref_src=twsrc%5Etfw">#NoubliezPasLesAinés</a>]<br>Plus que jamais, la lutte contre l&#39;isolement de nos aînés continue<a href="https://twitter.com/hashtag/Covid_19?src=hash&amp;ref_src=twsrc%5Etfw">#Covid_19</a> <a href="https://twitter.com/hashtag/coronavirus?src=hash&amp;ref_src=twsrc%5Etfw">#coronavirus</a> <a href="https://twitter.com/hashtag/confinement?src=hash&amp;ref_src=twsrc%5Etfw">#confinement</a> <a href="https://t.co/xysyvMQlli">pic.twitter.com/xysyvMQlli</a></p>&mdash; Petits Frères des Pauvres (@PFPauvres) <a href="https://twitter.com/PFPauvres/status/1241030491593031681?ref_src=twsrc%5Etfw">March 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-                
-            </article>
+                    
+                    <div class=""><blockquote class="twitter-tweet"><p lang="fr" dir="ltr">[<a href="https://twitter.com/hashtag/NoubliezPasLesAin%C3%A9s?src=hash&amp;ref_src=twsrc%5Etfw">#NoubliezPasLesAinés</a>]<br>Plus que jamais, la lutte contre l&#39;isolement de nos aînés continue<a href="https://twitter.com/hashtag/Covid_19?src=hash&amp;ref_src=twsrc%5Etfw">#Covid_19</a> <a href="https://twitter.com/hashtag/coronavirus?src=hash&amp;ref_src=twsrc%5Etfw">#coronavirus</a> <a href="https://twitter.com/hashtag/confinement?src=hash&amp;ref_src=twsrc%5Etfw">#confinement</a> <a href="https://t.co/xysyvMQlli">pic.twitter.com/xysyvMQlli</a></p>&mdash; Petits Frères des Pauvres (@PFPauvres) <a href="https://twitter.com/PFPauvres/status/1241030491593031681?ref_src=twsrc%5Etfw">March 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+                    
+                </article>
+            </div>
         </div>
-</div>
+    </div>
+</section>
 
-                </div>
-            </section>
             <!-- Posts -->
         </div>
     </div>
 </div>
 <!-- END DESKTOP-->
+
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -449,16 +436,16 @@ document.addEventListener('scroll', function() {
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">CGU</h5>
+        <h5 class="modal-title text-quaternary" id="exampleModalLongTitle">CGU</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body text-black">
         <p>...</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+        <button type="button" class="btn btn-outline-quaternary" data-dismiss="modal">Fermer</button>
       </div>
     </div>
   </div>
@@ -469,16 +456,16 @@ document.addEventListener('scroll', function() {
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Données personnelles</h5>
+        <h5 class="modal-title text-quaternary" id="exampleModalLongTitle">Données personnelles</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body text-black">
         ...
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+        <button type="button" class="btn btn-outline-quaternary" data-dismiss="modal">Fermer</button>
       </div>
     </div>
   </div>

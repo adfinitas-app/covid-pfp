@@ -1,15 +1,8 @@
-<nav class="pl-3 pr-3 pt-2 pb-2 bg-quaterny">
-    <div class="row">
-        <div class="col-6">
-            <img class="logo-mobile" src="{{ site.data.configuration.logo_image | relative_url }}" alt="logo"/>
-        </div>
-        <div class="col-6 text-right">
-            {% if site.data.configuration.sidebar.gift_grid.once.activate %}
-            <a class="btn btn-don btn-primary" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}" role="button">{{ site.data.configuration.sidebar.gift_grid.once.texte }}</a>
-            {% endif %}
-            {% if site.data.configuration.sidebar.gift_grid.regular.activate %}
-            <a class="btn btn-don btn-primary" href="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}" role="button">{{ site.data.configuration.sidebar.gift_grid.once.texte }}</a>
-            {% endif %}
-        </div>
-    </div>
+<nav class="navbar bg-white p-0">
+  <a class="navbar-brand" href="#">
+    <img src="{{ site.data.configuration.logo_image | relative_url }}" alt="logo" width="80">
+  </a>
+  <form class="form-inline mr-2">
+      <a class="btn btn-don btn-primary p-2" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}" role="button">{{ site.data.configuration.sidebar.gift_grid.once.texte }}</a>
+  </form>
 </nav>

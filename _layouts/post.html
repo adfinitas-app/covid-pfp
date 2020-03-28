@@ -4,7 +4,7 @@ layout: default
 {%- include progress-bar.html -%}
 
 <!-- MOBILE -->
-<div class="home-mobile d-md-none">
+<div class="container home-mobile d-md-none">
     {%- include sidebar_mobile.html -%}
     <!-- LINKS -->
     <div class="row links">
@@ -23,38 +23,40 @@ layout: default
     </div>
 
     <div class="blog">
-        <section class="posts">
-            
+        <section class="posts p-0">
             {% include post_mobile.html post=post %}
-    
         </section>
    </div>
+
+   <!-- Popup -->
+   {% include footer_mobile.html %}
+    <!-- End popup -->
+
 </div>
 <!-- END MOBILE -->
 
 <!--DESKTOP-->
 <div class="home d-none d-md-block">
-    
+
     <!--SIDEBAR-->
     {%- include sidebar_desktop.html -%}
     <!--END SIDEBAR-->
-    
+
     <div class="content">
         <!--EDITO-->
         <header class="bg-quaternary text-white message-president">
             <div class="row">
                 <div class="col-sm-12 col-lg-3 position-relative">
-                    <img src="{{ site.data.configuration.logo_white | relative_url }}" alt="logo"/>
+                    <img src="{{ site.data.configuration.logo_white | relative_url }}" alt="logo" width="150"/>
                 </div>
             </div>
         </header>
-
         <!--EDITO-->
-        
-        
+
+
         <div class="blog">
             <p class="covid-19 bg-primary w-100"><span class="text-quaternary">ACTUALITÉ</span><span class="text-bold text-white"> COVID-19</span></p>
-            
+
             <!-- LINKS -->
             <div class="row links">
                 <div class="col-sm-12 col-md-12">
@@ -64,35 +66,10 @@ layout: default
                 </div>
             </div>
             <!-- LINKS -->
-            
-            <!-- Last update time -->
-            <div class="row ml-4 mr-4">
-                <div class="col-sm-12 col-md-4">
-                    <div class="horizontal-line"></div>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <p class="last-update text-center">
-                        Article publié le 
-                        <span class="last-update-time text-condensed text-primary">{{ page.date | date: '%d.%m.%Y'}}</span>
-                    </p>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <div class="horizontal-line"></div>
-                </div>
-            </div>
-            <!-- Last update time -->
-            
-            
-           
-            
-             <!-- Posts -->
-            <section class="row posts">
-                <div class="col">
-                    <!-- Pinned -->
-                    {% include post_desktop.html %}
 
-                </div>
-            </section>
+
+            <!-- Posts -->
+              {% include post_desktop.html %}
             <!-- Posts -->
         </div>
     </div>

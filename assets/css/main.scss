@@ -10,6 +10,7 @@ $secondary:     #373632 !default;
 $tertiary:      #0CBAEE !default;
 $quaternary:    #571936 !default;
 $urgence:       #E52645 !default;
+$grey:          #707070 !default;
 
 $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -22,6 +23,7 @@ $theme-colors: map-merge(
     "tertiary":   $tertiary,
     "quaternary": $quaternary,
     "urgence":    $urgence,
+    "grey":       $grey
   ),
   $theme-colors
 );
