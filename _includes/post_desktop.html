@@ -32,6 +32,11 @@
                         <img class="post-image" src="{{ page.asset_image | relative_url }}" alt="Image post"/>
                     </div>
                     <div class="post-content text-secondary mt-3">{{ page.content }}</div>
+                    {% for video in page.video %}
+                        {% if video.video_code_block %}
+                      <div class="embed-responsive embed-responsive-16by9">{{ video.video_code_block }}</div>
+                        {% endif %}
+                      {% endfor %}
                     {% for social in page.insertion_social %}
                     <div class="">{{ social.contenu_code_block }}</div>
                     {% endfor %}
