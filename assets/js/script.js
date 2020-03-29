@@ -46,8 +46,6 @@ $('.js-btn-don').on('click', function() {
     const formElement = $(this).parents('.row').next().children('.form-inline').children('.form-donate');
     
     addOrModifyQueryParameter(formElement, 'free_amount', 0);
-
-    $('input.form-amount').val(amount);
     
     replaceAction(formElement, +amount);
 });
