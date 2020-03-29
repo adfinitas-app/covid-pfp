@@ -9,7 +9,7 @@
       <small class="text-quaternary">{{ site.data.configuration.sidebar.subtitle }}</small>
     </p>
   </div>
-
+  
   {% if site.data.configuration.sidebar.gift_grid.once.activate %}
   {% if site.data.configuration.sidebar.gift_grid.once.text %}
   <div class="p-2 no-gutters">
@@ -18,7 +18,7 @@
     </p>
   </div>
   {% endif %}
-  <div class="row p-2 no-gutters">
+  <div class="row p-2 no-gutters btn-gift-once">
     <div class="col p-1">
       <button type="button" class="btn js-btn-don active btn-outline-quaternary w-100 text-bold pt-3 pb-3 fs-20 rounded-lg" data-amount="{{ site.data.configuration.sidebar.gift_grid.once.amount1_number }}" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount1_number }}€</button>
     </div>
@@ -30,24 +30,35 @@
     </div>
   </div>
   <div class="p-2 no-gutters">
-    <form class="form-inline form-donate" method='GET' action="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount=10000">
+    <div class="form-inline">
+      <label class="sr-only" for="inlineFormInputName2">Name</label>
+      <div class="position-relative w-100">
+        <img src="{{ '/assets/img/euro.png' | relative_url }}" class="input-icon"/>
+        <input type="text" class="w-100 form-control mb-3 border-0 fs-18 form-amount" id="inlineFormInputName2" placeholder="Montant de mon choix">
+      </div>
+      <a target="_blank" class="form-donate w-100" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount=8000">
+        <button type="button" class="btn btn-primary w-100 text-bold text-uppercase pb-3 pt-3 rounded-lg fs-20">Je donne <span class="btn-don-value">80</span>€</button>
+      </a>
+    </div>
+    
+    <!-- <form class="form-inline form-donate" method='GET' action="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount=10000">
       <label class="sr-only" for="inlineFormInputName2">Name</label>
       <div class="position-relative w-100">
         <img src="{{ '/assets/img/euro.png' | relative_url }}" class="input-icon"/>
         <input type="text" class="w-100 form-control mb-3 border-0 fs-18 form-amount" id="inlineFormInputName2" placeholder="Montant de mon choix">
       </div>
       <button type="submit" class="btn btn-primary w-100 text-bold text-uppercase pb-3 pt-3 rounded-lg fs-20">Je donne <span class="btn-don-value">80</span>€</button>
-    </form>
+    </form> -->
   </div>
   {% endif %}
-
+  
   {% if site.data.configuration.sidebar.gift_grid.regular.activate %}
   <div class="p-2 no-gutters">
     <p class="ensemble text-center">
       <span class="text-bold text-uppercase text-primary">{{ site.data.configuration.sidebar.gift_grid.regular.texte }}</span>
     </p>
   </div>
-  <div class="row p-2 no-gutters">
+  <div class="row p-2 no-gutters btn-gift-regular">
     <div class="col p-1">
       <button type="button" class="btn js-btn-don active btn-outline-primary w-100" data-amount="{{ site.data.configuration.sidebar.gift_grid.regular.amount1_number }}" role="button">{{ site.data.configuration.sidebar.gift_grid.regular.amount1_number }}€</button>
     </div>
@@ -59,14 +70,14 @@
     </div>
   </div>
   <div class="p-2 no-gutters">
-    <form class="form-inline form-donate" target="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount=10000">
+    <a target="_blank" class="form-inline form-donate" href="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount=10000">
       <label class="sr-only" for="inlineFormInputName2">Name</label>
       <input type="text" class="w-75 form-control mb-2 form-amount" id="inlineFormInputName2" placeholder="Montant de mon choix">
       <button type="submit" class="w-25 btn btn-outline-primary mb-2 btn-don-value">ok</button>
-    </form>
+    </a>
   </div>
   {% endif %}
-
+  
   <div class="p-2 no-gutters">
     <p class="remise">{{ site.data.configuration.sidebar.defiscalisation}}</p>
     <p class="text-primary fs-20 text-center mt-4 text-bold pl-5 pr-5">Notre priorité, maintenir notre action auprès des personnes âgées isolées.</p>

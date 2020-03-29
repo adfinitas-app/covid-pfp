@@ -2,6 +2,14 @@
 <html lang="fr">
 <head>
 	
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-K3XFG3');</script>
+		<!-- End Google Tag Manager -->
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
 	<title>Tous les liens - COVID-19</title>
@@ -10,6 +18,11 @@
 	<link href="" rel="stylesheet">
 </head>
 <body>
+	
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3XFG3"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
 	
 	<script>(function(root){"use strict";var css=".prBarHeader{width:100%;height:4px;z-index:9999;top:0}.bar{width:0;height:100%;transition:height .3s;background:#000}";function addCss(){var s=document.getElementById("prBarHeadercss");if(s===null){s=document.createElement("style");s.type="text/css";s.id="prBarHeadercss";document.head.insertBefore(s,document.head.firstChild);if(!s.styleSheet)return s.appendChild(document.createTextNode(css));s.styleSheet.cssText=css}}function addClass(el,cls){if(el.classList)el.classList.add(cls);else el.className+=" "+cls}function createBar(rm){var el=document.createElement("div"),width=0,here=0,on=0,bar={el:el,go:go};addClass(el,"bar");function move(){var dist=width-here;if(dist<.1&&dist>-.1){place(here);on=0;if(width>=100){el.style.height=0;setTimeout(function(){rm(el)},300)}}else{place(width-dist/4);setTimeout(go,16)}}function place(num){width=num;el.style.width=width+"%"}function go(num){if(num>=0){here=num;if(!on){on=1;move()}}else if(on){move()}}return bar}function prBarHeader(opts){opts=opts||{};var el=document.createElement("div"),applyGo,prBarHeader={el:el,go:function(p){applyGo(p);if(p>=100){init()}}};function rm(child){el.removeChild(child)}function init(){var bar=createBar(rm);el.appendChild(bar.el);applyGo=bar.go}addCss();addClass(el,"prBarHeader");if(opts.id)el.id=opts.id;if(opts.classname)addClass(el,opts.classname);if(opts.target){el.style.position="relative";opts.target.insertBefore(el,opts.target.firstChild)}else{el.style.position="fixed";document.getElementsByTagName("body")[0].appendChild(el)}init();return prBarHeader}if(typeof exports==="object"){module.exports=prBarHeader}else if(typeof define==="function"&&define.amd){define([],function(){return prBarHeader})}else{root.prBarHeader=prBarHeader}})(this);</script>
 <script>
@@ -57,7 +70,7 @@ document.addEventListener('scroll', function() {
     <img src="/uploads/pfp-1024x892-v2.png" alt="logo" width="80">
   </a>
   <form class="form-inline mr-2">
-      <a class="btn btn-don btn-primary p-2" href="https://faireundon.petitsfreresdespauvres.fr/b?cid=125&reserved_code_media=20WACOV" role="button">Je fais un don</a>
+      <a class="btn btn-don btn-primary p-2" href="https://faireundon.petitsfreresdespauvres.fr/b?cid=125&reserved_code_media=20WACOV&frequency=once" role="button">Je fais un don</a>
   </form>
 </nav>
 <div class="row p-3 message-president bg-quaternary text-white">
@@ -186,10 +199,10 @@ document.addEventListener('scroll', function() {
       <small class="text-quaternary"></small>
     </p>
   </div>
-
   
   
-  <div class="row p-2 no-gutters">
+  
+  <div class="row p-2 no-gutters btn-gift-once">
     <div class="col p-1">
       <button type="button" class="btn js-btn-don active btn-outline-quaternary w-100 text-bold pt-3 pb-3 fs-20 rounded-lg" data-amount="80" role="button">80€</button>
     </div>
@@ -201,19 +214,30 @@ document.addEventListener('scroll', function() {
     </div>
   </div>
   <div class="p-2 no-gutters">
-    <form class="form-inline form-donate" method='GET' action="https://faireundon.petitsfreresdespauvres.fr/b?cid=125&reserved_code_media=20WACOV&amount=10000">
+    <div class="form-inline">
+      <label class="sr-only" for="inlineFormInputName2">Name</label>
+      <div class="position-relative w-100">
+        <img src="/assets/img/euro.png" class="input-icon"/>
+        <input type="text" class="w-100 form-control mb-3 border-0 fs-18 form-amount" id="inlineFormInputName2" placeholder="Montant de mon choix">
+      </div>
+      <a target="_blank" class="form-donate w-100" href="https://faireundon.petitsfreresdespauvres.fr/b?cid=125&reserved_code_media=20WACOV&frequency=once&amount=8000">
+        <button type="button" class="btn btn-primary w-100 text-bold text-uppercase pb-3 pt-3 rounded-lg fs-20">Je donne <span class="btn-don-value">80</span>€</button>
+      </a>
+    </div>
+    
+    <!-- <form class="form-inline form-donate" method='GET' action="https://faireundon.petitsfreresdespauvres.fr/b?cid=125&reserved_code_media=20WACOV&frequency=once&amount=10000">
       <label class="sr-only" for="inlineFormInputName2">Name</label>
       <div class="position-relative w-100">
         <img src="/assets/img/euro.png" class="input-icon"/>
         <input type="text" class="w-100 form-control mb-3 border-0 fs-18 form-amount" id="inlineFormInputName2" placeholder="Montant de mon choix">
       </div>
       <button type="submit" class="btn btn-primary w-100 text-bold text-uppercase pb-3 pt-3 rounded-lg fs-20">Je donne <span class="btn-don-value">80</span>€</button>
-    </form>
+    </form> -->
   </div>
   
-
   
-
+  
+  
   <div class="p-2 no-gutters">
     <p class="remise">75% du montant de mon don sont déductibles de l'Impôt sur le Revenu, dans la limite de 20% du revenu net imposable.</p>
     <p class="text-primary fs-20 text-center mt-4 text-bold pl-5 pr-5">Notre priorité, maintenir notre action auprès des personnes âgées isolées.</p>
@@ -338,155 +362,8 @@ document.addEventListener('scroll', function() {
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script type="application/javascript" src="/assets/js/url.js"></script>	
 	<script type="application/javascript" src="/assets/js/script.js"></script>
-
-	<script>
-(function (root, factory) {
-    if (typeof define === 'function' && define.amd) {
-      define(function() {
-        return factory(root);
-      });
-    } else if (typeof exports === 'object') {
-      module.exports = factory;
-    } else {
-      root.echo = factory(root);
-    }
-  })(this, function (root) {
-
-    'use strict';
-
-    var echo = {};
-
-    var callback = function () {};
-
-    var offset, poll, delay, useDebounce, unload;
-
-    var isHidden = function (element) {
-      return (element.offsetParent === null);
-    };
-
-    var inView = function (element, view) {
-      if (isHidden(element)) {
-        return false;
-      }
-
-      var box = element.getBoundingClientRect();
-      return (box.right >= view.l && box.bottom >= view.t && box.left <= view.r && box.top <= view.b);
-    };
-
-    var debounceOrThrottle = function () {
-      if(!useDebounce && !!poll) {
-        return;
-      }
-      clearTimeout(poll);
-      poll = setTimeout(function(){
-        echo.render();
-        poll = null;
-      }, delay);
-    };
-
-    echo.init = function (opts) {
-      opts = opts || {};
-      var offsetAll = opts.offset || 0;
-      var offsetVertical = opts.offsetVertical || offsetAll;
-      var offsetHorizontal = opts.offsetHorizontal || offsetAll;
-      var optionToInt = function (opt, fallback) {
-        return parseInt(opt || fallback, 10);
-      };
-      offset = {
-        t: optionToInt(opts.offsetTop, offsetVertical),
-        b: optionToInt(opts.offsetBottom, offsetVertical),
-        l: optionToInt(opts.offsetLeft, offsetHorizontal),
-        r: optionToInt(opts.offsetRight, offsetHorizontal)
-      };
-      delay = optionToInt(opts.throttle, 250);
-      useDebounce = opts.debounce !== false;
-      unload = !!opts.unload;
-      callback = opts.callback || callback;
-      echo.render();
-      if (document.addEventListener) {
-        root.addEventListener('scroll', debounceOrThrottle, false);
-        root.addEventListener('load', debounceOrThrottle, false);
-      } else {
-        root.attachEvent('onscroll', debounceOrThrottle);
-        root.attachEvent('onload', debounceOrThrottle);
-      }
-    };
-
-    echo.render = function (context) {
-      var nodes = (context || document).querySelectorAll('[data-echo], [data-echo-background]');
-      var length = nodes.length;
-      var src, elem;
-      var view = {
-        l: 0 - offset.l,
-        t: 0 - offset.t,
-        b: (root.innerHeight || document.documentElement.clientHeight) + offset.b,
-        r: (root.innerWidth || document.documentElement.clientWidth) + offset.r
-      };
-      for (var i = 0; i < length; i++) {
-        elem = nodes[i];
-        if (inView(elem, view)) {
-
-          if (unload) {
-            elem.setAttribute('data-echo-placeholder', elem.src);
-          }
-
-          if (elem.getAttribute('data-echo-background') !== null) {
-            elem.style.backgroundImage = 'url(' + elem.getAttribute('data-echo-background') + ')';
-          }
-          else if (elem.src !== (src = elem.getAttribute('data-echo'))) {
-            elem.src = src;
-          }
-
-          if (!unload) {
-            elem.removeAttribute('data-echo');
-            elem.removeAttribute('data-echo-background');
-          }
-
-          callback(elem, 'load');
-        }
-        else if (unload && !!(src = elem.getAttribute('data-echo-placeholder'))) {
-
-          if (elem.getAttribute('data-echo-background') !== null) {
-            elem.style.backgroundImage = 'url(' + src + ')';
-          }
-          else {
-            elem.src = src;
-          }
-
-          elem.removeAttribute('data-echo-placeholder');
-          callback(elem, 'unload');
-        }
-      }
-      if (!length) {
-        echo.detach();
-      }
-    };
-
-    echo.detach = function () {
-      if (document.removeEventListener) {
-        root.removeEventListener('scroll', debounceOrThrottle);
-      } else {
-        root.detachEvent('onscroll', debounceOrThrottle);
-      }
-      clearTimeout(poll);
-    };
-
-    return echo;
-
-  });
-</script>
-<script>
-    echo.init({
-      offset: 2500,
-      throttle: 250,
-      unload: false,
-      callback: function (element, op) {
-        //console.log(element, 'has been', op + 'ed')
-      }
-    });
-</script>
-
 	<!-- Modal -->
 <div class="modal fade" id="cgu" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
@@ -498,7 +375,7 @@ document.addEventListener('scroll', function() {
         </button>
       </div>
       <div class="modal-body text-black">
-        <p>...</p>
+        <h1>Mentions l&eacute;gales</h1><h2>Droits de propri&eacute;t&eacute; intellectuelle</h2><p>Le pr&eacute;sent site est la propri&eacute;t&eacute; de Les Petits Fr&egrave;res des Pauvres, qui en est l'auteur au sens des articles L. 111.1 et suivants du Code de la propri&eacute;t&eacute; intellectuelle. Les photographies, textes, slogans, dessins, images, s&eacute;quences anim&eacute;es sonores ou non ainsi que toutes &oelig;uvres int&eacute;gr&eacute;es dans le site sont la propri&eacute;t&eacute; de Les Petits Fr&egrave;res des Pauvres ou de tiers ayant autoris&eacute; Les Petits Fr&egrave;res des Pauvres &agrave; les utiliser. La reproduction, sur un support papier ou informatique, du site est autoris&eacute;e sous r&eacute;serve qu'elle soit strictement r&eacute;serv&eacute;e &agrave; un usage personnel, excluant tout usage &agrave; des fins publicitaires et/ou commerciales et/ou d'informations, et qu'elle soit conforme aux dispositions de l'article L122-5 du Code de la Propri&eacute;t&eacute; Intellectuelle. A l'exception des dispositions ci-dessus, toute reproduction, repr&eacute;sentation, utilisation ou modification, par quelque proc&eacute;d&eacute; que ce soit et sur quelque support que ce soit, de tout ou partie du site, de tout ou partie des contenus qui le composent, sans avoir obtenu l'autorisation pr&eacute;alable de Les Petits Fr&egrave;res des Pauvres, est strictement interdite et constitue un d&eacute;lit de contrefa&ccedil;on.</p><h2>Utilisation des donn&eacute;es personnelles</h2><p>Aucune information personnelle n'est collect&eacute;e &agrave; votre insu. Aucune information personnelle n'est c&eacute;d&eacute;e &agrave; des tiers. Vous pouvez consulter ce site sans r&eacute;v&eacute;ler votre identit&eacute; ou donner la moindre information vous concernant. Les informations que vous nous communiquerez seront trait&eacute;es selon les dispositions l&eacute;gales applicables et notamment de la Loi "Informatique et Libert&eacute;s" n&deg;78-17 du 6 janvier 1978.&nbsp;<a href="https://petition.petitsfreresdespauvres.fr/#">Notre politique de protection des donn&eacute;es personnelles</a>&nbsp;vous renseigne en d&eacute;tail sur les finalit&eacute;s de notre collecte des donn&eacute;es et des fondements juridiques sur lesquels celle-si s'appuie.</p><h2>Cookies</h2><p>Lors de votre visite sur notre site, nous sommes susceptibles d'implanter un cookie dans votre ordinateur. Un cookie est un petit bloc de donn&eacute;es envoy&eacute; &agrave; votre navigateur par un serveur web et stock&eacute; sur le disque dur de votre ordinateur. Le cookie ne nous permet pas de vous identifier personnellement. De mani&egrave;re g&eacute;n&eacute;rale, il nous permet d'enregistrer des informations relatives &agrave; la navigation de votre ordinateur sur notre site (les pages que vous avez consult&eacute;es, la date et l'heure de la consultation, etc.) que nous pourrons lire lors de vos visites ult&eacute;rieures. Vous pouvez naturellement vous opposer &agrave; l'enregistrement de cookies en configurant votre navigateur &agrave; partir des "Options" ou "Pr&eacute;f&eacute;rences" de celui-ci. Vous pouvez &eacute;galement supprimer les cookies &agrave; tout moment et individuellement en vous rapportant au manuel d'utilisation de votre ordinateur.</p><h2>Liens hypertextes</h2><p>La mise en place d'un lien hypertexte vers notre site n&eacute;cessite une autorisation pr&eacute;alable &eacute;crite. Faites votre demande &agrave; : dpo@petitsfreresdespauvres.fr. Les Petits Fr&egrave;res des Pauvres ne peut en aucun cas &ecirc;tre tenu pour responsables de la mise &agrave; disposition des sites qui font l'objet d'un lien hypertexte &agrave; partir du site petition.petitsfreresdespauvres.fr et ne peut supporter aucune responsabilit&eacute; sur le contenu disponible sur ces sites ou &agrave; partir de ces sites.</p><h2>Editeur</h2><p>Ce site est &eacute;dit&eacute; par adfinitas, avec l'accord de Les Petits Fr&egrave;res des Pauvres et pour le compte de Les Petits Fr&egrave;res des Pauvres.</p><h2>Directeur de la publication</h2><p>Monsieur Alain Villez, Pr&eacute;sident,Les Petits Fr&egrave;res des Pauvres.</p><h2>H&eacute;bergement du site</h2><p>adfinitas Soci&eacute;t&eacute; par actions Simplifi&eacute;e au capital de 50 000&euro;<br /><strong>Si&egrave;ge social</strong><br />40 rue de l'Abb&eacute; Lemire<br />59130 La Madeleine<br /><strong>T&eacute;l&eacute;phone :</strong>&nbsp;+33.(0)3.28.33.29.60 / Fax : +33.(0)3.28.04.52.41<br /><strong>SIRET :</strong>&nbsp;432 326 601 00056</p><p><strong>Etablissement secondaire</strong><br />132 rue la Fayette<br />75010 Paris<br /><strong>T&eacute;l&eacute;phone :</strong>&nbsp;+33.(0)1.55.33.53.33 / Fax : +33.(0)1.55.33.53.38<br /><strong>SIRET :</strong>&nbsp;432 326 601 00064<br />Adresse e-mail : adfinitas@adfinitas.fr</p><h2>R&eacute;alisation du site</h2><p>adfinitas</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-outline-quaternary" data-dismiss="modal">Fermer</button>
@@ -518,7 +395,7 @@ document.addEventListener('scroll', function() {
         </button>
       </div>
       <div class="modal-body text-black">
-        ...
+        <h1>Politique de protection des donn&eacute;es.</h1><p>Les Petits Fr&egrave;res des Pauvres veille au respect de vos donn&eacute;es personnelles en ne collectant que celles strictement n&eacute;cessaires au regard des finalit&eacute;s pour lesquelles elles sont trait&eacute;es. La pr&eacute;sente politique s&rsquo;applique &agrave; l&rsquo;ensemble des donn&eacute;es collect&eacute;es par Les Petits Fr&egrave;res des Pauvres. Les Petits Fr&egrave;res des Pauvres s'engage &agrave; respecter, en tant que responsables de traitement, les dispositions de la Loi n&deg;78-17 du 6 janvier 1978 modifi&eacute;e et le R&egrave;glement g&eacute;n&eacute;ral sur la protection des donn&eacute;es paru au journal officiel le 27 avril 2016 et en vigueur depuis le 25 mai 2018.</p><h2>1. Donn&eacute;e personnelle</h2><p>C'est toute information relative &agrave; une personne physique susceptible d'&ecirc;tre identifi&eacute;e, directement ou indirectement : (ex. nom, no d&rsquo;immatriculation, no de t&eacute;l&eacute;phone, photographie, date de naissance, commune de r&eacute;sidence, empreinte digitale...).</p><h2>2. Pourquoi certaines de vos donn&eacute;es sont-elles collect&eacute;es ?</h2><p>Les donn&eacute;es personnelles recueillies par Les Petits Fr&egrave;res des Pauvres nous permettent de :</p><ul><li>Vous assurer une relation donateurs, testateurs, potentiels donateurs et potentiels testateurs de qualit&eacute; ;</li><li>Vous fournir des services : r&eacute;ponse aux demandes de contact, envoi de documentations ou d'informations ;</li><li>Mieux cibler nos campagnes de collecte de dons et en assurer le suivi ;</li><li>Vous offrir une navigation optimale sur le site : adaptation de l&rsquo;affichage en fonction du terminal utilis&eacute;, stockage des pr&eacute;f&eacute;rences, etc ;</li><li>Vous proposer des fonctions de partage sur les r&eacute;seaux sociaux ;</li><li>R&eacute;aliser des analyses statistiques des visites et des remplissage de formulaire sur notre site.</li></ul><h2>3. Quelles donn&eacute;es personnelles sont collect&eacute;es ?</h2><p>Nous collectons des donn&eacute;es personnelles lorsque vous remplissez un de nos formulaires de signature de p&eacute;tition, de signature de manifeste, d'inscription &agrave; la newsletter, de sondage en ligne ou par le biais de cookies. Un "cookie" est un petit fichier informatique, envoy&eacute; par le serveur d&rsquo;un site internet et enregistr&eacute; sur votre ordinateur, tablette ou t&eacute;l&eacute;phone.</p><h3>Par les formulaires</h3><p>Lorsque vous remplissez un formulaire sur notre site, le caract&egrave;re obligatoire ou facultatif des donn&eacute;es personnelles vous est signal&eacute; par un ast&eacute;risque. Il peut s&rsquo;agir des donn&eacute;es suivantes :</p><ul><li>Nom et pr&eacute;nom</li><li>Adresse postale et ville de r&eacute;sidence</li><li>Num&eacute;ro de t&eacute;l&eacute;phone et adresse e-mail</li></ul><h3>Par les cookies</h3><p>Certaines donn&eacute;es sont collect&eacute;es automatiquement lors de votre visite sur le site, par le biais de cookies.</p><p>Les cookies ont notamment pour but de collecter des informations relatives &agrave; votre navigation : donn&eacute;es d&rsquo;identification &eacute;lectronique (adresse IP, zone g&eacute;ographique), donn&eacute;es d&rsquo;activit&eacute; sur notre site (pages visit&eacute;es, param&egrave;tres de la visite, etc.). Ils sont g&eacute;r&eacute;s par votre navigateur internet.</p><p>4 types de cookies sont utilis&eacute;s par notre site :</p><ul><li>Des cookies internes n&eacute;cessaires au site pour fonctionner de mani&egrave;re optimale</li><li>Des cookies tiers de mesure d&rsquo;audience et de suivi de votre activit&eacute; en ligne (Google Analytics, Woopra, adfinitas)</li><li>Des cookies tiers destin&eacute;s &agrave; am&eacute;liorer l&rsquo;interactivit&eacute; du site et son contenu multim&eacute;dia (Facebook, Twitter). &gt;Ces r&eacute;seaux sociaux peuvent collecter des donn&eacute;es relatives &agrave; votre navigation sur notre site et associ&eacute;es aux donn&eacute;es personnelles dont ils disposent.</li><li>Des cookies tiers destin&eacute;s &agrave; mieux cibler nos campagnes marketing (Adroll, Oath, MesOpinions, Orixa Media, TimeOne, Facebook, Bing, Google, etc...)</li></ul><p>Nous vous invitons &agrave; consulter les politiques de protection de la vie priv&eacute;e des diff&eacute;rents services tiers nomm&eacute;s ci-dessus afin de prendre connaissance des finalit&eacute;s d'utilisation, notamment publicitaires, des informations de navigation qu'ils peuvent recueillir gr&acirc;ce &agrave; ces boutons applicatifs. Ces politiques de protection doivent vous permettre d'exercer vos choix aupr&egrave;s de ces r&eacute;seaux sociaux, notamment en param&eacute;trant vos comptes d'utilisation de chacun de ces r&eacute;seaux.</p><p>PrestatairesPolitiques de confidentialit&eacute;</p><p>Adrollhttps://www.adroll.com/about/trust-center</p><p>Googlehttps://policies.google.com/technologies/ads</p><p>Facebookhttps://www.facebook.com/policy</p><p>AOL (part of Oath)https://policies.oath.com/us/en/oath/privacy/index.html</p><p>Yahoo (part of Oath)https://policies.oath.com/us/en/oath/privacy/index.html</p><p>Bidswitchhttp://www.bidswitch.com/privacy-policy/</p><p>AppNexushttps://www.appnexus.com/en/company/platform-privacy-policy</p><p>LiveRamphttps://liveramp.com/privacy/</p><p>Open Xhttps://www.openx.com/legal/privacy-policy/</p><p>Rubiconhttps://rubiconproject.com/privacy-policy/</p><p>Indexhttps://www.index.com/privacy/</p><p>Pubmatichttps://pubmatic.com/legal/privacy-policy/</p><p>Taboolahttps://www.taboola.com/privacy-policy</p><p>Outbrainhttps://www.outbrain.com/legal/</p><p>TripleLifthttps://triplelift.com/</p><p>Pixalatehttp://www.pixalate.com/privacypolicy/</p><p>adfinitashttps://www.adfinitas.fr/mentions-legales.html</p><p>Orixahttps://www.orixa-media.com/politique-de-confidentialite/</p><p>MesOpinionshttps://www.mesopinions.com/mentions-legales</p><p>TimeOnehttps://privacy.timeonegroup.com/?utm_source=privacy_perf</p><p>Wooprahttps://www.woopra.com/privacy</p><p>Ces cookies peuvent &eacute;galement avoir pour objectif de vous identifier, et/ou d&rsquo;obtenir vos coordonn&eacute;es, votre &acirc;ge, vos revenus, notamment aupr&egrave;s de tiers, en vue d&rsquo;une r&eacute;activation &agrave; votre attention, c&rsquo;est-&agrave;-dire d&rsquo;op&eacute;rations de prospection qui vous seraient destin&eacute;es par divers moyens de communication (courrier postal, email ou t&eacute;l&eacute;marketing par exemple).</p><h2>4. Comment refuser les cookies ?</h2><p>Vous pouvez vous opposer &agrave; l'enregistrement de cookies en configurant votre navigateur.</p><ul><li>Pour Internet Explorer&trade; : https://support.microsoft.com/</li><li>Pour Microsoft Edge : https://support.microsoft.com/</li><li>Pour Safari&trade; : https://support.apple.com/</li><li>Pour Chrome&trade; : https://support.google.com/</li><li>Pour Firefox&trade; : https://support.mozilla.org/</li><li>Pour Opera&trade; : http://help.opera.com/</li></ul><h2>5. Vos donn&eacute;es sont-elles partag&eacute;es avec d&rsquo;autres soci&eacute;t&eacute;s ?</h2><p>Les Petits Fr&egrave;res des Pauvres ne communique les donn&eacute;es qu&rsquo;elle collecte qu&rsquo;&agrave; ses services internes ainsi qu&rsquo;&agrave; ses prestataires de services et leurs personnels eu &eacute;gard &agrave; l&rsquo;ex&eacute;cution des prestations qui leurs sont confi&eacute;es et qu&rsquo;ils doivent r&eacute;aliser pour le compte de Les Petits Fr&egrave;res des Pauvres.</p><p>Toutes les personnes ayant acc&egrave;s &agrave; vos donn&eacute;es sont habilit&eacute;es et tenues par une obligation de confidentialit&eacute;.</p><p>Sauf opposition de votre part, Les Petits Fr&egrave;res des Pauvres est susceptible de partager les donn&eacute;es relatives &agrave; ses donateurs ou prospects avec des organismes du secteur caritatif et des prestataires d'enrichissement.</p><h2>6. Combien de temps vos donn&eacute;es seront-elles conserv&eacute;es ?</h2><p>Nous veillons &agrave; conserver vos donn&eacute;es personnelles pendant une dur&eacute;e qui n&rsquo;exc&egrave;de pas la dur&eacute;e n&eacute;cessaire aux finalit&eacute;s expos&eacute;es au point 2 ou conform&eacute;ment &agrave; ce qui est pr&eacute;vu par la loi applicable.</p><p>Les donn&eacute;es collect&eacute;es par les cookies sont conserv&eacute;es 13 mois maximum.</p><h2>7. Sur quels fondements juridiques repose le traitement de vos donn&eacute;es ?</h2><p>Les traitements de vos donn&eacute;es collect&eacute;es ont pour fondements juridiques :</p><ul><li>l&rsquo;int&eacute;r&ecirc;t l&eacute;gitime &agrave; nos activit&eacute;s et notre mission</li><li>le consentement</li><li>l&rsquo;obligation l&eacute;gale selon les circonstances de la collecte des donn&eacute;es</li></ul><h2>8. Comment pouvez-vous exercer vos droits ?</h2><p>Conform&eacute;ment &agrave; la r&egrave;glementation g&eacute;n&eacute;rale relative &agrave; la protection des donn&eacute;es, vous b&eacute;n&eacute;ficiez de droits d&rsquo;acc&egrave;s, de rectification, d&rsquo;opposition, de suppression et de portabilit&eacute; de vos donn&eacute;es.</p><p>Pour exercer vos droits, vous pouvez adresser une demande accompagn&eacute;e d&rsquo;un justificatif d&rsquo;identit&eacute; valide :</p><ul><li>par voie postale : 19 cit&eacute; Voltaire 75011 Paris</li><li>par courriel : dpo@petitsfreresdespauvres.fr</li></ul><h2>9. Contact</h2><p>Pour toute demande d&rsquo;information concernant la politique de protection des donn&eacute;es &agrave; caract&egrave;re personnel de Les Petits Fr&egrave;res des Pauvres, vous pouvez vous adresser par courrier &eacute;lectronique au D&eacute;l&eacute;gu&eacute; &agrave; la protection des donn&eacute;es</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-outline-quaternary" data-dismiss="modal">Fermer</button>

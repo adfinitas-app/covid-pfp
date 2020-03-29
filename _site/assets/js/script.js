@@ -1,24 +1,10 @@
 // CLICK TO EXPAND
-// const arrowElem = document.getElementById('arrow-down');
-// const contentElem = document.getElementById('click-to-expand');
-
-// arrowElem.addEventListener('click', function() {
-//     this.classList.toggle('active');
-    
-//     if (contentElem.style.maxHeight && contentElem.style.maxHeight !== '0px') {
-//         contentElem.style.maxHeight = '0px';
-//     } else {
-//         contentElem.style.maxHeight = '1000px';
-//         contentElem.style.height = 'auto';
-//     }
-// })
 
 $('.arrow-down').on('click', function() {
     $(this).toggleClass('active');
-
+    
     const maxHeight = $('.click-to-expand').css('max-height');
-
-    console.log(maxHeight);
+    
     if (maxHeight && maxHeight !== '0px' && maxHeight !== 'none') {
         $('.click-to-expand').css('max-height', '0px')
     } else {
@@ -28,24 +14,40 @@ $('.arrow-down').on('click', function() {
 });
 //CLICK TO EXPAND
 
-//FORM DONATION
-function replaceAction(formElement, nb) {
-    $('.btn-don-value').text(nb);
+//INIT AMOUNT IN URL
+const initAmount = $('.btn-gift-once .js-btn-don.active').data('amount');
+const initForm = $('.btn-gift-once').next().children('.form-inline').children('.form-donate');
+replaceAction(initForm, +initAmount);
 
-    const action = formElement.attr('action');
-    const pattern = new RegExp('amount=(.+?)((?=&)|$)');
-    const [ oldAmount ] = pattern.exec(action);
+const initAmount2 = $('.btn-gift-regular .js-btn-don.active').data('amount');
+const initForm2 = $('.btn-gift-regular').next().children('.form-inline').children('.form-donate');
+
+replaceAction(initForm2, +initAmount2);
+
+//INIT AMOUNT IN URL
+
+
+//FORM DONATION
+
+function replaceAction(formElement, nb) {
+    if (!formElement || formElement.length === 0)
+        return false;
     
-    const newAction = action.replace(oldAmount, `amount=${parseInt(nb * 100)}`)
-    formElement.attr('action', newAction);
+    $('.btn-don-value').text(nb);
+    
+    addOrModifyQueryParameter(formElement, 'amount', parseInt(nb * 100));
 }
 
 $('.js-btn-don').on('click', function() {
     $('.js-btn-don').removeClass('active');
     $(this).addClass('active');
-
+    
     const amount = $(this).data('amount');
-    const formElement = $(this).parents('.row').next().children('.form-donate');
+    const formElement = $(this).parents('.row').next().children('.form-inline').children('.form-donate');
+    
+    addOrModifyQueryParameter(formElement, 'free_amount', 0);
+
+    $('input.form-amount').val(amount);
     
     replaceAction(formElement, +amount);
 });
@@ -57,12 +59,16 @@ $('.form-amount').on('input', function() {
     return false;
     
     const nb = Number($(this).val());
-    
+        
     if (!isNaN(nb)) {
         $('.btn-don-value').text(nb);
-        const formElement = $(this).parents('.form-donate')
+        const formElement = $(this).parents('.form-inline').children('.form-donate');
         
-        replaceAction(formElement, nb);
+        addOrModifyQueryParameter(formElement, 'free_amount', '1');
+
+        isFreeAmount = true;
+        replaceAction(formElement, +nb);
     }
 })
+
 //FORM DONATION
