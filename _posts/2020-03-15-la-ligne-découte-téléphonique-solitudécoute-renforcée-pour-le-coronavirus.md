@@ -17,7 +17,7 @@ insertion_social:
   - contenu_code_block:
 video:
   - video_code_block:
-asset_image: /uploads/2-6.png
+asset_image: /uploads/3.jpg
 ---
 
 ##### Pour aider les personnes &acirc;g&eacute;es isol&eacute;es &agrave; traverser cette grave crise sanitaire du coronavirus qui renforce leur solitude et p&egrave;se sur leur moral, les Petits Fr&egrave;res des Pauvres ont d&eacute;cid&eacute; de renforcer leur ligne d’&eacute;coute et de soutien t&eacute;l&eacute;phonique Solitud’&eacute;coute afin d’accueillir plus d’appels. La seule ligne d’&eacute;coute gratuite d&eacute;di&eacute;e aux personnes &acirc;g&eacute;es en France est aujourd’hui d’une aide pr&eacute;cieuse pour nos a&icirc;n&eacute;s isol&eacute;s.
