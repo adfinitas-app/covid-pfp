@@ -9,8 +9,6 @@ description_html: >-
   l&rsquo;&eacute;gard des personnes &acirc;g&eacute;es. Une
   soci&eacute;t&eacute; qui ne respecte pas ses a&icirc;n&eacute;s, c&rsquo;est
   une soci&eacute;t&eacute; qui perd son humanit&eacute; !</p>
-  
-  <script async="" src="//www.instagram.com/embed.js"></script>
 video:
   - video_code_block: >-
       <iframe width="560" height="315"
@@ -23,7 +21,7 @@ asset_image: /uploads/1-1.jpg
 
 ##### Depuis le d&eacute;but de l’&eacute;pid&eacute;mie, nous sommes t&eacute;moins, sur les r&eacute;seaux sociaux, de messages choquants &agrave; l’&eacute;gard des personnes &acirc;g&eacute;es. Une soci&eacute;t&eacute; qui ne respecte pas ses a&icirc;n&eacute;s, c’est une soci&eacute;t&eacute; qui perd son humanit&eacute; \!
 
-&nbsp;
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-V0crGeyzdk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 &nbsp;
 
