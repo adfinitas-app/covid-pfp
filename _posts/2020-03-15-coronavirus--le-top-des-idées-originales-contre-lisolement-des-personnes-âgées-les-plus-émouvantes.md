@@ -68,7 +68,22 @@ asset_image: /uploads/2-6.png
 
 ### 1- Un anniversaire chant&eacute; sur le pas de porte…
 
-&nbsp;
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Charo vive sola y
+      hoy es su cumpleaños. Como al resto d familias de <a
+      href="https://twitter.com/hashtag/Churruca15?src=hash&amp;ref_src=twsrc%5Etfw">#Churruca15</a>,
+      uno d los 14 edificios vendidos por <a
+      href="https://twitter.com/hashtag/Fusara?src=hash&amp;ref_src=twsrc%5Etfw">#Fusara</a>,
+      la quieren echar de casa. Hoy sus vecinas han querido estar con
+      ella<br><br>Estas cosas pasan en los <a
+      href="https://twitter.com/hashtag/BloquesEnLucha?src=hash&amp;ref_src=twsrc%5Etfw">#BloquesEnLucha</a>,
+      q se crea comunidad.<a
+      href="https://twitter.com/hashtag/PlanDeChoqueSocial?src=hash&amp;ref_src=twsrc%5Etfw">#PlanDeChoqueSocial</a>
+      <a
+      href="https://t.co/PhUM3cLtBV">pic.twitter.com/PhUM3cLtBV</a></p>&mdash;
+      Lavapies ¿dónde vas? (@lavapiesdondeva) <a
+      href="https://twitter.com/lavapiesdondeva/status/1239572043588349953?ref_src=twsrc%5Etfw">March
+      16, 2020</a></blockquote> <script async
+      src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Sur cette vid&eacute;o, on peut voir un g&acirc;teau d&eacute;pos&eacute; devant une porte et une chanson d’anniversaire entonn&eacute;e par des dizaines de voisins. En l&eacute;gende du tweet, il est indiqu&eacute; que Charo est une dame &acirc;g&eacute;e qui vit seule et que c'est aujourd'hui son anniversaire. D’apr&egrave;s le texte, son immeuble a &eacute;t&eacute; vendu et il semble donc qu’elle doive s’en aller mais ses voisins ont souhait&eacute; &ecirc;tre avec elle, en ce jour particulier. En Espagne, le confinement a &eacute;t&eacute; mis en place depuis la mi-mars.&nbsp;
 
