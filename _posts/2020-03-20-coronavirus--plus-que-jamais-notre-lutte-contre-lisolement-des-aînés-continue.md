@@ -29,7 +29,7 @@ insertion_social:
       src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 video:
   - video_code_block:
-asset_image: /uploads/1-4.png
+asset_image: /uploads/2-6.png
 ---
 
 **Les Petits Fr&egrave;res des Pauvres** sont pleinement mobilis&eacute;s pour contribuer &agrave; endiguer la pand&eacute;mie et pour garantir leur mission premi&egrave;re : la lutte contre l’isolement des personnes &acirc;g&eacute;es, tout en adaptant leurs actions pour r&eacute;pondre aux d&eacute;fis impos&eacute;s par cette crise sanitaire.
