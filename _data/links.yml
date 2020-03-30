@@ -1,19 +1,19 @@
 links:
--
-  titre_text: 'Communiqué de presse'
-  url: 'https://www.petitsfreresdespauvres.fr/media/1201/download/2020_03_19_CP_PFP_COVID19_VN.pdf?v=1&inline=1'
-  picto_image: 'assets/img/picto_comm.png'
-  date: '23.03.2020'
-  isHighlighted: true
--
-  titre_text: 'COVID-19 : des réactions choquantes sur les réseaux'
-  url: 'https://www.petitsfreresdespauvres.fr/informer/nos-actualites/coronavirus-des-reactions-choquantes-sur-les-reseaux-sociaux'
-  picto_image: 'assets/img/picto_lien.png'
-  date: '24.03.2020'
-  isHighlighted: false
--
-  titre_text: 'Comment maintenir le lien avec les personnes âgées malgré le coronavirus'
-  url: 'https://www.petitsfreresdespauvres.fr/informer/nos-actualites/comment-maintenir-le-lien-avec-les-personnes-agees-malgre-le-coronavirus'
-  picto_image: 'assets/img/picto_lien.png'
-  date: '25.03.2020'
-  isHighlighted: false
+  - titre_text: Communiqué de presse
+    url: >-
+      https://www.petitsfreresdespauvres.fr/media/1166/download/2020_03_06_info_presse_coronavirus.pdf?v=2&inline=1
+    picto_image: assets/img/picto_comm.png
+    date: Invalid date
+    isHighlighted: true
+  - titre_text: Communiqué de presse
+    url: >-
+      https://www.petitsfreresdespauvres.fr/informer/nos-actualites/coronavirus-des-reactions-choquantes-sur-les-reseaux-sociaux
+    picto_image: assets/img/picto_lien.png
+    date: Invalid date
+    isHighlighted: false
+  - titre_text: Communiqué de presse
+    url: >-
+      https://www.petitsfreresdespauvres.fr/informer/nos-actualites/comment-maintenir-le-lien-avec-les-personnes-agees-malgre-le-coronavirus
+    picto_image: assets/img/picto_lien.png
+    date: Invalid date
+    isHighlighted: false
