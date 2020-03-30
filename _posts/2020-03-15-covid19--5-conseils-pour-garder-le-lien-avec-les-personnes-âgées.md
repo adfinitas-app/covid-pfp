@@ -14,7 +14,7 @@ insertion_social:
   - contenu_code_block:
 video:
   - video_code_block:
-asset_image: /uploads/2-6.png
+asset_image: /uploads/1.jpg
 ---
 
 ##### Suite aux annonces du Pr&eacute;sident de la R&eacute;publique sur le Covid-19 et &agrave; l’indispensable "mise &agrave; distance" physique que nous impose cette crise sanitaire qui frappe notre pays, les Petits Fr&egrave;res des Pauvres appellent les citoyens &agrave; la solidarit&eacute; et &agrave; la fraternit&eacute; envers les personnes &acirc;g&eacute;es.
