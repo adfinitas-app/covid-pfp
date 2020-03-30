@@ -7,8 +7,8 @@ links:
     isHighlighted: true
   - titre_text: Communiqué de presse
     url: >-
-      https://www.petitsfreresdespauvres.fr/informer/nos-actualites/coronavirus-des-reactions-choquantes-sur-les-reseaux-sociaux
-    picto_image: assets/img/picto_lien.png
+      https://www.petitsfreresdespauvres.fr/media/1201/download/2020_03_19_CP_PFP_COVID19_VN.pdf?v=1&inline=1
+    picto_image: /assets/img/picto_comm.png
     date: Invalid date
     isHighlighted: false
   - titre_text: Communiqué de presse
