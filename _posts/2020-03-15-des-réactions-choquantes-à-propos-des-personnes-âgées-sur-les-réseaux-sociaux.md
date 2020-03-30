@@ -9,8 +9,8 @@ description_html: >-
   l&rsquo;&eacute;gard des personnes &acirc;g&eacute;es. Une
   soci&eacute;t&eacute; qui ne respecte pas ses a&icirc;n&eacute;s, c&rsquo;est
   une soci&eacute;t&eacute; qui perd son humanit&eacute; !</p>
-<blockquote>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-V0crGeyzdk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </blockquote>
+
+
 
 video:
   - video_code_block:
