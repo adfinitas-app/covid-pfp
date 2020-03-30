@@ -10,7 +10,11 @@ description_html: >-
   soci&eacute;t&eacute; qui ne respecte pas ses a&icirc;n&eacute;s, c&rsquo;est
   une soci&eacute;t&eacute; qui perd son humanit&eacute; !</p>
 video:
-  - video_code_block:
+  - video_code_block: >-
+      <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/-V0crGeyzdk" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope;
+      picture-in-picture" allowfullscreen></iframe>
   - video_code_block:
 asset_image: /uploads/1-1.jpg
 ---
