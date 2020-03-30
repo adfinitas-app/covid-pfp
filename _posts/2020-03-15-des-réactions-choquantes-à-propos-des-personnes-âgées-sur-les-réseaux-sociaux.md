@@ -9,13 +9,10 @@ description_html: >-
   l&rsquo;&eacute;gard des personnes &acirc;g&eacute;es. Une
   soci&eacute;t&eacute; qui ne respecte pas ses a&icirc;n&eacute;s, c&rsquo;est
   une soci&eacute;t&eacute; qui perd son humanit&eacute; !</p>
-
-
-
 video:
   - video_code_block:
   - video_code_block:
-asset_image: /uploads/2-6.png
+asset_image: /uploads/1-1.jpg
 ---
 
 ##### Depuis le d&eacute;but de l’&eacute;pid&eacute;mie, nous sommes t&eacute;moins, sur les r&eacute;seaux sociaux, de messages choquants &agrave; l’&eacute;gard des personnes &acirc;g&eacute;es. Une soci&eacute;t&eacute; qui ne respecte pas ses a&icirc;n&eacute;s, c’est une soci&eacute;t&eacute; qui perd son humanit&eacute; \!
