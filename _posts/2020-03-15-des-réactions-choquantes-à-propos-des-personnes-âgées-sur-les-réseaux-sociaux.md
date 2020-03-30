@@ -9,6 +9,8 @@ description_html: >-
   l&rsquo;&eacute;gard des personnes &acirc;g&eacute;es. Une
   soci&eacute;t&eacute; qui ne respecte pas ses a&icirc;n&eacute;s, c&rsquo;est
   une soci&eacute;t&eacute; qui perd son humanit&eacute; !</p>
+  
+  <script async="" src="//www.instagram.com/embed.js"></script>
 video:
   - video_code_block: >-
       <iframe width="560" height="315"
