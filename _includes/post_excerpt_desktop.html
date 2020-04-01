@@ -32,7 +32,7 @@
                 {% if post.isPinned %}
                     <img class="pin" src="{{ "assets/img/pin.png" | relative_url }}" alt="pin"/> À LA UNE
                 {% else %}
-                    {{ post.date | date: '%d.%m.%Y'}}<br><small class="hour">{{ post.date | date: 'à %HH%M'}}</small>
+                    {{ post.date | date: '%d.%m.%Y'}}<br><small class="hour"></small>
                 {% endif %}
             </div>
         </div>
