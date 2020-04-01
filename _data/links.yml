@@ -1,9 +1,11 @@
 links:
-  - titre_text: Communiqué de presse
+  - titre_text: |-
+      Coronavirus : ATTENTION A NE PAS CONFINER LES PERSONNES
+      AGEES DANS UN ISOLEMENT SOCIAL
     url: >-
       https://www.petitsfreresdespauvres.fr/media/1166/download/2020_03_06_info_presse_coronavirus.pdf?v=2&inline=1
     picto_image: assets/img/picto_comm.png
-    date: 2020-03-30 00:00:00
+    date: 2020-03-06 00:00:00
     isHighlighted: true
   - titre_text: Communiqué de presse
     url: >-
