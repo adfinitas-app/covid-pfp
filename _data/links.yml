@@ -15,9 +15,13 @@ links:
     picto_image: assets/img/picto_comm.png
     date: 2020-03-06 00:00:00
     isHighlighted: true
-  - titre_text: Communiqué de presse
+  - titre_text: >-
+      Les Petits Frères des Pauvres et la radio RCF unissent leurs forces pour
+      maintenir le lien
+
+      social avec nos aînés isolés, en temps de confinement
     url: >-
       https://www.petitsfreresdespauvres.fr/media/1215/download/2020_03_27_partenariat_Petits_Freres_des_Pauvres_RCF.pdf?v=1&inline=1
     picto_image: /assets/img/picto_comm.png
-    date: Invalid date
+    date: 2020-03-27 00:00:00
     isHighlighted: false
