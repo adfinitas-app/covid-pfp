@@ -16,7 +16,6 @@ description_html: >-
   du Covid-19.</p>
 insertion_social:
   - contenu_code_block:
-
 asset_image: /uploads/confinement-ehpad-1024.png
 ---
 
@@ -31,10 +30,6 @@ Pour chaque directeur ou directrice d’&eacute;tablissement, cela signifie donc
 
 Pour les Petits Fr&egrave;res des Pauvres, cette mesure de confinement souvent incontournable pour limiter la propagation du coronavirus, peut aussi entrainer des&nbsp;**cons&eacute;quences graves sur la sant&eacute; des personnes &acirc;g&eacute;es**&nbsp;: irr&eacute;versibilit&eacute; des effets caus&eacute;s par une immobilit&eacute;, capacit&eacute;s musculaires d&eacute;grad&eacute;es li&eacute;es &agrave; la station allong&eacute;e prolong&eacute;e et aggravation des &eacute;tats d&eacute;pressifs et syndromes de glissement… Autant de situations qui interrogent les professionnels.
 
-&nbsp;
-
 **Maintenir le lien social**&nbsp;par toutes les modalit&eacute;s de communication &agrave; distance est la priorit&eacute; des Petits Fr&egrave;res des Pauvres depuis le d&eacute;but de cette pand&eacute;mie. Mais comment faire quand le personnel commence &agrave; manquer et qu’on ne peut plus s’appuyer sur des b&eacute;n&eacute;voles ou autres soutiens, interdits d’entr&eacute;e ?
-
-&nbsp;
 
 Pour Fabrice Lafon, directeur des &eacute;tablissements des Petits Fr&egrave;res des Pauvres, &laquo;&nbsp;*Afin de faciliter l’exercice des missions des &eacute;quipes et garantir la qualit&eacute; de vie des r&eacute;sidents, la mise &agrave; disposition des moyens de protection n&eacute;cessaires et de d&eacute;pistage syst&eacute;matique s’impose au plus vite*&nbsp;&raquo;.
