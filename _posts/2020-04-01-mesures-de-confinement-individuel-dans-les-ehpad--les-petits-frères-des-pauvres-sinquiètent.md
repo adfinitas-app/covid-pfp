@@ -16,12 +16,7 @@ description_html: >-
   du Covid-19.</p>
 insertion_social:
   - contenu_code_block:
-video:
-  - video_code_block: >-
-      <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/c63YVbfh4gY" frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope;
-      picture-in-picture" allowfullscreen></iframe>
+
 asset_image: /uploads/confinement-ehpad-1024.png
 ---
 
