@@ -22,7 +22,7 @@ video:
       src="https://www.youtube.com/embed/c63YVbfh4gY" frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope;
       picture-in-picture" allowfullscreen></iframe>
-asset_image:
+asset_image: /uploads/capture-décran-2020-04-05-à-01-34-00.png
 ---
 
 Alors que le nombre officiel de d&eacute;c&egrave;s dans les Ehpad depuis le d&eacute;but de la pand&eacute;mie est toujours inconnu, le ministre de la Sant&eacute; Olivier V&eacute;ran a demand&eacute; le 28 mars 2020 aux &laquo;&nbsp;*&eacute;tablissements de type Ehpad de se pr&eacute;parer &agrave; aller vers un isolement individuel de chaque r&eacute;sident dans les chambres*&nbsp;&raquo; pour&nbsp;**limiter la propagation du coronavirus**&nbsp;pour les 700 000 personnes &acirc;g&eacute;es r&eacute;parties dans les Ehpad de France.&nbsp;
