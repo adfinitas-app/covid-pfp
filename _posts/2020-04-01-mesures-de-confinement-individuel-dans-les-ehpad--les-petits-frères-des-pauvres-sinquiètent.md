@@ -8,12 +8,12 @@ title: >-
 description_html: >-
   <p>Alors que le gouvernement a demand&eacute; la mise en place de mesures de
   confinement individuel dans les &eacute;tablissements qui accueillent des
-  personnes &acirc;g&eacute;es (28/03/2020), les Petits Fr&egrave;res des
-  Pauvres alertent sur l&rsquo;impact et les cons&eacute;quences pour les
-  r&eacute;sidents et les salari&eacute;s de la mise en place de cette mesure,
-  souvent incontournable. Ils demandent, outre des moyens de protection en
-  quantit&eacute; suffisante, la mise en place syst&eacute;matique de tests du
-  Covid-19.</p>
+  personnes &acirc;g&eacute;es (28/03/2020), <strong>les Petits Fr&egrave;res
+  des Pauvres alertent sur l&rsquo;impact et les cons&eacute;quences</strong>
+  pour les r&eacute;sidents et les salari&eacute;s de la mise en place de cette
+  mesure, souvent incontournable. Ils demandent, outre des moyens de protection
+  en quantit&eacute; suffisante, la mise en place syst&eacute;matique de tests
+  du Covid-19.</p>
 insertion_social:
   - contenu_code_block:
 video:
