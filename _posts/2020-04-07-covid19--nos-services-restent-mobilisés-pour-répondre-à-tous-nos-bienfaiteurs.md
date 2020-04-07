@@ -22,9 +22,6 @@ De m&ecirc;me, l’&eacute;quipe du p&ocirc;le relations testateurs des Petits F
 * Pour une **demande de documentation** :
   * Evelyne FLORENT au : 01.49.43.13.48 ou relations.testateurs@petitsfreresdespauvres.fr
   * Ou [t&eacute;l&eacute;chargement de &laquo; *Choisir ses h&eacute;ritiers* &raquo;](https://www.petitsfreresdespauvres.fr/jagis/legs-et-assurance-vie) sur notre site.
-
-&nbsp;
-
 * Pour un **entretien individuel** par t&eacute;l&eacute;phone avec un charg&eacute; de relations testateurs :
   * Ad&egrave;le CHEVALIER : 01.49.23.13.03
   * G&eacute;raldine DELAVENNE : 01.49.23.13.76
@@ -35,4 +32,4 @@ Nous sommes au service de votre r&eacute;flexion, &agrave; votre rythme et selon
 Notre service donateurs est &agrave; votre disposition pour r&eacute;pondre &agrave; toutes vos questions.
 
 * Par t&eacute;l&eacute;phone 01 49 23 13 54
-* Par courriel : donateurs@petitsfreresdespauvres.fr
+* Par courriel : [donateurs@petitsfreresdespauvres.fr](mailto:donateurs@petitsfreresdespauvres.fr)
