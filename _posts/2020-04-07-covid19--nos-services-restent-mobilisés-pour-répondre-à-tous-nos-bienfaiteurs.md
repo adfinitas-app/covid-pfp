@@ -32,7 +32,7 @@ video:
       src="https://www.youtube.com/embed/c63YVbfh4gY" frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope;
       picture-in-picture" allowfullscreen></iframe>
-asset_image:
+asset_image: /uploads/1-6.png
 ---
 
 **Face aux mesures de confinement, tous les acteurs des Petits Fr&egrave;res des Pauvres sont pleinement mobilis&eacute;s pour contribuer &agrave; lutter contre l'isolement de nos a&icirc;n&eacute;s.**
@@ -43,7 +43,7 @@ De m&ecirc;me, l’&eacute;quipe du p&ocirc;le relations testateurs des Petits F
 
 * Pour une **demande de documentation** :
   * Evelyne FLORENT au : 01.49.43.13.48 ou relations.testateurs@petitsfreresdespauvres.fr
-  * Ou [t&eacute;l&eacute;chargement de &laquo; *Choisir ses h&eacute;ritiers* &raquo;](https://www.petitsfreresdespauvres.fr/jagis/legs-et-assurance-vie) sur notre site
+  * Ou [t&eacute;l&eacute;chargement de &laquo; *Choisir ses h&eacute;ritiers* &raquo;](https://www.petitsfreresdespauvres.fr/jagis/legs-et-assurance-vie) sur notre site.
 
 &nbsp;
 
@@ -53,8 +53,6 @@ De m&ecirc;me, l’&eacute;quipe du p&ocirc;le relations testateurs des Petits F
   * Christophe MAURY : 01.49.23.14.32
 
 Nous sommes au service de votre r&eacute;flexion, &agrave; votre rythme et selon vos besoins.
-
-&nbsp;
 
 Notre service donateurs est &agrave; votre disposition pour r&eacute;pondre &agrave; toutes vos questions.
 
