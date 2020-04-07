@@ -1,14 +1,15 @@
 ---
 date: 2020-04-07 12:00:00
-urgence_post: true
+urgence_post: false
 isPinned: false
 title: >-
   Covid19 : nos services restent mobilisés pour répondre à  tous nos
   bienfaiteurs
 description_html: >-
-  <p><strong>Face aux mesures de confinement, tous les acteurs des Petits
-  Fr&egrave;res des Pauvres sont pleinement mobilis&eacute;s pour contribuer
-  &agrave; lutter contre l'isolement de nos a&icirc;n&eacute;s.</strong></p>
+  <p><strong>Face aux mesures de confinement, </strong>tous les acteurs
+  des<strong> Petits Fr&egrave;res des Pauvres s</strong>ont pleinement
+  mobilis&eacute;s pour contribuer &agrave; lutter contre l'isolement de nos
+  a&icirc;n&eacute;s.</p>
 insertion_social:
   - contenu_code_block: >-
       <blockquote class="twitter-tweet"><p lang="fr" dir="ltr">[<a
