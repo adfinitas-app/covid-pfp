@@ -1,7 +1,7 @@
 ---
 date: 2020-04-07 12:00:00
-urgence_post: true
-isPinned: false
+urgence_post: false
+isPinned: true
 title: >-
   Covid19 : nos services restent mobilisés pour répondre à  tous nos
   bienfaiteurs
