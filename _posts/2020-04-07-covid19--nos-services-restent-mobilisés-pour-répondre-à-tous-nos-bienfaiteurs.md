@@ -1,6 +1,6 @@
 ---
 date: 2020-04-07 12:00:00
-urgence_post: false
+urgence_post: true
 isPinned: false
 title: >-
   Covid19 : nos services restent mobilisés pour répondre à  tous nos
@@ -10,7 +10,6 @@ description_html: >-
   des<strong> Petits Fr&egrave;res des Pauvres s</strong>ont pleinement
   mobilis&eacute;s pour contribuer &agrave; lutter contre l'isolement de nos
   a&icirc;n&eacute;s.</p>
-
 asset_image: /uploads/1-6.png
 ---
 
