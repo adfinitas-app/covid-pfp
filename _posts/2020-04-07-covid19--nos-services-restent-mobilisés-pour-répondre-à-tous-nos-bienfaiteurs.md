@@ -20,7 +20,7 @@ asset_image: /uploads/1-6.png
 De m&ecirc;me, l’&eacute;quipe du p&ocirc;le relations testateurs des Petits Fr&egrave;res des Pauvres s’est organis&eacute;e pour r&eacute;pondre &agrave; vos attentes ; si vous vous interrogez sur la r&eacute;daction de votre testament, le sort de vos biens et meubles, l’organisation des obs&egrave;ques, n'h&eacute;sitez pas &agrave; nous contacter :
 
 * Pour une **demande de documentation** :
-  * Evelyne FLORENT au : 01.49.43.13.48 ou relations.testateurs@petitsfreresdespauvres.fr
+  * Evelyne FLORENT au : 01.49.43.13.48 ou [relations.testateurs@petitsfreresdespauvres.fr](mailto:relations.testateurs@petitsfreresdespauvres.fr)
   * Ou [t&eacute;l&eacute;chargement de &laquo; *Choisir ses h&eacute;ritiers* &raquo;](https://www.petitsfreresdespauvres.fr/jagis/legs-et-assurance-vie) sur notre site.
 * Pour un **entretien individuel** par t&eacute;l&eacute;phone avec un charg&eacute; de relations testateurs :
   * Ad&egrave;le CHEVALIER : 01.49.23.13.03
