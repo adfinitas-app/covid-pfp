@@ -5,7 +5,10 @@ isPinned: true
 title: >-
   Covid19 : nos services restent mobilisés pour répondre à  tous nos
   bienfaiteurs
-description_html:
+description_html: >-
+  <p><strong>Face aux mesures de confinement, tous les acteurs des Petits
+  Fr&egrave;res des Pauvres sont pleinement mobilis&eacute;s pour contribuer
+  &agrave; lutter contre l'isolement de nos a&icirc;n&eacute;s.</strong></p>
 insertion_social:
   - contenu_code_block: >-
       <blockquote class="twitter-tweet"><p lang="fr" dir="ltr">[<a
