@@ -6,11 +6,12 @@ title: >-
   NOS MESURES POUR MAINTENIR LE LIEN AVEC LES PERSONNES ÂGÉES PENDANT LE
   CONFINEMENT
 description_html: >-
-  <h2>Apr&egrave;s le discours du Pr&eacute;sident de la R&eacute;publique
+  <p>Apr&egrave;s le discours du Pr&eacute;sident de la R&eacute;publique
   annon&ccedil;ant la prolongation du confinement jusqu&rsquo;au 10 mai 2020,
-  les Petits Fr&egrave;res des Pauvres saluent ses propos sur l'isolement de nos
-  a&icirc;n&eacute;s et demandent des mesures imm&eacute;diates pour maintenir,
-  jusqu'au bout de la vie, le lien avec les personnes &acirc;g&eacute;es.</h2>
+  <strong>les Petits Fr&egrave;res des Pauvres </strong>saluent ses propos sur
+  l'isolement de nos a&icirc;n&eacute;s et demandent des mesures
+  imm&eacute;diates pour maintenir, jusqu'au bout de la vie, <strong>le lien
+  avec les personnes &acirc;g&eacute;es.</strong></p>
 insertion_social:
   - contenu_code_block:
 video:
