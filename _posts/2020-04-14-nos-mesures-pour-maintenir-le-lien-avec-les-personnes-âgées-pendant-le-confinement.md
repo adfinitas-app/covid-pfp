@@ -12,28 +12,10 @@ description_html: >-
   a&icirc;n&eacute;s et demandent des mesures imm&eacute;diates pour maintenir,
   jusqu'au bout de la vie, le lien avec les personnes &acirc;g&eacute;es.</h2>
 insertion_social:
-  - contenu_code_block: >-
-      <blockquote class="twitter-tweet"><p lang="fr" dir="ltr">[<a
-      href="https://twitter.com/hashtag/NoubliezPasLesAin%C3%A9s?src=hash&amp;ref_src=twsrc%5Etfw">#NoubliezPasLesAinés</a>]<br>Plus
-      que jamais, la lutte contre l&#39;isolement de nos aînés continue<a
-      href="https://twitter.com/hashtag/Covid_19?src=hash&amp;ref_src=twsrc%5Etfw">#Covid_19</a>
-      <a
-      href="https://twitter.com/hashtag/coronavirus?src=hash&amp;ref_src=twsrc%5Etfw">#coronavirus</a>
-      <a
-      href="https://twitter.com/hashtag/confinement?src=hash&amp;ref_src=twsrc%5Etfw">#confinement</a>
-      <a
-      href="https://t.co/xysyvMQlli">pic.twitter.com/xysyvMQlli</a></p>&mdash;
-      Petits Frères des Pauvres (@PFPauvres) <a
-      href="https://twitter.com/PFPauvres/status/1241030491593031681?ref_src=twsrc%5Etfw">March
-      20, 2020</a></blockquote> <script async
-      src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  - contenu_code_block:
 video:
-  - video_code_block: >-
-      <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/c63YVbfh4gY" frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope;
-      picture-in-picture" allowfullscreen></iframe>
-asset_image:
+  - video_code_block:
+asset_image: /uploads/3-1.jpg
 ---
 
 Alors que le Pr&eacute;sident de la R&eacute;publique prenait la parole pour la 4e fois depuis le confinement dans une allocution t&eacute;l&eacute;vis&eacute;e le 13 avril 2020, Emmanuel Macron a reconnu&nbsp;**les effets d&eacute;vastateurs de l’isolement sur les personnes &acirc;g&eacute;es**. &laquo;&nbsp;*L'extr&ecirc;me solitude…est aussi est tr&egrave;s dangereuse*&nbsp;&raquo; a-t-il ainsi d&eacute;plor&eacute;. Les Petits Fr&egrave;res des Pauvres saluent le discours d’Emmanuel Macron et rappellent que 300 000 personnes de 60 ans et plus sont en situation de mort sociale, sans aucun contact avec leur entourage, 900 000 n'ont que peu de contacts avec leurs proches selon notre&nbsp;[Barom&egrave;tre 2017](https://www.petitsfreresdespauvres.fr/informer/prises-de-positions/contre-la-mort-sociale-de-300-000-personnes-agees){: target="_blank"}.
