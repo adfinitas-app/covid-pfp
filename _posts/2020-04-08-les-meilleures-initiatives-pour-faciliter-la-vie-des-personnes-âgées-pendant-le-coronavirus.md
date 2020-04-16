@@ -1,7 +1,7 @@
 ---
 date: 2020-04-08 12:00:00
-urgence_post: false
-isPinned: true
+urgence_post: true
+isPinned: false
 title: >-
   LES MEILLEURES INITIATIVES POUR FACILITER LA VIE DES PERSONNES ÂGÉES PENDANT
   LE CORONAVIRUS
