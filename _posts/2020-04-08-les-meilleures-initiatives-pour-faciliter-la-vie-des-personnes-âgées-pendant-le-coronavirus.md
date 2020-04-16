@@ -17,28 +17,10 @@ description_html: >-
   Fr&egrave;res des Pauvres vous proposent une <strong>liste solidaire</strong>
   mais non-exhaustive.</p>
 insertion_social:
-  - contenu_code_block: >-
-      <blockquote class="twitter-tweet"><p lang="fr" dir="ltr">[<a
-      href="https://twitter.com/hashtag/NoubliezPasLesAin%C3%A9s?src=hash&amp;ref_src=twsrc%5Etfw">#NoubliezPasLesAinés</a>]<br>Plus
-      que jamais, la lutte contre l&#39;isolement de nos aînés continue<a
-      href="https://twitter.com/hashtag/Covid_19?src=hash&amp;ref_src=twsrc%5Etfw">#Covid_19</a>
-      <a
-      href="https://twitter.com/hashtag/coronavirus?src=hash&amp;ref_src=twsrc%5Etfw">#coronavirus</a>
-      <a
-      href="https://twitter.com/hashtag/confinement?src=hash&amp;ref_src=twsrc%5Etfw">#confinement</a>
-      <a
-      href="https://t.co/xysyvMQlli">pic.twitter.com/xysyvMQlli</a></p>&mdash;
-      Petits Frères des Pauvres (@PFPauvres) <a
-      href="https://twitter.com/PFPauvres/status/1241030491593031681?ref_src=twsrc%5Etfw">March
-      20, 2020</a></blockquote> <script async
-      src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  - contenu_code_block:
 video:
-  - video_code_block: >-
-      <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/c63YVbfh4gY" frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope;
-      picture-in-picture" allowfullscreen></iframe>
-asset_image:
+  - video_code_block:
+asset_image: /uploads/2-1.jpg
 ---
 
 ### Le portage de courses ou de m&eacute;dicaments par des municipalit&eacute;s
@@ -69,7 +51,7 @@ De nombreuses municipalit&eacute;s ont invit&eacute; les enfants de leurs concit
 
 Une initiative a &eacute;galement &eacute;t&eacute; lanc&eacute;e par 10 cousins : le projet &laquo;&nbsp;[1 lettre, 1 sourire](https://1lettre1sourire.org/){: target="_blank"}&nbsp;&raquo; propose aux citoyens d’&eacute;crire un courrier qui sera envoy&eacute; aux personnes &acirc;g&eacute;es r&eacute;sidant dans les 360 Ehpad partenaires. Plus de 20 000 mots doux ont d&eacute;j&agrave; &eacute;t&eacute; adress&eacute;s et des &eacute;changes r&eacute;guliers sont possibles \!
 
-Chez les Petits Fr&egrave;res des Pauvres aussi, nous recevons vos adorables cr&eacute;ations \! En Occitanie, les dessins et oeuvres d'art sous format num&eacute;rique sont &agrave; envoyer &agrave; l’adresse :&nbsp;[envoietondessin@petitsfreresdespauvres.fr](mailto:envoietondessin@petitsfreresdespauvres.fr?subject=Un%20dessin%20pour%20un%20a%C3%AEn%C3%A9%20isol%C3%A9){: target="_blank"}.Dans l'Ouest, petits mots, lettres, po&egrave;mes, haïkus... sont &agrave; adresser ici :&nbsp;[unmessagepournosaines@petitsfreresdespauvres.fr](mailto:unmessagepournosaines@petitsfreresdespauvres.fr?subject=Un%20message%20pour%20nos%20a%C3%AEn%C3%A9s){: target="_blank"}Cette action solidaire permet &agrave; des personnes fragiles qui ressentent plus que jamais l'isolement en cette p&eacute;riode de confinement, qu'ils soient &agrave; domicile ou en &eacute;tablissement, de voir que nous pensons toujours &agrave; eux et que nous les soutenons \!&nbsp;
+Chez les Petits Fr&egrave;res des Pauvres aussi, nous recevons vos adorables cr&eacute;ations \! En Occitanie, les dessins et oeuvres d'art sous format num&eacute;rique sont &agrave; envoyer &agrave; l’adresse :&nbsp;[envoietondessin@petitsfreresdespauvres.fr](mailto:envoietondessin@petitsfreresdespauvres.fr?subject=Un%20dessin%20pour%20un%20a%C3%AEn%C3%A9%20isol%C3%A9){: target="_blank"}.Dans l'Ouest, petits mots, lettres, po&egrave;mes, haïkus… sont &agrave; adresser ici :&nbsp;[unmessagepournosaines@petitsfreresdespauvres.fr](mailto:unmessagepournosaines@petitsfreresdespauvres.fr?subject=Un%20message%20pour%20nos%20a%C3%AEn%C3%A9s){: target="_blank"}Cette action solidaire permet &agrave; des personnes fragiles qui ressentent plus que jamais l'isolement en cette p&eacute;riode de confinement, qu'ils soient &agrave; domicile ou en &eacute;tablissement, de voir que nous pensons toujours &agrave; eux et que nous les soutenons \!&nbsp;
 
 Si de nombreuses initiatives sont n&eacute;es, de nombreuses personnes &acirc;g&eacute;es en France n’en b&eacute;n&eacute;ficient malheureusement pas. Il est toujours compliqu&eacute; pour elles d’avoir de quoi manger, de recevoir leurs m&eacute;dicaments et de garder du lien social. C’est pourquoi les Petits Fr&egrave;res des Pauvres se mobilisent pour&nbsp;**continuer leurs actions**&nbsp;et r&eacute;pondre aux d&eacute;fis impos&eacute;s par cette crise sanitaire.&nbsp;[&gt;&gt; En savoir plus sur notre mobilisation](https://www.petitsfreresdespauvres.fr/informer/nos-actualites/coronavirus-plus-que-jamais-notre-lutte-contre-l-isolement-des-aines-continue){: target="_blank"}.
 
