@@ -1,7 +1,7 @@
 ---
 date: 2020-04-14 12:00:00
-urgence_post: false
-isPinned: true
+urgence_post: true
+isPinned: false
 title: >-
   NOS MESURES POUR MAINTENIR LE LIEN AVEC LES PERSONNES ÂGÉES PENDANT LE
   CONFINEMENT
